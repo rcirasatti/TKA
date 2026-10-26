@@ -24,7 +24,7 @@
   var bank, daftar, st;
 
   var s = document.createElement("script");
-  s.src = "data/" + mapel.id + ".js";
+  s.src = "data/" + mapel.id + ".js?v=" + Date.now(); // selalu ambil bank soal terbaru
   s.onload = mulai;
   s.onerror = function () { gagal("Bank soal " + mapel.nama + " belum tersedia."); };
   document.body.appendChild(s);

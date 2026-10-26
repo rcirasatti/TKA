@@ -200,7 +200,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Urutan tahap: glikolisis → dekarboksilasi oksidatif → siklus Krebs → transpor elektron. Oksigen baru diperlukan di tahap paling akhir.",
-    pembahasan: "<p>1. Glikolisis (glukosa → 2 piruvat) di <b>sitoplasma</b> ✔.<br>2. Siklus Krebs di <b>matriks mitokondria</b> ✔.<br>3. Transpor elektron di membran dalam mitokondria menghasilkan ±32–34 ATP, paling banyak ✔.<br>4. Oksigen adalah <b>akseptor elektron terakhir</b> pada tahap <i>transpor elektron</i> (membentuk H<sub>2</sub>O), bukan pada glikolisis → Salah.</p>"
+    pembahasan: "<p>1. Glikolisis (glukosa → 2 piruvat) di <b>sitoplasma</b> ✔.<br>2. Siklus Krebs di <b>matriks mitokondria</b> ✔.<br>3. Transpor elektron di membran dalam mitokondria menghasilkan ATP paling banyak (buku SMA umumnya menyebut 34 ATP dari total 38 ATP; glikolisis dan siklus Krebs masing-masing hanya 2 ATP) ✔.<br>4. Oksigen adalah <b>akseptor elektron terakhir</b> pada tahap <i>transpor elektron</i> (membentuk H<sub>2</sub>O), bukan pada glikolisis → Salah.</p>"
   },
   {
     id: "bio-18", bab: "Metabolisme Sel", level: 1, tipe: "pg",

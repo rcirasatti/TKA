@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Latihan TKA SMA</title>
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Tambah penanda waktu agar HP selalu memuat versi terbaru (tanpa hard refresh) -->
+  <script>document.write('<link rel="stylesheet" href="css/style.css?v=' + Date.now() + '">');</script>
 </head>
 <body>
   <main class="wrap">
@@ -17,7 +18,17 @@
     <div id="isi"></div>
   </main>
 
-  <script src="js/mapel.js"></script>
-  <script src="js/app.js"></script>
+  <script>
+    // Muat skrip dengan penanda waktu (urutan tetap terjaga karena async = false).
+    (function () {
+      var v = Date.now();
+      ["js/mapel.js", "js/app.js"].forEach(function (src) {
+        var s = document.createElement("script");
+        s.src = src + "?v=" + v;
+        s.async = false;
+        document.body.appendChild(s);
+      });
+    })();
+  </script>
 </body>
 </html>

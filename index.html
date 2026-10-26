@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Latihan TKA SMA</title>
   <meta name="description" content="Latihan soal TKA SMA dengan petunjuk dan pembahasan.">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Tambah penanda waktu agar HP selalu memuat versi terbaru (tanpa hard refresh) -->
+  <script>document.write('<link rel="stylesheet" href="css/style.css?v=' + Date.now() + '">');</script>
 </head>
 <body>
   <main class="wrap">
@@ -27,9 +28,16 @@
     </section>
   </main>
 
-  <script src="js/mapel.js"></script>
   <script>
+    // Muat daftar mapel dengan penanda waktu agar mapel baru langsung muncul tanpa hard refresh.
     (function () {
+      var s = document.createElement("script");
+      s.src = "js/mapel.js?v=" + Date.now();
+      s.onload = tampilkan;
+      document.body.appendChild(s);
+    })();
+
+    function tampilkan() {
       var grid = document.getElementById("grid");
       window.DAFTAR_MAPEL.forEach(function (m) {
         var prog = "";
@@ -53,7 +61,7 @@
           '<span class="tag' + (m.siap ? ' on' : '') + '">' + (m.siap ? "Mulai latihan" + prog : "Segera hadir") + '</span>';
         grid.appendChild(a);
       });
-    })();
+    }
   </script>
 </body>
 </html>
