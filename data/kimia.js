@@ -27,7 +27,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Setiap hasil pengamatan hamburan sinar alfa punya arti sendiri. Sinar alfa bermuatan <b>positif</b> dan bermassa cukup besar.</p><h4>Langkah</h4><ol><li>Sebagian besar sinar <b>tembus lurus</b> → tidak menabrak apa-apa → atom sebagian besar <b>ruang kosong</b>.</li><li>Sebagian kecil <b>dibelokkan/dipantulkan</b> → menabrak sesuatu yang kecil, padat, dan bermuatan <b>positif</b> (menolak alfa) → <b>inti atom</b> yang memusatkan massa.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Model <b>Thomson</b> (roti kismis). Justru dibantah percobaan ini: bola pejal tidak akan memantulkan alfa.</li><li><b>B</b> Model <b>Bohr</b> (tingkat energi), dari spektrum atom hidrogen.</li><li><b>D</b> Model <b>Dalton</b> (atom tak terbagi).</li><li><b>E</b> Model <b>mekanika kuantum</b> (orbital).</li></ul><p class=\"tips\"><b>Tips:</b> urutan model atom: Dalton → Thomson → Rutherford → Bohr → Mekanika kuantum. Hafalkan satu kata kunci per tokoh: <i>pejal, kismis, inti, lintasan, orbital</i>.</p>"
   },
   {
-    id: "kim-03", bab: "Sistem Periodik Unsur", level: 1, tipe: "pg",
+    id: "kim-03", bab: "Sistem dan Sifat Periodik Unsur", level: 1, tipe: "pg",
     soal: "Unsur X memiliki nomor atom 17. Dalam sistem periodik, unsur X terletak pada …",
     opsi: ["Periode 3, golongan VIIA", "Periode 3, golongan VA", "Periode 2, golongan VIIA", "Periode 7, golongan IIIA", "Periode 4, golongan VIIA"],
     kunci: 0,
@@ -35,7 +35,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Letak unsur golongan A ditentukan dari konfigurasi elektron: <b>jumlah kulit = periode</b>, <b>elektron valensi (kulit terluar) = golongan</b>.</p><h4>Langkah</h4><ol><li>Konfigurasi <sub>17</sub>X: 2, 8, 7.</li><li>3 kulit → <b>periode 3</b>.</li><li>7 elektron valensi → <b>golongan VIIA</b> (halogen; X = Cl).</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Golongan VA berarti valensi 5 (nomor atom 15, P).</li><li><b>C</b> Periode 2 hanya punya 2 kulit (nomor atom 3–10); VIIA periode 2 adalah F (Z = 9).</li><li><b>D</b> Angka 7 (valensi) salah dipakai sebagai periode.</li><li><b>E</b> Periode 4 berarti 4 kulit; halogen periode 4 adalah Br (Z = 35).</li></ul><p class=\"tips\"><b>Tips:</b> isi kulit maksimal 2, 8, 8 untuk 20 unsur pertama. Untuk Z ≤ 20 konfigurasinya selalu bisa ditulis cepat dengan pola ini.</p>"
   },
   {
-    id: "kim-04", bab: "Sistem Periodik Unsur", level: 2, tipe: "kategori",
+    id: "kim-04", bab: "Sistem dan Sifat Periodik Unsur", level: 2, tipe: "kategori",
     stimulus: "<p>Perhatikan unsur-unsur periode 3 berikut (dari kiri ke kanan): <b>Na, Mg, Al, Si, P, S, Cl</b>.</p>",
     soal: "Tentukan benar atau salah pernyataan tentang sifat periodik unsur-unsur tersebut!",
     pernyataan: [
@@ -117,7 +117,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Hukum Proust (perbandingan tetap)</b>: unsur bergabung dengan perbandingan massa yang tetap. Jika jumlahnya tidak pas, salah satu zat akan <b>bersisa</b>. Zat yang habis duluan disebut pereaksi pembatas.</p><h4>Langkah</h4><ol><li>C : O = 3 : 8. Untuk 9 g C dibutuhkan O = 9 × 8/3 = 24 g.</li><li>O tersedia 32 g → yang bereaksi 24 g, sisa 32 − 24 = <b>8 g oksigen</b>.</li><li>CO₂ = 9 + 24 = <b>33 g</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 41 g = 9 + 32. Semua dijumlah tanpa memperhatikan perbandingan.</li><li><b>C</b> Massa CO₂ benar, tetapi zat yang tersisa tertukar. Karbon justru habis.</li><li><b>D</b> 44 g CO₂ butuh 12 g C, padahal C hanya ada 9 g.</li><li><b>E</b> 24 g adalah oksigen yang bereaksi, bukan CO₂.</li></ul><p class=\"tips\"><b>Tips:</b> bandingkan \"massa tersedia ÷ angka perbandingan\": C = 9/3 = 3, O = 32/8 = 4. Yang lebih kecil (C) habis duluan dan jadi pembatas.</p>"
   },
   {
-    id: "kim-12", bab: "Stoikiometri", level: 1, tipe: "pg",
+    id: "kim-12", bab: "Stoikiometri dan Persamaan Reaksi Kimia", level: 1, tipe: "pg",
     soal: "Volume 4,4 gram gas CO<sub>2</sub> (M<sub>r</sub> = 44) pada keadaan standar (STP, 0 °C dan 1 atm) adalah …",
     opsi: ["1,12 L", "2,24 L", "4,48 L", "22,4 L", "44,8 L"],
     kunci: 1,
@@ -125,7 +125,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Jembatan stoikiometri selalu melalui <b>mol</b>: n = massa/M<sub>r</sub>. Pada STP (0 °C, 1 atm), 1 mol gas apa pun bervolume <b>22,4 L</b>.</p><h4>Langkah</h4><ol><li>n = 4,4/44 = 0,1 mol.</li><li>V = 0,1 × 22,4 = <b>2,24 L</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 1,12 L = 0,05 mol (salah bagi).</li><li><b>C</b> 4,48 L = 0,2 mol.</li><li><b>D</b> 22,4 L = volume 1 mol, lupa mengalikan n.</li><li><b>E</b> 44,8 L = 2 mol, atau M<sub>r</sub> dikali alih-alih dibagi.</li></ul><p class=\"tips\"><b>Tips:</b> pada RTP (25 °C, 1 atm) volume molarnya 24 L, bukan 22,4 L. Perhatikan keadaan yang disebut soal.</p>"
   },
   {
-    id: "kim-13", bab: "Stoikiometri", level: 2, tipe: "pg",
+    id: "kim-13", bab: "Stoikiometri dan Persamaan Reaksi Kimia", level: 2, tipe: "pg",
     soal: "Perhatikan persamaan reaksi pembakaran propana berikut.<br><i>a</i> C<sub>3</sub>H<sub>8</sub> + <i>b</i> O<sub>2</sub> → <i>c</i> CO<sub>2</sub> + <i>d</i> H<sub>2</sub>O<br>Setelah disetarakan dengan <i>a</i> = 1, nilai <i>b</i> adalah …",
     opsi: ["3", "4", "5", "7", "10"],
     kunci: 2,
@@ -133,7 +133,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Menyetarakan reaksi pembakaran hidrokarbon: setarakan <b>C</b> dulu, lalu <b>H</b>, dan <b>O terakhir</b>, karena O₂ adalah unsur bebas yang paling mudah diatur.</p><h4>Langkah</h4><ol><li>C: 3 di kiri → c = 3 (3 CO₂).</li><li>H: 8 di kiri → d = 4 (4 H₂O, karena tiap H₂O punya 2 H).</li><li>O di kanan = 3 × 2 + 4 × 1 = 10 atom → b = 10/2 = <b>5</b>.</li><li>C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 3 = koefisien CO₂ (c).</li><li><b>B</b> 4 = koefisien H₂O (d).</li><li><b>D</b> 7: d dianggap 8 (H₂O dianggap ber-H satu), lalu (6 + 8)/2 = 7.</li><li><b>E</b> 10 = jumlah <i>atom</i> O, lupa dibagi 2 karena O₂ diatomik.</li></ul><p class=\"tips\"><b>Tips:</b> untuk C<sub>x</sub>H<sub>y</sub>, koefisien O₂ = x + y/4. Propana: 3 + 8/4 = 5.</p>"
   },
   {
-    id: "kim-14", bab: "Stoikiometri", level: 3, tipe: "kategori",
+    id: "kim-14", bab: "Stoikiometri dan Persamaan Reaksi Kimia", level: 3, tipe: "kategori",
     stimulus: "<p>Sebanyak 5,4 gram logam aluminium (A<sub>r</sub> Al = 27) direaksikan dengan 0,3 mol HCl menurut reaksi:</p><p>2Al(s) + 6HCl(aq) → 2AlCl<sub>3</sub>(aq) + 3H<sub>2</sub>(g)</p>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [
@@ -234,7 +234,7 @@ window.BANK_SOAL.kimia = { soal: [
 
   // ===================== KIMIA FISIK =====================
   {
-    id: "kim-24", bab: "Termokimia", level: 1, tipe: "pg",
+    id: "kim-24", bab: "Energetika dan Dinamika Reaksi", level: 1, tipe: "pg",
     soal: "Ketika padatan NaOH dilarutkan dalam air di dalam gelas kimia, dinding gelas terasa panas. Pernyataan yang tepat tentang peristiwa tersebut adalah …",
     opsi: [
       "Reaksi endoterm, kalor berpindah dari lingkungan ke sistem",
@@ -248,7 +248,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Bedakan <b>sistem</b> (zat yang bereaksi) dan <b>lingkungan</b> (wadah, tangan, udara). <b>Eksoterm</b>: sistem melepas kalor ke lingkungan → lingkungan terasa panas → ΔH &lt; 0. <b>Endoterm</b>: sistem menyerap kalor → lingkungan terasa dingin → ΔH &gt; 0.</p><h4>Langkah</h4><ol><li>Gelas (lingkungan) terasa panas → lingkungan <i>menerima</i> kalor.</li><li>Berarti sistem (NaOH + air) <i>melepas</i> kalor → eksoterm.</li><li>Entalpi sistem turun → ΔH &lt; 0 → <b>C</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> dan <b>B</b> endoterm: gelas seharusnya terasa dingin.</li><li><b>D</b> Eksoterm tetapi ΔH &gt; 0, tandanya kontradiktif.</li><li><b>E</b> Rasa panas sendiri sudah bukti adanya perpindahan kalor.</li></ul><p class=\"tips\"><b>Tips:</b> \"Yang terasa adalah lingkungan.\" Panas = eksoterm, dingin = endoterm. Contoh endoterm: urea atau NH₄NO₃ dilarutkan (kompres dingin instan).</p>"
   },
   {
-    id: "kim-25", bab: "Termokimia", level: 2, tipe: "pg",
+    id: "kim-25", bab: "Energetika dan Dinamika Reaksi", level: 2, tipe: "pg",
     stimulus: "<p>Diketahui entalpi pembentukan standar (ΔH<sub>f</sub>°):</p><table><tr><th>Zat</th><th>ΔH<sub>f</sub>° (kJ/mol)</th></tr><tr><td>CH<sub>4</sub>(g)</td><td>−75</td></tr><tr><td>CO<sub>2</sub>(g)</td><td>−394</td></tr><tr><td>H<sub>2</sub>O(l)</td><td>−286</td></tr></table>",
     soal: "Entalpi pembakaran 1 mol gas metana menurut reaksi CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(l) adalah …",
     opsi: ["−605 kJ/mol", "−755 kJ/mol", "−891 kJ/mol", "−1.041 kJ/mol", "+891 kJ/mol"],
@@ -257,7 +257,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Dari data entalpi pembentukan: <b>ΔH reaksi = ΣΔH<sub>f</sub> produk − ΣΔH<sub>f</sub> pereaksi</b>, masing-masing dikali koefisiennya. ΔH<sub>f</sub> unsur bebas (O₂) = 0.</p><h4>Langkah</h4><ol><li>Produk: −394 + 2(−286) = −394 − 572 = −966.</li><li>Pereaksi: −75 + 2(0) = −75.</li><li>ΔH = −966 − (−75) = −966 + 75 = <b>−891 kJ/mol</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> −605: koefisien 2 pada H₂O terlupa (−394 − 286 + 75).</li><li><b>B</b> −755 = −394 − 286 − 75: koefisien H₂O terlupa <i>dan</i> ΔH<sub>f</sub> CH₄ ikut dijumlahkan.</li><li><b>D</b> −1.041: tanda CH₄ salah (−966 − 75).</li><li><b>E</b> +891: dibalik menjadi pereaksi − produk. Pembakaran selalu eksoterm (negatif).</li></ul><p class=\"tips\"><b>Tips:</b> \"produk dikurangi pereaksi\" dan hati-hati dengan minus ganda: −(−75) = +75.</p>"
   },
   {
-    id: "kim-26", bab: "Laju Reaksi", level: 1, tipe: "mcma",
+    id: "kim-26", bab: "Energetika dan Dinamika Reaksi", level: 1, tipe: "mcma",
     soal: "Perlakuan berikut yang dapat mempercepat laju reaksi adalah … (pilih semua yang benar)",
     opsi: [
       "Menaikkan suhu",
@@ -271,7 +271,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Teori tumbukan: reaksi makin cepat jika <b>tumbukan efektif</b> makin sering. Faktornya: konsentrasi ↑, luas permukaan ↑, suhu ↑, katalis (menurunkan energi aktivasi).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Suhu naik → partikel bergerak lebih cepat → tumbukan lebih sering dan lebih banyak yang melampaui energi aktivasi.</li><li><b>B</b> ✔ Serbuk punya luas permukaan sentuh lebih besar daripada kepingan.</li><li><b>C</b> ✘ Konsentrasi turun → partikel makin jarang bertumbukan → lebih lambat.</li><li><b>D</b> ✔ Katalis memberi jalur reaksi dengan energi aktivasi lebih rendah.</li><li><b>E</b> ✘ Mendinginkan = menurunkan suhu → lebih lambat.</li></ul><p class=\"tips\"><b>Tips:</b> contoh sehari-hari: makanan disimpan di kulkas (suhu turun) supaya lambat basi; gula halus lebih cepat larut daripada gula batu (luas permukaan).</p>"
   },
   {
-    id: "kim-27", bab: "Laju Reaksi", level: 3, tipe: "kategori",
+    id: "kim-27", bab: "Energetika dan Dinamika Reaksi", level: 3, tipe: "kategori",
     stimulus: "<p>Data percobaan reaksi A + B → C:</p><table><tr><th>Percobaan</th><th>[A] (M)</th><th>[B] (M)</th><th>Laju (M/s)</th></tr><tr><td>1</td><td>0,1</td><td>0,1</td><td>2 × 10<sup>−3</sup></td></tr><tr><td>2</td><td>0,2</td><td>0,1</td><td>8 × 10<sup>−3</sup></td></tr><tr><td>3</td><td>0,1</td><td>0,2</td><td>4 × 10<sup>−3</sup></td></tr></table>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [
@@ -285,7 +285,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Orde reaksi dicari dari dua percobaan yang hanya berbeda <b>satu konsentrasi</b>: (perbandingan konsentrasi)<sup>orde</sup> = perbandingan laju. Persamaan laju: v = k[A]<sup>x</sup>[B]<sup>y</sup>, orde total = x + y.</p><h4>Langkah</h4><ol><li>Percobaan 1 → 2 ([B] tetap): [A] ×2, laju ×4 → 2<sup>x</sup> = 4 → x = 2.</li><li>Percobaan 1 → 3 ([A] tetap): [B] ×2, laju ×2 → 2<sup>y</sup> = 2 → y = 1.</li></ol><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> x = 2.</li><li><b>2</b> <i>Benar.</i> y = 1.</li><li><b>3</b> <i>Salah.</i> Orde total = 2 + 1 = <b>3</b>.</li><li><b>4</b> <i>Benar.</i> Laju baru = 2² × 2¹ = 8 kali.</li></ul><p class=\"tips\"><b>Tips:</b> orde reaksi <i>tidak</i> diambil dari koefisien persamaan reaksi (A + B → C koefisiennya 1 dan 1), melainkan harus dari data percobaan.</p>"
   },
   {
-    id: "kim-28", bab: "Kesetimbangan Kimia", level: 2, tipe: "kategori",
+    id: "kim-28", bab: "Energetika dan Dinamika Reaksi", level: 2, tipe: "kategori",
     stimulus: "<p>Pada pembuatan amonia (proses Haber–Bosch) terjadi reaksi kesetimbangan:</p><p>N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g) &nbsp; ΔH = −92 kJ</p>",
     soal: "Tentukan benar atau salah pernyataan tentang pergeseran kesetimbangan berikut!",
     pernyataan: [
@@ -299,7 +299,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Asas Le Chatelier</b>: jika kesetimbangan diganggu, sistem bergeser untuk <b>mengurangi gangguan</b> itu. Tekanan naik → ke jumlah mol gas lebih kecil; suhu naik → ke arah endoterm; zat ditambah → bergeser menjauhi zat itu.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Kiri 1 + 3 = 4 mol gas, kanan 2 mol. Tekanan naik → bergeser ke kanan (mol lebih sedikit).</li><li><b>2</b> <i>Salah.</i> ΔH = −92 kJ berarti ke kanan eksoterm, ke kiri endoterm. Suhu naik → bergeser ke <b>kiri</b> (menyerap kalor).</li><li><b>3</b> <i>Benar.</i> N₂ ditambah → sistem \"menghabiskan\" N₂ dengan bergeser ke kanan → NH₃ bertambah.</li><li><b>4</b> <i>Salah.</i> Katalis mempercepat reaksi maju dan balik sama besar. Kesetimbangan tercapai lebih cepat, tetapi posisinya tidak bergeser.</li></ul><p class=\"tips\"><b>Tips:</b> di industri amonia suhu tetap dibuat ±450 °C walau suhu tinggi menggeser ke kiri, supaya reaksinya cukup <i>cepat</i>. Itu kompromi antara laju dan hasil.</p>"
   },
   {
-    id: "kim-29", bab: "Kesetimbangan Kimia", level: 3, tipe: "pg",
+    id: "kim-29", bab: "Energetika dan Dinamika Reaksi", level: 3, tipe: "pg",
     soal: "Dalam wadah 1 liter dimasukkan 1 mol H<sub>2</sub> dan 1 mol I<sub>2</sub>. Keduanya bereaksi: H<sub>2</sub>(g) + I<sub>2</sub>(g) ⇌ 2HI(g). Saat setimbang terdapat 1,6 mol HI. Nilai tetapan kesetimbangan K<sub>c</sub> adalah …",
     opsi: ["8", "16", "32", "40", "64"],
     kunci: 4,
@@ -309,7 +309,7 @@ window.BANK_SOAL.kimia = { soal: [
 
   // ===================== KIMIA ORGANIK =====================
   {
-    id: "kim-30", bab: "Senyawa Karbon", level: 1, tipe: "pg",
+    id: "kim-30", bab: "Struktur dan Kereaktifan Senyawa Karbon", level: 1, tipe: "pg",
     soal: "Senyawa dengan rumus struktur CH<sub>3</sub>–COO–CH<sub>2</sub>–CH<sub>3</sub> termasuk golongan … dan bernama …",
     opsi: [
       "asam karboksilat, asam butanoat",
@@ -323,7 +323,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Gugus fungsi: –COOH = asam karboksilat; <b>–COO–</b> diapit dua gugus alkil = <b>ester</b>; –O– = eter; –CO– = keton. Nama ester: <i>[alkil di sisi O] + [asam di sisi C=O, akhiran -oat]</i>.</p><h4>Langkah</h4><ol><li>CH₃–<b>COO</b>–CH₂CH₃ → ester.</li><li>Sisi karbonil: CH₃–CO– (2 C termasuk C karbonil) → <b>etanoat</b>.</li><li>Sisi O: –CH₂CH₃ → <b>etil</b>.</li><li>Nama: <b>etil etanoat</b> (etil asetat, beraroma buah).</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Asam butanoat (C₃H₇COOH) adalah isomer fungsinya, rumus molekul sama C₄H₈O₂, tetapi punya –COOH.</li><li><b>C</b> Eter hanya punya –O– tanpa C=O.</li><li><b>D</b> Keton punya –CO– tanpa O tambahan.</li><li><b>E</b> Metil propanoat = CH₃CH₂–COO–CH₃, kebalikan posisinya. Jebakan: sisi alkil dan sisi asam tertukar.</li></ul><p class=\"tips\"><b>Tips:</b> potong ester tepat di antara C=O dan –O–. Bagian yang membawa C=O adalah \"asam\"; bagian yang menempel di O adalah \"alkil\" dan disebut lebih dulu.</p>"
   },
   {
-    id: "kim-31", bab: "Senyawa Karbon", level: 2, tipe: "pg",
+    id: "kim-31", bab: "Struktur dan Kereaktifan Senyawa Karbon", level: 2, tipe: "pg",
     soal: "Nama IUPAC senyawa CH<sub>3</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH<sub>3</sub> adalah …",
     opsi: ["2-metilbutana", "3-metilbutana", "pentana", "2-metilpropana", "2-etilpropana"],
     kunci: 0,
@@ -331,7 +331,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Tata nama alkana bercabang: (1) cari <b>rantai terpanjang</b> sebagai induk, (2) beri nomor dari ujung yang <b>paling dekat dengan cabang</b>, (3) sebutkan posisi dan nama cabang, lalu nama induk.</p><h4>Langkah</h4><ol><li>Rantai terpanjang: C–C(–CH₃)–C–C = 4 C → <b>butana</b>.</li><li>Penomoran dari kiri: cabang di C-2 (dari kanan di C-3). Pilih yang terkecil → 2.</li><li>Nama: <b>2-metilbutana</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> 3-metilbutana: penomoran dari ujung yang lebih jauh.</li><li><b>C</b> Pentana adalah isomernya (C₅H₁₂ rantai lurus), bukan senyawa yang sama.</li><li><b>D</b> 2-metilpropana hanya punya 4 C total; senyawa ini punya 5 C.</li><li><b>E</b> 2-etilpropana: rantai induk tidak terpanjang. Jika cabang etil dimasukkan ke rantai, induknya menjadi butana.</li></ul><p class=\"tips\"><b>Tips:</b> cabang etil di C-2 hampir selalu tanda bahwa rantai terpanjang belum ditemukan. Cek dengan menghitung jumlah C total: rumus molekul harus sama.</p>"
   },
   {
-    id: "kim-32", bab: "Senyawa Karbon", level: 2, tipe: "mcma",
+    id: "kim-32", bab: "Struktur dan Kereaktifan Senyawa Karbon", level: 2, tipe: "mcma",
     soal: "Senyawa berikut yang merupakan isomer dari 1-butanol (C<sub>4</sub>H<sub>10</sub>O) adalah … (pilih semua yang benar)",
     opsi: [
       "2-butanol",
@@ -345,7 +345,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Isomer</b> = rumus molekul <b>sama</b>, struktur berbeda. Jenisnya: isomer posisi (letak gugus berbeda), rangka (rantai bercabang vs lurus), dan fungsi (gugus fungsi berbeda; alkohol ↔ eter, aldehida ↔ keton, asam ↔ ester).</p><h4>Tiap pilihan</h4><p>1-butanol: C₄H₁₀O.</p><ul class=\"pengecoh\"><li><b>A</b> ✔ 2-butanol, C₄H₁₀O → isomer posisi (–OH pindah ke C-2).</li><li><b>B</b> ✔ Dietil eter C₂H₅–O–C₂H₅, C₄H₁₀O → isomer fungsi.</li><li><b>C</b> ✔ 2-metil-2-propanol, C₄H₁₀O → isomer rangka (rantai bercabang).</li><li><b>D</b> ✘ Butanal C₄H₈O: kekurangan 2 H karena ada C=O.</li><li><b>E</b> ✘ Asam butanoat C₄H₈O₂: H dan O berbeda.</li></ul><p class=\"tips\"><b>Tips:</b> alkohol dan eter jenuh selalu C<sub>n</sub>H<sub>2n+2</sub>O. Aldehida/keton C<sub>n</sub>H<sub>2n</sub>O. Asam/ester C<sub>n</sub>H<sub>2n</sub>O₂. Cukup cocokkan rumus umumnya.</p>"
   },
   {
-    id: "kim-33", bab: "Senyawa Karbon", level: 3, tipe: "kategori",
+    id: "kim-33", bab: "Struktur dan Kereaktifan Senyawa Karbon", level: 3, tipe: "kategori",
     soal: "Tentukan benar atau salah jenis reaksi senyawa karbon berikut!",
     pernyataan: [
       "CH<sub>2</sub>=CH<sub>2</sub> + HBr → CH<sub>3</sub>–CH<sub>2</sub>Br adalah reaksi adisi.",
@@ -358,7 +358,7 @@ window.BANK_SOAL.kimia = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Jenis reaksi organik: <b>adisi</b> = ikatan rangkap menjadi tunggal (ada yang ditambahkan); <b>substitusi</b> = satu atom/gugus diganti yang lain; <b>eliminasi</b> = ikatan tunggal menjadi rangkap (ada molekul kecil yang dilepas).</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> C=C menjadi C–C; H dan Br ditambahkan → adisi.</li><li><b>2</b> <i>Benar.</i> Satu H pada CH₄ ditukar Cl → substitusi (halogenasi).</li><li><b>3</b> <i>Benar.</i> H₂O dilepas dan terbentuk C=C → eliminasi (dehidrasi alkohol).</li><li><b>4</b> <i>Salah.</i> Cl ditukar dengan OH, dan tidak ada ikatan rangkap yang dibuka → <b>substitusi</b>.</li></ul><p class=\"tips\"><b>Tips:</b> hitung ikatan rangkap sebelum dan sesudah. Berkurang = adisi, bertambah = eliminasi, tetap = substitusi.</p>"
   },
   {
-    id: "kim-34", bab: "Senyawa Karbon", level: 3, tipe: "pg",
+    id: "kim-34", bab: "Struktur dan Kereaktifan Senyawa Karbon", level: 3, tipe: "pg",
     soal: "Senyawa 2-propanol dioksidasi menggunakan larutan K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> dalam suasana asam. Hasil oksidasi tersebut adalah …",
     opsi: ["Propanal", "Propanon", "Asam propanoat", "Propena", "Tidak bereaksi"],
     kunci: 1,

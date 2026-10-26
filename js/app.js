@@ -395,17 +395,35 @@
       if (r.lv.indexOf(q.level) < 0) r.lv.push(q.level);
       if (j && j.cek) { r.n++; if (j.benar) r.b++; }
     });
-    var h = '<section class="pilih-bab"><span class="eyebrow">Latihan per bab</span><h2>' + mapel + '</h2>' +
-      '<p>Soal Reguler dan HOTS digabung per bab, diurutkan dari level dasar ke penalaran. Jawabanmu tersimpan bersama paket aslinya.</p><ol class="daftar-bab">';
-    urut.forEach(function (bab) {
-      var r = perBab[bab], lv = r.lv.sort();
+    function item(bab) {
+      var r = perBab[bab];
+      if (!r) return '<li class="kosong"><span class="nama">' + bab + '</span><span class="stat">Belum ada soal</span></li>';
+      var lv = r.lv.sort();
       var levelTeks = lv.length > 1 ? "Level " + lv[0] + "–" + lv[lv.length - 1] : "Level " + lv[0];
-      h += '<li><a href="quiz.html?bab=' + encodeURIComponent(grup) + '&nama=' + encodeURIComponent(bab) + '">' +
+      return '<li><a href="quiz.html?bab=' + encodeURIComponent(grup) + '&nama=' + encodeURIComponent(bab) + '">' +
         '<span class="nama">' + bab + '</span>' +
         '<span class="stat">' + r.total + ' soal · ' + levelTeks + (r.n ? ' · ' + r.b + ' benar dari ' + r.n : '') + '</span>' +
         '<span class="kanan">' + (r.n ? '<div class="garis"><span style="width:' + Math.round(r.n / r.total * 100) + '%"></span></div>' : '') + IKON.kanan + '</span></a></li>';
-    });
-    h += '</ol></section>';
+    }
+    var kerangka = (window.KERANGKA_TKA || {})[grup];
+    var h = '<section class="pilih-bab"><span class="eyebrow">Latihan per bab</span><h2>' + mapel + '</h2>' +
+      '<p>' + (kerangka ? 'Disusun per elemen kerangka asesmen TKA (Pusmendik). ' : '') +
+      'Soal Reguler dan HOTS digabung per bab, diurutkan dari level dasar ke penalaran. Jawabanmu tersimpan bersama paket aslinya.</p>';
+    if (!kerangka) {
+      h += '<ol class="daftar-bab">' + urut.map(item).join("") + '</ol>';
+    } else {
+      var resmi = {};
+      kerangka.forEach(function (e) {
+        e[1].forEach(function (bab) { resmi[bab] = true; });
+        h += '<h3 class="elemen">' + e[0] + '</h3><ol class="daftar-bab">' + e[1].map(item).join("") + '</ol>';
+      });
+      var lain = urut.filter(function (bab) { return !resmi[bab]; });
+      if (lain.length) {
+        h += '<h3 class="elemen">Di luar kisi-kisi TKA</h3><p class="catatan-elemen">Pengayaan; materi ini tidak tercantum dalam kerangka asesmen TKA.</p>' +
+          '<ol class="daftar-bab">' + lain.map(item).join("") + '</ol>';
+      }
+    }
+    h += '</section>';
     el.isi.innerHTML = h;
     simpan(); // total soal per paket ikut tersimpan untuk beranda
   }

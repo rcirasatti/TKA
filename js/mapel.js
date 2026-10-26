@@ -11,3 +11,35 @@ window.DAFTAR_MAPEL = [
   { id: "indonesia", nama: "Bahasa Indonesia", ico: "📖", siap: true, ket: "Pemahaman tekstual, inferensial, evaluasi & apresiasi" },
   { id: "indonesia-hots", nama: "Bahasa Indonesia · Paket HOTS", ico: "🔥", siap: true, ket: "Gaya tryout: proposal, argumen logis, drama, puisi kritik sosial, kalimat hilang, urutan kalimat, pola kalimat" }
 ];
+
+// Elemen → sub-elemen persis seperti kerangka asesmen TKA SMA di pusmendik.kemendikdasmen.go.id/tka.
+// `bab` setiap soal harus sama dengan salah satu sub-elemen; selain itu dianggap di luar kisi-kisi TKA.
+window.KERANGKA_TKA = {
+  matematika: [
+    ["Bilangan", ["Bilangan Real"]],
+    ["Aljabar", ["Persamaan dan Pertidaksamaan Linear", "Fungsi", "Barisan dan Deret"]],
+    ["Geometri dan Pengukuran", ["Objek Geometri", "Transformasi Geometri", "Pengukuran"]],
+    ["Trigonometri", ["Perbandingan Trigonometri"]],
+    ["Data dan Peluang", ["Data", "Peluang"]]
+  ],
+  kimia: [
+    ["Kimia Dasar", ["Struktur Atom", "Teori Model Atom", "Sistem dan Sifat Periodik Unsur", "Ikatan Kimia",
+      "Geometri Molekul", "Interaksi Antarmolekul", "Hukum Dasar Kimia", "Stoikiometri dan Persamaan Reaksi Kimia"]],
+    ["Kimia Analitik", ["Larutan", "Kesetimbangan Larutan", "Asam-Basa", "pH", "Koloid"]],
+    ["Kimia Fisik", ["Energetika dan Dinamika Reaksi"]],
+    ["Kimia Organik", ["Struktur dan Kereaktifan Senyawa Karbon"]]
+  ],
+  biologi: [
+    ["Keanekaragaman Hayati", ["Klasifikasi dan Keanekaragaman Makhluk Hidup", "Bakteri", "Ekosistem"]],
+    ["Sel: Metabolisme", ["Sel: Metabolisme"]],
+    ["Proses-proses pada Makhluk Hidup", ["Transport dan Pertukaran Zat", "Sistem Imun", "Sistem Koordinasi", "Sistem Reproduksi"]],
+    ["Keterampilan Proses", ["Mempertanyakan dan Memprediksi", "Merencanakan dan Melakukan Penyelidikan",
+      "Memproses, Menganalisis Data dan Informasi"]]
+  ],
+  inggris: [
+    ["Kompetensi membaca", ["Pemahaman Tekstual", "Pemahaman Inferensial", "Evaluasi dan Apresiasi"]]
+  ],
+  indonesia: [
+    ["Kompetensi membaca", ["Pemahaman Tekstual", "Pemahaman Inferensial", "Evaluasi dan Apresiasi"]]
+  ]
+};

@@ -39,7 +39,7 @@ window.BANK_SOAL.matematika = { soal: [
 
   // ===================== ALJABAR =====================
   {
-    id: "mtk-05", bab: "Persamaan Linear", level: 1, tipe: "pg",
+    id: "mtk-05", bab: "Persamaan dan Pertidaksamaan Linear", level: 1, tipe: "pg",
     soal: "Rina membeli 2 buku dan 3 pensil seharga Rp19.000. Dina membeli 3 buku dan 2 pensil yang sama seharga Rp21.000. Harga 1 buku dan 2 pensil adalah …",
     opsi: ["Rp8.000", "Rp10.000", "Rp11.000", "Rp13.000", "Rp16.000"],
     kunci: 2,
@@ -47,7 +47,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Soal cerita dua barang → sistem persamaan linear dua variabel (SPLDV). Jika koefisiennya \"bersilang\" (2 &amp; 3 lalu 3 &amp; 2), trik cepatnya: <b>jumlahkan</b> dan <b>kurangkan</b> kedua persamaan.</p><h4>Langkah</h4><ol><li>Misalkan b = harga buku, p = harga pensil: 2b + 3p = 19.000 dan 3b + 2p = 21.000.</li><li>Dijumlah: 5b + 5p = 40.000 → b + p = 8.000.</li><li>Dikurang (kedua − pertama): b − p = 2.000.</li><li>Dari dua hasil itu: b = 5.000, p = 3.000.</li><li>Yang ditanya: 1 buku + 2 pensil = 5.000 + 2 × 3.000 = <b>Rp11.000</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Rp8.000 = harga 1 buku + 1 pensil, bukan 1 buku + 2 pensil.</li><li><b>B</b> Rp10.000 = 2 buku (2 × 5.000) atau salah pasangan.</li><li><b>D</b> Rp13.000 = 2 buku + 1 pensil (pertanyaannya terbalik).</li><li><b>E</b> Rp16.000 = 2 × (b + p), menggandakan keduanya.</li></ul><p class=\"tips\"><b>Tips:</b> setelah dapat b dan p, baca ulang <i>apa yang ditanya</i>. Pengecoh soal SPLDV hampir selalu berupa kombinasi lain dari b dan p.</p>"
   },
   {
-    id: "mtk-06", bab: "Persamaan Linear", level: 2, tipe: "pg",
+    id: "mtk-06", bab: "Persamaan dan Pertidaksamaan Linear", level: 2, tipe: "pg",
     stimulus: "<p>Diketahui sistem persamaan:</p><p>x + y + z = 6<br>x − y + z = 2<br>2x + y − z = 1</p>",
     soal: "Nilai x + 2y + 3z adalah …",
     opsi: ["10", "12", "14", "16", "18"],
@@ -56,7 +56,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Sistem tiga variabel diselesaikan dengan <b>eliminasi</b>: pilih dua persamaan yang bila dijumlah/dikurang langsung menghilangkan variabel, sampai tersisa satu variabel.</p><h4>Langkah</h4><ol><li>(1) − (2): (x + y + z) − (x − y + z) = 6 − 2 → 2y = 4 → <b>y = 2</b>.</li><li>Substitusi y = 2 ke (1): x + z = 4. Ke (3): 2x + 2 − z = 1 → 2x − z = −1.</li><li>Jumlahkan: 3x = 3 → <b>x = 1</b>, sehingga <b>z = 3</b>.</li><li>Cek ke (3): 2(1) + 2 − 3 = 1 ✔.</li><li>x + 2y + 3z = 1 + 4 + 9 = <b>14</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 10, <b>B</b> 12, <b>D</b> 16, <b>E</b> 18 muncul dari salah satu nilai x, y, z yang keliru (misalnya z = 2 atau x = 3). Selalu cek jawaban ke ketiga persamaan.</li></ul><p class=\"tips\"><b>Tips:</b> cari dulu dua persamaan yang hanya berbeda tanda di satu variabel. Di sini (1) dan (2) hanya beda di y, jadi y langsung ketemu.</p>"
   },
   {
-    id: "mtk-07", bab: "Persamaan Linear", level: 3, tipe: "pg",
+    id: "mtk-07", bab: "Persamaan dan Pertidaksamaan Linear", level: 3, tipe: "pg",
     soal: "Berapakah nilai x?<br>(1) 2x + y = 10<br>(2) x − y = 2<br><br>Tentukan apakah pernyataan (1) dan (2) cukup untuk menjawab pertanyaan tersebut.",
     opsi: [
       "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup",
@@ -70,7 +70,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Soal <b>kecukupan data</b>: kamu tidak perlu menghitung nilai akhirnya, cukup tentukan apakah informasinya <i>cukup untuk mendapatkan satu nilai pasti</i>. Satu persamaan dengan dua variabel tidak pernah cukup, karena solusinya tak hingga banyaknya.</p><h4>Langkah</h4><ol><li>(1) saja: 2x + y = 10 → x = 1, y = 8; x = 2, y = 6; … banyak kemungkinan → <b>tidak cukup</b>.</li><li>(2) saja: x − y = 2 → x = 3, y = 1; x = 5, y = 3; … → <b>tidak cukup</b>.</li><li>Gabungan: dijumlah → 3x = 12 → x = 4 (tunggal) → <b>cukup</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b>/<b>B</b> masing-masing persamaan masih punya dua variabel, jadi x tidak tunggal.</li><li><b>D</b> sama alasannya: tidak ada satu pun yang cukup sendirian.</li><li><b>E</b> salah karena gabungan keduanya justru menghasilkan x = 4 dengan pasti.</li></ul><p class=\"tips\"><b>Tips:</b> urutan cek baku: (1) saja → (2) saja → gabungan. Jumlah persamaan yang <i>berbeda</i> harus ≥ jumlah variabel yang terlibat.</p>"
   },
   {
-    id: "mtk-08", bab: "Program Linear", level: 3, tipe: "pg",
+    id: "mtk-08", bab: "Persamaan dan Pertidaksamaan Linear", level: 3, tipe: "pg",
     stimulus: "<p>Sebuah toko kue membuat dua jenis roti:</p><table><tr><th></th><th>Tepung</th><th>Mentega</th><th>Keuntungan</th></tr><tr><td>Roti A</td><td>200 g</td><td>20 g</td><td>Rp5.000</td></tr><tr><td>Roti B</td><td>100 g</td><td>60 g</td><td>Rp6.000</td></tr><tr><td>Persediaan</td><td>4 kg</td><td>900 g</td><td></td></tr></table>",
     soal: "Keuntungan maksimum yang dapat diperoleh toko tersebut adalah …",
     opsi: ["Rp90.000", "Rp100.000", "Rp120.000", "Rp135.000", "Rp160.000"],
@@ -157,7 +157,7 @@ window.BANK_SOAL.matematika = { soal: [
 
   // ===================== GEOMETRI DAN PENGUKURAN =====================
   {
-    id: "mtk-17", bab: "Geometri", level: 1, tipe: "pg",
+    id: "mtk-17", bab: "Objek Geometri", level: 1, tipe: "pg",
     soal: "Sebuah tangga sepanjang 13 m disandarkan pada tembok vertikal. Jarak kaki tangga ke tembok adalah 5 m. Tinggi ujung atas tangga dari lantai adalah …",
     opsi: ["8 m", "10 m", "12 m", "13 m", "18 m"],
     kunci: 2,
@@ -165,7 +165,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Tangga, tembok, dan lantai membentuk segitiga siku-siku. Tangga adalah <b>sisi miring</b> (terpanjang, di depan sudut siku-siku). Pythagoras: miring² = sisi₁² + sisi₂².</p><h4>Langkah</h4><ol><li>Miring = 13 m, alas = 5 m, tinggi = t.</li><li>t² = 13² − 5² = 169 − 25 = 144 → t = <b>12 m</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 8 m = 13 − 5, mengurangkan panjang sisi langsung (tanpa kuadrat).</li><li><b>B</b> 10 m tidak memenuhi Pythagoras: 10² + 5² = 125 ≠ 169.</li><li><b>D</b> 13 m adalah panjang tangga itu sendiri; tinggi pasti lebih pendek dari sisi miring.</li><li><b>E</b> 18 m = 13 + 5, mustahil karena lebih panjang dari tangganya.</li></ul><p class=\"tips\"><b>Tips:</b> hafalkan tripel Pythagoras: 3-4-5, 5-12-13, 8-15-17, 7-24-25, serta kelipatannya (6-8-10, 9-12-15).</p>"
   },
   {
-    id: "mtk-18", bab: "Geometri", level: 2, tipe: "pg",
+    id: "mtk-18", bab: "Objek Geometri", level: 2, tipe: "pg",
     soal: "Dua garis sejajar dipotong oleh sebuah garis lain. Sepasang sudut dalam sepihak yang terbentuk besarnya (3x + 10)° dan (2x + 20)°. Nilai x adalah …",
     opsi: ["20", "25", "30", "34", "40"],
     kunci: 2,
@@ -173,7 +173,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Dua garis sejajar dipotong garis lain: sudut <b>dalam sepihak</b> (sama-sama di antara kedua garis sejajar, di sisi yang sama dari garis potong) jumlahnya <b>180°</b>. Bedakan dengan sudut <i>dalam berseberangan</i> dan <i>sehadap</i> yang besarnya <b>sama</b>.</p><h4>Langkah</h4><ol><li>(3x + 10) + (2x + 20) = 180</li><li>5x + 30 = 180 → 5x = 150 → <b>x = 30</b></li><li>Cek: 100° + 80° = 180° ✔</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 20: 5x = 100, salah memindahkan konstanta (180 − 80).</li><li><b>B</b> 25: 5x + 30 = 155, salah aritmetika.</li><li><b>D</b> 34: dari 5x = 170, konstanta hanya dikurangi 10.</li><li><b>E</b> 40: 5x = 200, konstanta malah ditambahkan.</li></ul><p class=\"tips\"><b>Tips:</b> jika menganggap kedua sudut sama besar (tertukar dengan sudut berseberangan), hasilnya x = 10. Pembuat soal sengaja tidak memasukkan 10 ke opsi. Hafalkan: <i>sepihak = 180°, berseberangan &amp; sehadap = sama</i>.</p>"
   },
   {
-    id: "mtk-19", bab: "Geometri", level: 2, tipe: "pg",
+    id: "mtk-19", bab: "Objek Geometri", level: 2, tipe: "pg",
     soal: "Pada sore hari, sebuah tiang setinggi 2 m memiliki bayangan sepanjang 1,5 m. Pada saat yang sama, bayangan sebuah pohon panjangnya 6 m. Tinggi pohon tersebut adalah …",
     opsi: ["4,5 m", "6 m", "7,5 m", "8 m", "9 m"],
     kunci: 3,
@@ -235,7 +235,7 @@ window.BANK_SOAL.matematika = { soal: [
 
   // ===================== TRIGONOMETRI =====================
   {
-    id: "mtk-25", bab: "Trigonometri", level: 1, tipe: "pg",
+    id: "mtk-25", bab: "Perbandingan Trigonometri", level: 1, tipe: "pg",
     soal: "Segitiga ABC siku-siku di B dengan AB = 4 cm, BC = 3 cm, dan AC = 5 cm. Nilai cos A adalah …",
     opsi: ["3/5", "4/5", "3/4", "4/3", "5/4"],
     kunci: 1,
@@ -243,7 +243,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Perbandingan trigonometri bergantung pada <b>posisi sisi terhadap sudut</b> yang ditanya: sin = depan/miring, cos = samping/miring, tan = depan/samping (SinDeMi, CosSaMi, TanDeSa).</p><h4>Langkah</h4><ol><li>Sudut siku-siku di B, jadi sisi miring = AC = 5 (di depan sudut siku-siku).</li><li>Dilihat dari A: sisi samping (menempel pada A) = AB = 4; sisi depan = BC = 3.</li><li>cos A = 4/5.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 3/5 = sin A (atau cos C), sisi depan tertukar dengan sisi samping.</li><li><b>C</b> 3/4 = tan A.</li><li><b>D</b> 4/3 = cotan A.</li><li><b>E</b> 5/4 = sec A (kebalikan cos).</li></ul><p class=\"tips\"><b>Tips:</b> beri label sisi relatif terhadap sudut yang ditanya <i>sebelum</i> memakai rumus. Sisi \"samping\" adalah sisi yang menyentuh sudut itu, selain sisi miring.</p>"
   },
   {
-    id: "mtk-26", bab: "Trigonometri", level: 2, tipe: "kategori",
+    id: "mtk-26", bab: "Perbandingan Trigonometri", level: 2, tipe: "kategori",
     stimulus: "<p>Diketahui α adalah sudut lancip dan sin α = 5/13.</p>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [
@@ -257,7 +257,7 @@ window.BANK_SOAL.matematika = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Dari satu perbandingan trigonometri, gambar segitiga siku-siku lalu cari sisi ketiga dengan Pythagoras. Kebalikannya: sec = 1/cos, cosec = 1/sin, cot = 1/tan.</p><h4>Langkah</h4><p>sin α = 5/13 → depan = 5, miring = 13 → samping = √(169 − 25) = 12.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> cos α = samping/miring = 12/13.</li><li><b>2</b> <i>Benar.</i> tan α = depan/samping = 5/12.</li><li><b>3</b> <i>Salah.</i> sec α = 1/cos α = 13/12. Nilai 13/5 adalah cosec.</li><li><b>4</b> <i>Benar.</i> cosec α = 1/sin α = 13/5.</li></ul><p class=\"tips\"><b>Tips:</b> pasangan kebalikan: sin ↔ cosec, cos ↔ sec. Huruf \"co\" selalu berpasangan dengan yang tanpa \"co\".</p>"
   },
   {
-    id: "mtk-27", bab: "Trigonometri", level: 2, tipe: "pg",
+    id: "mtk-27", bab: "Perbandingan Trigonometri", level: 2, tipe: "pg",
     soal: "Sebuah layang-layang diterbangkan dengan benang sepanjang 100 m yang terbentang lurus. Benang membentuk sudut 30° terhadap permukaan tanah. Jika ujung benang dipegang tepat di permukaan tanah, tinggi layang-layang adalah …",
     opsi: ["25 m", "50 m", "50√2 m", "50√3 m", "100 m"],
     kunci: 1,

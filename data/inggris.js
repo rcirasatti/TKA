@@ -1,8 +1,8 @@
 // Bank soal Bahasa Inggris — soal grup berbasis teks, mengikuti kerangka asesmen TKA SMA (Pusmendik).
-// "bab" = kompetensi: Pemahaman Tekstual → Pemahaman Inferensial → Evaluasi & Apresiasi.
+// "bab" = kompetensi: Pemahaman Tekstual → Pemahaman Inferensial → Evaluasi dan Apresiasi.
 // Teks diurutkan dari yang pendek/sederhana ke yang panjang/kompleks.
 (function () {
-  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi & Apresiasi";
+  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi dan Apresiasi";
 
   var T1 = "<p><b>Text 1</b></p>" +
     "<p style='text-align:center'><b>ATTENTION ALL STUDENTS</b></p>" +

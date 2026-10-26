@@ -4,7 +4,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
 
   // ===================== KEANEKARAGAMAN, EKOLOGI, BIOTEKNOLOGI =====================
   {
-    id: "bih-01", bab: "Keanekaragaman & Ekologi", level: 2, tipe: "pg",
+    id: "bih-01", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 2, tipe: "pg",
     soal: "Seorang siswa mengamati tanaman dengan ciri: berbiji tertutup, berakar serabut, tulang daun sejajar, dan berkas pengangkut tersebar pada batang. Tanaman tersebut paling tepat dikelompokkan ke dalam … dan contohnya adalah …",
     opsi: [
       "Gymnospermae, pinus",
@@ -18,7 +18,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Dua langkah klasifikasi tumbuhan: (1) biji terbuka (<b>Gymnospermae</b>) atau tertutup (<b>Angiospermae</b>)? (2) Jika Angiospermae, <b>monokotil</b> atau <b>dikotil</b>? Ciri monokotil: akar serabut, tulang daun sejajar/melengkung, berkas pengangkut tersebar, bagian bunga kelipatan 3. Dikotil: akar tunggang, tulang daun menyirip/menjari, berkas pengangkut melingkar teratur, berkambium.</p><h4>Langkah</h4><p>Biji tertutup → Angiospermae. Akar serabut + tulang daun sejajar + berkas tersebar → monokotil → contohnya <b>jagung</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Pinus berbiji <i>terbuka</i> (Gymnospermae).</li><li><b>B</b> dan <b>E</b> Mangga dan kacang tanah adalah dikotil (akar tunggang, daun menyirip).</li><li><b>D</b> Paku tidak berbiji sama sekali; berkembang biak dengan spora.</li></ul><p class=\"tips\"><b>Tips:</b> contoh monokotil yang sering keluar: padi, jagung, kelapa, pisang, rumput. Kalau ragu, lihat tulang daunnya: sejajar berarti monokotil.</p>"
   },
   {
-    id: "bih-02", bab: "Keanekaragaman & Ekologi", level: 2, tipe: "mcma",
+    id: "bih-02", bab: "Ekosistem", level: 2, tipe: "mcma",
     soal: "Pasangan interaksi antarmakhluk hidup dan jenis interaksinya yang tepat adalah … (pilih semua yang benar)",
     opsi: [
       "Lebah dan bunga — mutualisme",
@@ -32,7 +32,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Jenis simbiosis ditentukan oleh untung-rugi kedua pihak: <b>mutualisme</b> (+/+), <b>komensalisme</b> (+/0, satu untung, satu tidak terpengaruh), <b>parasitisme</b> (+/−, satu untung, satu dirugikan).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Lebah mendapat nektar (+), bunga terbantu penyerbukan (+) → mutualisme.</li><li><b>B</b> ✘ Benalu menyerap air dan mineral dari pohon mangga (−) → <b>parasitisme</b>. Benalu punya klorofil, tetapi tetap mengambil air dan hara inangnya.</li><li><b>C</b> ✔ Remora mendapat sisa makanan dan tumpangan (+), hiu tidak terpengaruh (0) → komensalisme.</li><li><b>D</b> ✔ Rhizobium mendapat makanan dan tempat (+), tanaman mendapat nitrogen (+) → mutualisme.</li><li><b>E</b> ✘ Anggrek hanya menumpang untuk mendapat cahaya. Ia berfotosintesis sendiri dan tidak mengambil makanan pohon (0) → <b>komensalisme</b>.</li></ul><p class=\"tips\"><b>Tips:</b> benalu dan anggrek sama-sama menempel di pohon. Bedanya: benalu punya akar isap (haustorium) ke jaringan pohon, anggrek tidak.</p>"
   },
   {
-    id: "bih-03", bab: "Keanekaragaman & Ekologi", level: 2, tipe: "kategori",
+    id: "bih-03", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 2, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang persebaran fauna Indonesia berikut!",
     pernyataan: [
       "Orangutan dan harimau Sumatra termasuk fauna tipe Asiatis.",
@@ -45,7 +45,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Fauna Indonesia dibagi oleh <b>garis Wallace</b> dan <b>garis Weber</b>: barat Wallace = <b>Asiatis</b> (Sumatra, Jawa, Kalimantan, Bali); di antara keduanya = <b>peralihan</b> (Sulawesi, Nusa Tenggara, Maluku); timur Weber = <b>Australis</b> (Papua, Kep. Aru).</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Orangutan (Sumatra/Kalimantan) dan harimau Sumatra ada di wilayah Asiatis.</li><li><b>2</b> <i>Benar.</i> Cendrawasih dan kanguru pohon ada di Papua → Australis (berkantung, burung berwarna cerah).</li><li><b>3</b> <i>Benar.</i> Sulawesi dan Nusa Tenggara berada di antara garis Wallace dan Weber.</li><li><b>4</b> <i>Salah.</i> Anoa dan babirusa adalah hewan endemik <b>Sulawesi</b> (wilayah peralihan), bukan Kalimantan.</li></ul><p class=\"tips\"><b>Tips:</b> fauna peralihan banyak yang endemik (hanya ada di situ), misalnya anoa, babirusa, tarsius, maleo, dan komodo (NTT).</p>"
   },
   {
-    id: "bih-04", bab: "Keanekaragaman & Ekologi", level: 3, tipe: "pg",
+    id: "bih-04", bab: "Ekosistem", level: 3, tipe: "pg",
     soal: "Sawah yang tergenang air dalam waktu lama menjadi miskin oksigen. Beberapa minggu kemudian, kadar nitrat tanah turun drastis dan daun padi menguning. Penjelasan paling tepat untuk fenomena tersebut adalah …",
     opsi: [
       "Bakteri nitrifikasi bekerja lebih aktif sehingga nitrat menumpuk.",
@@ -75,7 +75,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
 
   // ===================== SEL & METABOLISME =====================
   {
-    id: "bih-06", bab: "Sel & Pembelahan", level: 1, tipe: "pg",
+    id: "bih-06", bab: "Pembelahan Sel", level: 1, tipe: "pg",
     soal: "Pada preparat ujung akar bawang, seorang siswa menemukan sel yang kromatid saudaranya sedang berpisah dan bergerak menuju kutub yang berlawanan. Tahap pembelahan yang diamati adalah …",
     opsi: ["Profase", "Metafase", "Anafase", "Telofase", "Interfase"],
     kunci: 2,
@@ -83,7 +83,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Ciri tiap fase mitosis (urutan <b>PMAT</b>): <b>Profase</b> = kromatin memadat menjadi kromosom, membran inti hilang; <b>Metafase</b> = kromosom berjajar di bidang ekuator; <b>Anafase</b> = kromatid saudara berpisah ke kutub berlawanan; <b>Telofase</b> = membran inti terbentuk kembali, sitokinesis.</p><h4>Langkah</h4><p>\"Kromatid saudara berpisah dan bergerak ke kutub berlawanan\" adalah ciri khas <b>anafase</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Profase: kromosom baru mulai terlihat, belum berpisah.</li><li><b>B</b> Metafase: kromosom masih berjajar rapi di tengah.</li><li><b>D</b> Telofase: kromosom sudah tiba di kutub dan membran inti terbentuk.</li><li><b>E</b> Interfase: bukan bagian pembelahan; sel sedang tumbuh dan menyalin DNA.</li></ul><p class=\"tips\"><b>Tips:</b> <b>A</b>nafase = <b>A</b>way (menjauh). <b>M</b>etafase = <b>M</b>iddle (di tengah).</p>"
   },
   {
-    id: "bih-07", bab: "Sel & Pembelahan", level: 2, tipe: "kategori",
+    id: "bih-07", bab: "Pembelahan Sel", level: 2, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang perbandingan mitosis dan meiosis berikut!",
     pernyataan: [
       "Meiosis menghasilkan 4 sel anak yang haploid (n).",
@@ -96,7 +96,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Mitosis</b>: 1 sel 2n → <b>2 sel 2n</b> identik (pertumbuhan, perbaikan jaringan). <b>Meiosis</b>: 1 sel 2n → <b>4 sel n</b> (pembentukan gamet). Meiosis menambah variasi melalui pindah silang dan pemisahan bebas.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Meiosis menghasilkan 4 sel haploid (n).</li><li><b>2</b> <i>Benar.</i> Pindah silang terjadi saat kromosom homolog berpasangan, yaitu pada profase I (subtahap pakiten).</li><li><b>3</b> <i>Salah.</i> Mitosis menghasilkan sel anak dengan jumlah kromosom <b>sama</b> dengan induk (2n). Yang mengurangi menjadi setengah adalah meiosis.</li><li><b>4</b> <i>Benar.</i> Gamet hasil meiosis membawa kombinasi gen baru → variasi genetik.</li></ul><p class=\"tips\"><b>Tips:</b> mitosis = \"fotokopi\" (2 salinan sama), meiosis = \"acak dan bagi\" (4 sel berbeda, setengah kromosom).</p>"
   },
   {
-    id: "bih-08", bab: "Metabolisme", level: 3, tipe: "kategori",
+    id: "bih-08", bab: "Sel: Metabolisme", level: 3, tipe: "kategori",
     stimulus: "<p>Dua molekul glukosa direspirasi secara aerob sempurna. Setiap putaran siklus Krebs menghasilkan 3 NADH, 1 FADH<sub>2</sub>, 1 ATP (GTP), dan 2 CO<sub>2</sub>.</p>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [
@@ -110,7 +110,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Alur respirasi: 1 glukosa → (glikolisis) 2 piruvat → (dekarboksilasi oksidatif) 2 asetil-KoA + 2 CO₂ → (Krebs) 2 putaran. Jadi <b>satu glukosa = dua putaran Krebs</b>.</p><h4>Langkah</h4><p>2 glukosa → 4 piruvat → 4 asetil-KoA → <b>4 putaran</b> Krebs. Setiap putaran: 3 NADH, 1 FADH₂, 1 ATP, 2 CO₂.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> 4 asetil-KoA.</li><li><b>2</b> <i>Benar.</i> NADH Krebs = 4 × 3 = 12.</li><li><b>3</b> <i>Benar.</i> FADH₂ = 4 × 1 = 4.</li><li><b>4</b> <i>Salah.</i> CO₂ dari Krebs <b>saja</b> = 4 × 2 = 8. Angka 12 adalah total jika ditambah 4 CO₂ dari dekarboksilasi oksidatif (piruvat → asetil-KoA).</li></ul><p class=\"tips\"><b>Tips:</b> perhatikan kata \"saja\" atau \"total\". 6 atom C glukosa keluar sebagai 6 CO₂: 2 dari dekarboksilasi oksidatif + 4 dari Krebs (per glukosa).</p>"
   },
   {
-    id: "bih-09", bab: "Metabolisme", level: 3, tipe: "kategori",
+    id: "bih-09", bab: "Sel: Metabolisme", level: 3, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang fermentasi alkohol oleh ragi (<i>Saccharomyces cerevisiae</i>) berikut!",
     pernyataan: [
       "CO<sub>2</sub> dilepaskan saat asam piruvat diubah menjadi asetaldehida.",
@@ -123,7 +123,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Fermentasi alkohol terjadi di <b>sitoplasma</b>: glikolisis (glukosa → 2 piruvat, +2 ATP, +2 NADH) → piruvat <b>dilepas CO₂</b> menjadi asetaldehida → asetaldehida <b>direduksi</b> NADH menjadi etanol. Tujuan langkah terakhir adalah mengembalikan NAD⁺, bukan membuat ATP.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Piruvat → asetaldehida + CO₂ (dekarboksilasi). Inilah yang membuat adonan roti mengembang.</li><li><b>2</b> <i>Benar.</i> Tanpa O₂, NADH tidak bisa diolah di transpor elektron. Reduksi asetaldehida memulihkan NAD⁺ supaya glikolisis bisa terus berjalan.</li><li><b>3</b> <i>Benar.</i> Satu-satunya sumber ATP adalah glikolisis: 2 ATP bersih.</li><li><b>4</b> <i>Salah.</i> Seluruh tahapan fermentasi berlangsung di <b>sitoplasma</b>. Mitokondria hanya dipakai pada respirasi aerob.</li></ul><p class=\"tips\"><b>Tips:</b> fermentasi = glikolisis + \"langkah daur ulang NAD⁺\". ATP tetap 2, apa pun produk akhirnya (etanol atau asam laktat).</p>"
   },
   {
-    id: "bih-10", bab: "Metabolisme", level: 2, tipe: "mcma",
+    id: "bih-10", bab: "Sel: Metabolisme", level: 2, tipe: "mcma",
     soal: "Pernyataan yang benar tentang fotofosforilasi SIKLIK adalah … (pilih semua yang benar)",
     opsi: [
       "Hanya melibatkan fotosistem I",
@@ -137,7 +137,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Reaksi terang punya dua jalur. <b>Nonsiklik</b>: elektron mengalir H₂O → PS II → PS I → NADP⁺; menghasilkan ATP, NADPH, dan O₂ (dari fotolisis). <b>Siklik</b>: elektron dari PS I <b>berputar kembali</b> ke PS I; hanya menghasilkan ATP.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Siklik hanya melibatkan PS I (P700).</li><li><b>B</b> ✔ Aliran elektron yang berputar memompa H⁺ → ATP terbentuk.</li><li><b>C</b> ✘ Elektron kembali ke PS I dan tidak diteruskan ke NADP⁺, jadi tidak ada NADPH.</li><li><b>D</b> ✔ Tanpa PS II tidak ada fotolisis air, sehingga tidak ada O₂.</li><li><b>E</b> ✘ Fotolisis air hanya terjadi di PS II (jalur nonsiklik).</li></ul><p class=\"tips\"><b>Tips:</b> siklik = \"putaran tertutup\" → tidak ada yang masuk (air) dan tidak ada yang keluar (NADPH, O₂), hanya ATP.</p>"
   },
   {
-    id: "bih-11", bab: "Metabolisme", level: 2, tipe: "pg",
+    id: "bih-11", bab: "Sel: Metabolisme", level: 2, tipe: "pg",
     stimulus: "<p>Tiga tabung berisi <i>Hydrilla</i> yang sama disinari lampu berwarna berbeda dengan intensitas sama selama 10 menit.</p><table><tr><th>Warna cahaya</th><th>Merah</th><th>Hijau</th><th>Biru</th></tr><tr><td>Jumlah gelembung</td><td>25</td><td>5</td><td>22</td></tr></table>",
     soal: "Penjelasan yang paling tepat mengapa cahaya hijau menghasilkan gelembung paling sedikit adalah …",
     opsi: [
@@ -154,7 +154,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
 
   // ===================== SISTEM ORGAN (KASUS) =====================
   {
-    id: "bih-12", bab: "Reproduksi & Hormon", level: 2, tipe: "pg",
+    id: "bih-12", bab: "Sistem Reproduksi", level: 2, tipe: "pg",
     soal: "Seorang pria menjalani vasektomi (pemotongan dan pengikatan vas deferens). Setelah pulih, kondisi yang paling tepat adalah …",
     opsi: [
       "Testis berhenti memproduksi hormon testosteron.",
@@ -168,7 +168,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Bedakan dua \"produk\" testis: <b>sperma</b> keluar lewat saluran (epididimis → vas deferens → uretra), sedangkan <b>testosteron</b> dari sel Leydig masuk ke <b>darah</b>, tidak lewat saluran. <b>Semen</b> = sperma + cairan dari vesikula seminalis, prostat, dan kelenjar Cowper.</p><h4>Langkah</h4><p>Vas deferens dipotong → sperma tertahan, tetapi cairan kelenjar tetap keluar → semen <b>tanpa sperma</b>. Testosteron tetap beredar lewat darah → hormon normal.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Testosteron disalurkan lewat darah, jadi tidak terpengaruh pemotongan saluran.</li><li><b>C</b> Sebagian besar volume semen berasal dari kelenjar yang letaknya setelah vas deferens.</li><li><b>D</b> Sperma tidak bisa keluar sama sekali; bentuknya tidak berubah.</li><li><b>E</b> Prostat tidak dipotong dan tetap berfungsi.</li></ul><p class=\"tips\"><b>Tips:</b> kelenjar endokrin (hormon) → darah; kelenjar eksokrin → saluran. Memotong saluran tidak memengaruhi hormon.</p>"
   },
   {
-    id: "bih-13", bab: "Reproduksi & Hormon", level: 3, tipe: "pg",
+    id: "bih-13", bab: "Sistem Reproduksi", level: 3, tipe: "pg",
     soal: "Pil KB kombinasi berisi estrogen dan progesteron sintetis dosis rendah yang diminum setiap hari. Mekanisme utama pil ini mencegah kehamilan adalah …",
     opsi: [
       "Membunuh sperma di dalam saluran reproduksi wanita.",
@@ -182,7 +182,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Umpan balik negatif</b>: kadar estrogen dan progesteron yang tinggi \"memberi tahu\" hipotalamus–hipofisis untuk <b>mengurangi</b> FSH dan LH. Tanpa FSH folikel tidak matang; tanpa lonjakan LH ovulasi tidak terjadi.</p><h4>Langkah</h4><p>Pil memberi estrogen dan progesteron setiap hari → kadarnya selalu tinggi → FSH dan LH ditekan → tidak ada sel telur yang dilepas → tidak ada pembuahan.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Pil KB tidak bersifat spermisida.</li><li><b>C</b> Justru kebalikannya: lonjakan LH dicegah, bukan dipicu.</li><li><b>D</b> Pil tidak menghancurkan dinding rahim setiap hari.</li><li><b>E</b> Penyumbatan tuba permanen adalah tubektomi. Efek pil bisa pulih jika pemakaian dihentikan.</li></ul><p class=\"tips\"><b>Tips:</b> prinsipnya sama dengan masa kehamilan. Saat hamil, progesteron tinggi sehingga tidak terjadi ovulasi baru. Pil \"meniru\" kondisi itu.</p>"
   },
   {
-    id: "bih-14", bab: "Reproduksi & Hormon", level: 3, tipe: "pg",
+    id: "bih-14", bab: "Sistem Koordinasi", level: 3, tipe: "pg",
     soal: "Penduduk di daerah pegunungan yang jarang mengonsumsi garam beriodium banyak mengalami pembesaran kelenjar tiroid (gondok). Urutan penyebab yang paling tepat adalah …",
     opsi: [
       "Iodium kurang → tiroksin berlebih → TSH turun → tiroid membesar",
@@ -196,7 +196,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Pengaturan hormon tiroid: hipofisis melepas <b>TSH</b> → tiroid membuat <b>tiroksin</b> (butuh <b>iodium</b>) → tiroksin cukup → TSH dikurangi (umpan balik negatif). Jika tiroksin tidak pernah cukup, TSH terus tinggi dan terus merangsang tiroid.</p><h4>Langkah</h4><ol><li>Iodium kurang → tiroksin rendah.</li><li>Umpan balik negatif melemah → hipofisis menambah TSH.</li><li>TSH tinggi terus merangsang tiroid → sel tiroid bertambah → membesar (gondok endemik).</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Tanpa iodium tiroksin tidak bisa dibuat berlebih, dan TSH yang turun tidak akan membesarkan tiroid.</li><li><b>C</b> Insulin dibuat pankreas dan tidak terkait iodium.</li><li><b>D</b> Penyebabnya kekurangan iodium, bukan kelebihan.</li><li><b>E</b> ADH mengatur air di ginjal; pembengkakan leher bukan retensi cairan.</li></ul><p class=\"tips\"><b>Tips:</b> organ yang terus \"dipaksa\" bekerja oleh hormon perangsang akan membesar (hipertrofi). Itulah logika gondok.</p>"
   },
   {
-    id: "bih-15", bab: "Ekskresi & Homeostasis", level: 2, tipe: "kategori",
+    id: "bih-15", bab: "Transport dan Pertukaran Zat", level: 2, tipe: "kategori",
     soal: "Seorang pelari kehilangan banyak cairan melalui keringat sehingga mengalami dehidrasi. Tentukan benar atau salah respons tubuh berikut!",
     pernyataan: [
       "Osmolaritas (kepekatan) darah meningkat.",
@@ -236,7 +236,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Imunitas spesifik terbagi dua. <b>Humoral</b> (sel B → antibodi) melawan antigen <b>di luar sel</b> (dalam cairan tubuh). <b>Seluler</b> (<b>sel T sitotoksik</b>) menghancurkan <b>sel tubuh yang sudah terinfeksi</b>. Sel terinfeksi menampilkan potongan antigen virus di permukaannya (MHC I).</p><h4>Langkah</h4><p>Sel T sitotoksik mengenali antigen pada MHC I → melepas <b>perforin</b> yang melubangi membran → sel terinfeksi mati beserta virus di dalamnya.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Sel B membuat antibodi, bukan memakan sel. Memakan sel adalah tugas fagosit (makrofag).</li><li><b>C</b> Sel darah merah tidak berperan dalam imunitas seperti itu.</li><li><b>D</b> Histamin memicu peradangan dan alergi, tidak membunuh virus di dalam sel.</li><li><b>E</b> Antibodi tidak bisa masuk ke dalam sel. Soal pun sudah menyebutkannya.</li></ul><p class=\"tips\"><b>Tips:</b> musuh di luar sel → antibodi (sel B). Musuh di dalam sel → bunuh selnya (sel T sitotoksik).</p>"
   },
   {
-    id: "bih-18", bab: "Respirasi & Sirkulasi", level: 3, tipe: "mcma",
+    id: "bih-18", bab: "Transport dan Pertukaran Zat", level: 3, tipe: "mcma",
     soal: "Seorang siswa penderita asma mengalami serangan setelah terpapar debu. Pernyataan yang tepat tentang kondisi tersebut adalah … (pilih semua yang benar)",
     opsi: [
       "Otot polos bronkiolus berkontraksi sehingga saluran napas menyempit.",
@@ -250,7 +250,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Asma</b> adalah reaksi alergi pada saluran napas: otot polos bronkiolus berkontraksi (<b>bronkospasme</b>), dinding meradang, dan lendir bertambah. Saluran menyempit tetapi <b>dapat pulih</b>. Bandingkan dengan <b>emfisema</b>: kerusakan alveolus yang permanen.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Debu (alergen) memicu kontraksi otot polos bronkiolus.</li><li><b>B</b> ✔ Saat ekspirasi saluran makin menyempit, sehingga udara sulit keluar dan terdengar mengi (<i>wheezing</i>).</li><li><b>C</b> ✘ Kerusakan alveolus permanen adalah emfisema (biasanya akibat merokok), bukan asma.</li><li><b>D</b> ✔ Bronkodilator (misalnya salbutamol) merelaksasi otot polos sehingga bronkiolus melebar.</li><li><b>E</b> ✘ Saluran sempit membuat napas pendek dan dangkal, jadi volume tidal <i>turun</i>.</li></ul><p class=\"tips\"><b>Tips:</b> asma = masalah di <b>saluran</b> (reversibel); emfisema = masalah di <b>alveolus</b> (permanen).</p>"
   },
   {
-    id: "bih-19", bab: "Respirasi & Sirkulasi", level: 3, tipe: "pg",
+    id: "bih-19", bab: "Transport dan Pertukaran Zat", level: 3, tipe: "pg",
     soal: "Seorang pasien mengalami kebocoran katup bikuspidalis (mitral). Dampak yang paling mungkin terjadi adalah …",
     opsi: [
       "Darah dari ventrikel kanan bocor ke atrium kanan sehingga paru-paru kekurangan darah.",
@@ -264,7 +264,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Katup jantung mencegah aliran balik. <b>Bikuspidalis (mitral)</b> berada di antara atrium kiri dan ventrikel kiri; <b>trikuspidalis</b> di antara atrium kanan dan ventrikel kanan. Saat ventrikel kiri berkontraksi, katup mitral harus tertutup rapat supaya semua darah keluar ke aorta.</p><h4>Langkah</h4><p>Mitral bocor → saat ventrikel kiri memompa, sebagian darah berbalik ke atrium kiri → darah ke aorta (seluruh tubuh) berkurang → mudah lelah; darah juga terbendung ke paru-paru → sesak.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Itu kebocoran katup <i>trikuspidalis</i> (sisi kanan).</li><li><b>C</b> Aorta terhubung ke ventrikel <i>kiri</i>, dan dijaga katup semilunar aorta.</li><li><b>D</b> Darah bercampur adalah ciri kelainan sekat (septum), bukan kebocoran katup.</li><li><b>E</b> Hambatan masuk ke atrium kanan tidak terkait katup mitral.</li></ul><p class=\"tips\"><b>Tips:</b> \"<b>Bi</b>kuspidalis di <b>ki</b>ri\" (bi-ki), \"<b>tri</b>kuspidalis di kanan\".</p>"
   },
   {
-    id: "bih-20", bab: "Koordinasi", level: 3, tipe: "pg",
+    id: "bih-20", bab: "Sistem Koordinasi", level: 3, tipe: "pg",
     soal: "Insektisida golongan organofosfat menghambat kerja enzim asetilkolinesterase di sinaps. Akibat yang paling mungkin pada orang yang keracunan adalah …",
     opsi: [
       "Asetilkolin tidak dilepaskan sehingga otot lumpuh layu.",
@@ -278,7 +278,7 @@ window.BANK_SOAL["biologi-hots"] = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Di sinaps neuromuskular, <b>asetilkolin</b> (neurotransmiter) dilepas untuk merangsang otot. Enzim <b>asetilkolinesterase</b> lalu menguraikannya supaya rangsangan <b>berhenti</b>. Jika enzim ini dihambat, sinyal \"kontraksi\" tidak pernah dimatikan.</p><h4>Langkah</h4><p>Organofosfat menghambat enzim → asetilkolin tidak diuraikan → menumpuk di celah sinaps → reseptor otot terus terangsang → kejang dan kedutan, lalu otot kelelahan.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Pelepasan asetilkolin tidak terganggu. Masalahnya ada pada penguraiannya.</li><li><b>C</b> Perambatan impuls di akson tidak bergantung pada enzim ini.</li><li><b>D</b> Reseptor sensorik tidak dipengaruhi.</li><li><b>E</b> Selubung mielin tidak dirusak oleh organofosfat.</li></ul><p class=\"tips\"><b>Tips:</b> menghambat enzim pengurai = \"rem blong\": sinyal terus berjalan. Menghambat pelepasan neurotransmiter (misalnya racun botulinum) = \"gas mati\": otot lumpuh.</p>"
   },
   {
-    id: "bih-21", bab: "Keterampilan Proses", level: 3, tipe: "kategori",
+    id: "bih-21", bab: "Memproses, Menganalisis Data dan Informasi", level: 3, tipe: "kategori",
     stimulus: "<p>Siswa menguji pengaruh pH terhadap kerja enzim amilase. Setiap tabung berisi 5 mL amilum 1% dan 1 mL larutan amilase, diinkubasi pada 37 °C selama 10 menit, lalu ditetesi iodin.</p><table><tr><th>pH</th><th>3</th><th>5</th><th>7</th><th>9</th></tr><tr><td>Warna setelah ditetesi iodin</td><td>Biru-hitam</td><td>Biru muda</td><td>Kuning kecokelatan</td><td>Biru muda</td></tr></table>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [

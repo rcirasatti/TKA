@@ -1,6 +1,6 @@
 // Paket HOTS Bahasa Indonesia — gaya tryout TKA (teks dan soal dibuat baru).
 (function () {
-  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi & Apresiasi";
+  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi dan Apresiasi";
 
   var TA = "<p><b>Teks A</b></p>" +
     "<p style='text-align:center'><b>Proposal Kegiatan Bank Sampah \"Sekolahku Bersih, Bumiku Lestari\"</b></p>" +

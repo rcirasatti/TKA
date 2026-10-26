@@ -6,7 +6,7 @@ window.BANK_SOAL.biologi = { soal: [
 
   // ===================== KEANEKARAGAMAN HAYATI =====================
   {
-    id: "bio-01", bab: "Keanekaragaman Hayati", level: 1, tipe: "pg",
+    id: "bio-01", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 1, tipe: "pg",
     soal: "Di sebuah taman terdapat bunga mawar berwarna merah, putih, kuning, dan merah muda. Variasi tersebut menunjukkan keanekaragaman tingkat …",
     opsi: ["Gen", "Jenis (spesies)", "Ekosistem", "Populasi", "Komunitas"],
     kunci: 0,
@@ -14,7 +14,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Tiga tingkat keanekaragaman hayati: <b>gen</b> = variasi di dalam <i>satu spesies</i> (warna, ukuran, rasa); <b>jenis</b> = perbedaan <i>antarspesies</i> dalam satu genus atau famili; <b>ekosistem</b> = perbedaan lingkungan beserta penghuninya.</p><h4>Langkah</h4><p>Mawar merah, putih, kuning, dan merah muda semuanya tetap mawar (satu spesies). Warnanya berbeda karena susunan gennya berbeda → tingkat <b>gen</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Tingkat jenis membandingkan spesies berbeda, misalnya mawar vs melati.</li><li><b>C</b> Tingkat ekosistem membandingkan lingkungan, misalnya hutan vs pantai.</li><li><b>D</b> Populasi dan <b>E</b> komunitas adalah tingkat organisasi kehidupan, bukan tingkat keanekaragaman hayati.</li></ul><p class=\"tips\"><b>Tips:</b> tanyakan \"Masih satu spesies?\" Kalau ya → gen. Kalau beda spesies → jenis. Kalau yang dibandingkan tempatnya → ekosistem.</p>"
   },
   {
-    id: "bio-02", bab: "Klasifikasi Makhluk Hidup", level: 1, tipe: "pg",
+    id: "bio-02", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 1, tipe: "pg",
     soal: "Penulisan nama ilmiah padi yang benar menurut aturan tata nama ganda (binomial nomenklatur) adalah …",
     opsi: ["Oryza Sativa", "oryza sativa", "<i>Oryza sativa</i>", "<i>Oryza Sativa</i>", "<i>oryza</i> Sativa"],
     kunci: 2,
@@ -22,7 +22,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Aturan <b>binomial nomenklatur</b> (Linnaeus): (1) dua kata: nama genus + penunjuk spesies; (2) huruf pertama genus <b>kapital</b>, penunjuk spesies <b>seluruhnya huruf kecil</b>; (3) dicetak <b>miring</b>, atau digarisbawahi terpisah jika ditulis tangan.</p><h4>Langkah</h4><p>Hanya <i>Oryza sativa</i> yang memenuhi ketiga aturan sekaligus.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Oryza Sativa: tidak miring dan \"Sativa\" berhuruf kapital.</li><li><b>B</b> oryza sativa: tidak miring dan genus berhuruf kecil.</li><li><b>D</b> <i>Oryza Sativa</i>: sudah miring, tetapi \"Sativa\" tidak boleh kapital.</li><li><b>E</b> <i>oryza</i> Sativa: kapitalnya terbalik, dan hanya sebagian yang miring.</li></ul><p class=\"tips\"><b>Tips:</b> periksa tiga hal berurutan: miring? → genus kapital? → spesies kecil? Satu pelanggaran saja sudah membuat penulisannya salah.</p>"
   },
   {
-    id: "bio-03", bab: "Klasifikasi Makhluk Hidup", level: 2, tipe: "kategori",
+    id: "bio-03", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 2, tipe: "kategori",
     stimulus: "<p>Kucing rumah (<i>Felis catus</i>) dan singa (<i>Panthera leo</i>) termasuk famili Felidae. Anjing (<i>Canis familiaris</i>) termasuk famili Canidae. Ketiganya termasuk ordo Carnivora.</p>",
     soal: "Tentukan benar atau salah pernyataan tentang sistem klasifikasi berikut!",
     pernyataan: [
@@ -36,7 +36,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Urutan takson dari tinggi ke rendah: kingdom → filum → kelas → <b>ordo → famili → genus</b> → spesies. Makin rendah takson: persamaan ciri makin <b>banyak</b>, jumlah anggota makin <b>sedikit</b>, kekerabatan makin <b>dekat</b>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Takson rendah (misalnya genus) hanya berisi organisme yang sangat mirip.</li><li><b>2</b> <i>Benar.</i> Satu ordo berisi banyak famili; satu famili berisi lebih sedikit anggota.</li><li><b>3</b> <i>Salah.</i> Kucing–singa sama sampai famili (Felidae); kucing–anjing hanya sama sampai ordo (Carnivora). Famili lebih rendah dari ordo, jadi kucing lebih dekat dengan <b>singa</b>.</li><li><b>4</b> <i>Benar.</i> Kata pertama nama ilmiah = genus: <i>Felis</i> vs <i>Panthera</i> (beda), tetapi famili sama (Felidae).</li></ul><p class=\"tips\"><b>Tips:</b> untuk membandingkan kekerabatan, cari takson <i>terendah</i> yang masih sama. Makin rendah takson yang sama, makin dekat kerabatnya.</p>"
   },
   {
-    id: "bio-04", bab: "Klasifikasi Makhluk Hidup", level: 2, tipe: "mcma",
+    id: "bio-04", bab: "Klasifikasi dan Keanekaragaman Makhluk Hidup", level: 2, tipe: "mcma",
     soal: "Ciri-ciri berikut yang dimiliki oleh anggota kingdom Fungi (jamur) adalah … (pilih semua yang benar)",
     opsi: [
       "Dinding sel tersusun dari kitin",
@@ -126,7 +126,7 @@ window.BANK_SOAL.biologi = { soal: [
 
   // ===================== SEL & METABOLISME =====================
   {
-    id: "bio-12", bab: "Sel", level: 1, tipe: "pg",
+    id: "bio-12", bab: "Sel: Metabolisme", level: 1, tipe: "pg",
     soal: "Organel sel yang berfungsi sebagai tempat respirasi seluler untuk menghasilkan energi (ATP) adalah …",
     opsi: ["Ribosom", "Mitokondria", "Badan Golgi", "Lisosom", "Retikulum endoplasma halus"],
     kunci: 1,
@@ -134,7 +134,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Mitokondria</b> disebut \"pembangkit tenaga sel\": tempat siklus Krebs (di matriks) dan transpor elektron (di membran dalam) yang menghasilkan sebagian besar ATP dari respirasi aerob.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Ribosom: sintesis protein.</li><li><b>C</b> Badan Golgi: memodifikasi, mengemas, dan menyekresikan zat.</li><li><b>D</b> Lisosom: pencernaan intrasel dengan enzim hidrolitik.</li><li><b>E</b> RE halus: sintesis lipid dan detoksifikasi.</li></ul><p class=\"tips\"><b>Tips:</b> sel yang butuh banyak energi (otot jantung, sperma) memiliki sangat banyak mitokondria. Fakta ini sering keluar di soal penalaran.</p>"
   },
   {
-    id: "bio-13", bab: "Sel", level: 2, tipe: "kategori",
+    id: "bio-13", bab: "Sel: Metabolisme", level: 2, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang perbedaan sel hewan dan sel tumbuhan berikut!",
     pernyataan: [
       "Dinding sel hanya ditemukan pada sel tumbuhan.",
@@ -147,7 +147,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Organel khas <b>sel tumbuhan</b>: dinding sel (selulosa), kloroplas, vakuola besar dan menetap. Organel khas <b>sel hewan</b>: sentriol (sentrosom), lisosom lebih banyak, vakuola kecil atau tidak ada.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Dinding sel selulosa hanya ada pada sel tumbuhan (dibandingkan dengan sel hewan).</li><li><b>2</b> <i>Benar.</i> Kloroplas ada pada sel tumbuhan yang berfotosintesis, misalnya daun. Sel akar tidak memilikinya.</li><li><b>3</b> <i>Benar.</i> Sentriol membantu pembentukan benang spindel saat pembelahan sel hewan.</li><li><b>4</b> <i>Salah.</i> Vakuola besar dan menetap adalah ciri sel <b>tumbuhan</b>.</li></ul><p class=\"tips\"><b>Tips:</b> hafalkan tiga ciri khas tumbuhan: dinding sel, kloroplas, vakuola besar. Yang khas hewan: sentriol.</p>"
   },
   {
-    id: "bio-14", bab: "Sel", level: 3, tipe: "kategori",
+    id: "bio-14", bab: "Sel: Metabolisme", level: 3, tipe: "kategori",
     stimulus: "<p>Seorang siswa merendam potongan kentang berukuran sama dalam larutan gula dengan konsentrasi berbeda selama 1 jam, lalu mengukur perubahan massanya.</p><table><tr><th>Konsentrasi gula</th><th>Perubahan massa</th></tr><tr><td>0% (air murni)</td><td>+12%</td></tr><tr><td>10%</td><td>+4%</td></tr><tr><td>20%</td><td>−3%</td></tr><tr><td>30%</td><td>−9%</td></tr></table>",
     soal: "Berdasarkan data tersebut, tentukan benar atau salah pernyataan berikut!",
     pernyataan: [
@@ -161,7 +161,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Osmosis</b> = perpindahan air melalui membran dari larutan <b>hipotonis</b> (zat terlarut sedikit, air banyak) ke larutan <b>hipertonis</b> (zat terlarut banyak). Di titik <b>isotonis</b> tidak ada perpindahan air bersih, sehingga massa tetap.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Air murni hipotonis terhadap sel kentang → air masuk → massa naik (+12%).</li><li><b>2</b> <i>Benar.</i> Massa naik di 10% (+4%) dan turun di 20% (−3%). Titik \"nol\" (isotonis) pasti ada di antara keduanya.</li><li><b>3</b> <i>Benar.</i> Larutan 30% hipertonis → air keluar → massa turun (sel bisa plasmolisis).</li><li><b>4</b> <i>Salah.</i> Variabel <b>bebas</b> = yang sengaja diubah peneliti = konsentrasi gula. Perubahan massa adalah hasil yang diukur = variabel <b>terikat</b>.</li></ul><p class=\"tips\"><b>Tips:</b> variabel bebas = \"apa yang <i>saya ubah</i>?\"; variabel terikat = \"apa yang <i>saya ukur</i>?\"; variabel kontrol = \"apa yang <i>saya samakan</i>?\" (ukuran kentang, waktu).</p>"
   },
   {
-    id: "bio-15", bab: "Metabolisme Sel", level: 2, tipe: "mcma",
+    id: "bio-15", bab: "Sel: Metabolisme", level: 2, tipe: "mcma",
     soal: "Pernyataan berikut yang merupakan sifat enzim adalah … (pilih semua yang benar)",
     opsi: [
       "Tersusun atas protein",
@@ -175,7 +175,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Enzim</b> adalah biokatalisator berupa <b>protein</b>. Sifatnya: bekerja <b>spesifik</b> (satu enzim untuk satu substrat, model gembok-kunci), <b>tidak ikut bereaksi</b> sehingga bisa dipakai berulang, bekerja bolak-balik, dan <b>dipengaruhi suhu serta pH</b> karena protein bisa rusak.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Enzim tersusun atas protein.</li><li><b>B</b> ✔ Sisi aktif enzim hanya cocok dengan substrat tertentu.</li><li><b>C</b> ✘ Enzim adalah katalis, jadi tidak habis dan bisa dipakai lagi.</li><li><b>D</b> ✔ Suhu atau pH ekstrem membuat protein enzim terdenaturasi.</li><li><b>E</b> ✘ Bertentangan dengan sifat spesifik (B). Contoh: amilase hanya memecah amilum, bukan protein.</li></ul><p class=\"tips\"><b>Tips:</b> semua sifat enzim bisa diturunkan dari dua fakta: enzim = <b>protein</b> (jadi peka suhu/pH) dan enzim = <b>katalis</b> (jadi tidak habis).</p>"
   },
   {
-    id: "bio-16", bab: "Metabolisme Sel", level: 3, tipe: "pg",
+    id: "bio-16", bab: "Sel: Metabolisme", level: 3, tipe: "pg",
     stimulus: "<p>Potongan hati ayam (mengandung enzim katalase) dimasukkan ke dalam larutan H<sub>2</sub>O<sub>2</sub> pada suhu berbeda. Banyaknya gelembung gas diamati.</p><table><tr><th>Suhu (°C)</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th></tr><tr><td>Gelembung</td><td>+</td><td>++</td><td>+++</td><td>++++</td><td>+</td><td>–</td></tr></table>",
     soal: "Penjelasan yang paling tepat mengapa pada suhu 60 °C tidak terbentuk gelembung adalah …",
     opsi: [
@@ -190,7 +190,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Aktivitas enzim naik seiring suhu sampai <b>suhu optimum</b>, lalu turun tajam karena protein enzim <b>terdenaturasi</b>: bentuk sisi aktif rusak <b>permanen</b> dan tidak bisa mengikat substrat. Suhu rendah hanya membuat enzim <i>tidak aktif sementara</i>.</p><h4>Langkah</h4><ol><li>Gelembung terbanyak pada 40 °C → itulah suhu optimum katalase.</li><li>Pada 60 °C tidak ada gelembung sama sekali → enzim rusak → <b>denaturasi</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Setiap suhu memakai larutan H₂O₂ sendiri, dan pada suhu lain masih ada gelembung. Jadi substrat tidak habis.</li><li><b>C</b> \"Aktif kembali jika didinginkan\" adalah sifat enzim pada suhu <i>rendah</i>. Denaturasi tidak bisa pulih.</li><li><b>D</b> Gas yang dihasilkan adalah O₂ (2H₂O₂ → 2H₂O + O₂), bukan CO₂.</li><li><b>E</b> Suhu optimum ada di puncak aktivitas (40 °C), bukan di titik nol.</li></ul><p class=\"tips\"><b>Tips:</b> grafik aktivitas enzim naik perlahan lalu jatuh curam setelah optimum. Sisi kanan yang curam menandakan denaturasi.</p>"
   },
   {
-    id: "bio-17", bab: "Metabolisme Sel", level: 2, tipe: "kategori",
+    id: "bio-17", bab: "Sel: Metabolisme", level: 2, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang respirasi aerob berikut!",
     pernyataan: [
       "Glikolisis berlangsung di sitoplasma.",
@@ -203,7 +203,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Tiga tahap respirasi aerob: <b>glikolisis</b> (sitoplasma) → <b>siklus Krebs</b> (matriks mitokondria) → <b>transpor elektron</b> (membran dalam mitokondria). Oksigen baru dipakai di tahap terakhir sebagai <b>akseptor elektron terakhir</b> (membentuk H₂O).</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Glukosa → 2 piruvat terjadi di sitoplasma, tanpa perlu O₂.</li><li><b>2</b> <i>Benar.</i> Siklus Krebs terjadi di matriks mitokondria.</li><li><b>3</b> <i>Benar.</i> Transpor elektron menghasilkan ±34 ATP, jauh lebih banyak daripada glikolisis (2) dan Krebs (2).</li><li><b>4</b> <i>Salah.</i> O₂ menerima elektron di ujung <b>transpor elektron</b>. Glikolisis justru bisa berlangsung tanpa O₂ (dasar fermentasi).</li></ul><p class=\"tips\"><b>Tips:</b> hafalkan pasangan \"tahap – tempat – ATP\": glikolisis–sitoplasma–2, Krebs–matriks–2, TE–membran dalam–34.</p>"
   },
   {
-    id: "bio-18", bab: "Metabolisme Sel", level: 1, tipe: "pg",
+    id: "bio-18", bab: "Sel: Metabolisme", level: 1, tipe: "pg",
     soal: "Setelah berlari jarak jauh, otot kaki seseorang terasa pegal. Hal ini disebabkan oleh …",
     opsi: [
       "Penumpukan asam laktat hasil fermentasi di sel otot",
@@ -217,7 +217,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Saat olahraga berat, pasokan O₂ ke otot tidak mencukupi. Otot lalu melakukan <b>fermentasi asam laktat</b> (respirasi anaerob): glukosa → asam laktat + 2 ATP. Asam laktat yang menumpuk menimbulkan rasa pegal dan lelah.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Fermentasi alkohol terjadi pada ragi atau khamir (pembuatan tape, roti), bukan pada otot manusia.</li><li><b>C</b> Masalahnya justru <i>kekurangan</i> oksigen.</li><li><b>D</b> Glukosa sedang dipakai cepat, bukan menumpuk.</li><li><b>E</b> ATP sedang kurang (fermentasi hanya menghasilkan 2 ATP), bukan berlebih.</li></ul><p class=\"tips\"><b>Tips:</b> fermentasi asam laktat terjadi di otot manusia dan pada bakteri yoghurt. Fermentasi alkohol terjadi pada ragi dan menghasilkan CO₂ + etanol.</p>"
   },
   {
-    id: "bio-19", bab: "Metabolisme Sel", level: 2, tipe: "pg",
+    id: "bio-19", bab: "Sel: Metabolisme", level: 2, tipe: "pg",
     soal: "Oksigen (O<sub>2</sub>) yang dihasilkan pada proses fotosintesis berasal dari …",
     opsi: [
       "Penguraian karbon dioksida pada siklus Calvin",
@@ -231,7 +231,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Fotosintesis punya dua tahap. <b>Reaksi terang</b> (membran tilakoid): cahaya memecah air (<b>fotolisis</b>): 2H₂O → 4H⁺ + 4e⁻ + O₂, lalu O₂ dilepas. <b>Reaksi gelap / siklus Calvin</b> (stroma): CO₂ difiksasi menjadi glukosa.</p><h4>Langkah</h4><p>O₂ fotosintesis berasal dari pemecahan <b>air</b> pada reaksi terang (dibuktikan dengan isotop ¹⁸O yang dilabelkan pada H₂O).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> CO₂ tidak diuraikan menjadi O₂; atom C dan O-nya masuk ke glukosa.</li><li><b>C</b> Glukosa adalah <i>produk</i> reaksi gelap, bukan yang diuraikan.</li><li><b>D</b> Stomata adalah jalan masuk CO₂ dan jalan keluar O₂, bukan sumber O₂.</li><li><b>E</b> Klorofil menyerap cahaya, tetapi tidak dipecah.</li></ul><p class=\"tips\"><b>Tips:</b> reaksi terang \"memecah air dan mengisi baterai\" (ATP, NADPH). Reaksi gelap \"memakai baterai untuk merakit gula dari CO₂\".</p>"
   },
   {
-    id: "bio-20", bab: "Metabolisme Sel", level: 3, tipe: "mcma",
+    id: "bio-20", bab: "Sel: Metabolisme", level: 3, tipe: "mcma",
     stimulus: "<p>Tanaman air <i>Hydrilla</i> dimasukkan ke dalam tabung berisi air, lalu disinari lampu dari jarak berbeda. Gelembung gas yang muncul dihitung selama 5 menit.</p><table><tr><th>Jarak lampu (cm)</th><th>10</th><th>20</th><th>30</th><th>40</th></tr><tr><td>Jumlah gelembung</td><td>30</td><td>18</td><td>9</td><td>4</td></tr></table>",
     soal: "Pernyataan yang benar berdasarkan percobaan tersebut adalah … (pilih semua yang benar)",
     opsi: [
@@ -248,7 +248,7 @@ window.BANK_SOAL.biologi = { soal: [
 
   // ===================== PROSES-PROSES PADA MAKHLUK HIDUP =====================
   {
-    id: "bio-21", bab: "Sistem Sirkulasi", level: 1, tipe: "pg",
+    id: "bio-21", bab: "Transport dan Pertukaran Zat", level: 1, tipe: "pg",
     soal: "Darah yang kaya oksigen dari paru-paru masuk ke jantung melalui … dan menuju ruang …",
     opsi: [
       "vena kava, atrium kanan",
@@ -262,7 +262,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p><b>Peredaran darah kecil</b> (jantung ↔ paru-paru): ventrikel kanan → arteri pulmonalis → paru-paru (mengikat O₂) → <b>vena pulmonalis → atrium kiri</b>. Aturan penamaan: <b>arteri</b> = menjauhi jantung, <b>vena</b> = menuju jantung, apa pun kandungan O₂-nya.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Vena kava membawa darah miskin O₂ dari seluruh tubuh ke atrium kanan.</li><li><b>C</b> Arteri pulmonalis membawa darah <i>keluar</i> dari ventrikel kanan ke paru-paru (miskin O₂).</li><li><b>D</b> Aorta membawa darah keluar dari ventrikel kiri ke seluruh tubuh.</li><li><b>E</b> Pembuluhnya benar, tetapi darah masuk ke <i>atrium</i>, bukan langsung ke ventrikel, dan sisinya kiri.</li></ul><p class=\"tips\"><b>Tips:</b> darah selalu <b>masuk ke atrium</b> dan <b>keluar dari ventrikel</b>. Sisi kiri jantung = darah kaya O₂, sisi kanan = miskin O₂.</p>"
   },
   {
-    id: "bio-22", bab: "Sistem Sirkulasi", level: 2, tipe: "kategori",
+    id: "bio-22", bab: "Transport dan Pertukaran Zat", level: 2, tipe: "kategori",
     soal: "Tentukan benar atau salah pernyataan tentang golongan darah sistem ABO dan transfusi berikut!",
     pernyataan: [
       "Orang bergolongan darah A memiliki aglutinogen A dan aglutinin β (anti-B).",
@@ -275,7 +275,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Golongan darah ABO: <b>aglutinogen</b> (antigen di permukaan sel darah merah) dan <b>aglutinin</b> (antibodi di plasma) selalu \"berlawanan\". A: antigen A, anti-B. B: antigen B, anti-A. AB: antigen A dan B, tanpa aglutinin. O: tanpa antigen, anti-A dan anti-B. Transfusi aman jika antigen donor <b>tidak bertemu</b> antibodi pasangannya di plasma resipien.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Golongan A memiliki aglutinogen A dan aglutinin β (anti-B).</li><li><b>2</b> <i>Salah.</i> Plasma golongan O mengandung anti-A dan anti-B, jadi darah A, B, atau AB akan menggumpal. O adalah donor universal, bukan resipien universal.</li><li><b>3</b> <i>Benar.</i> AB tidak punya aglutinin → resipien universal.</li><li><b>4</b> <i>Benar.</i> Antigen B dari donor tidak bertemu anti-B di plasma AB (karena tidak ada) → aman.</li></ul><p class=\"tips\"><b>Tips:</b> <b>O</b> = \"Open giver\" (donor untuk semua); <b>AB</b> = \"Accepts Blood\" dari semua.</p>"
   },
   {
-    id: "bio-23", bab: "Sistem Respirasi", level: 2, tipe: "pg",
+    id: "bio-23", bab: "Transport dan Pertukaran Zat", level: 2, tipe: "pg",
     soal: "Urutan peristiwa yang benar pada mekanisme inspirasi pernapasan dada adalah …",
     opsi: [
       "Otot antartulang rusuk luar berkontraksi → rongga dada membesar → tekanan udara paru-paru turun → udara masuk",
@@ -289,7 +289,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Udara bergerak dari tekanan <b>tinggi ke rendah</b>. Saat <b>inspirasi</b>, rongga dada harus membesar supaya tekanan di paru-paru turun di bawah tekanan udara luar, sehingga udara masuk. Pernapasan dada digerakkan oleh <b>otot antartulang rusuk luar</b>.</p><h4>Langkah</h4><p>Otot antartulang rusuk luar berkontraksi → tulang rusuk terangkat → rongga dada <b>membesar</b> → tekanan paru-paru <b>turun</b> → udara <b>masuk</b> = opsi A.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Relaksasi dan rongga mengecil adalah mekanisme ekspirasi; tekanan naik membuat udara keluar, bukan masuk.</li><li><b>C</b> Diafragma <i>berkontraksi</i> (mendatar) saat inspirasi perut, dan tekanan harus turun.</li><li><b>D</b> Rantainya campur aduk: rongga membesar dan tekanan turun seharusnya membuat udara masuk.</li><li><b>E</b> Kontraksi otot rusuk luar membuat rongga <i>membesar</i>, bukan mengecil.</li></ul><p class=\"tips\"><b>Tips:</b> cek logika rantai fisikanya: volume naik ⇔ tekanan turun ⇔ udara masuk. Opsi yang melanggar satu mata rantai pasti salah.</p>"
   },
   {
-    id: "bio-24", bab: "Sistem Respirasi", level: 2, tipe: "pg",
+    id: "bio-24", bab: "Transport dan Pertukaran Zat", level: 2, tipe: "pg",
     stimulus: "<p>Data volume udara pernapasan seseorang:</p><table><tr><th>Jenis volume</th><th>mL</th></tr><tr><td>Volume tidal</td><td>500</td></tr><tr><td>Volume cadangan inspirasi</td><td>1.500</td></tr><tr><td>Volume cadangan ekspirasi</td><td>1.500</td></tr><tr><td>Volume residu</td><td>1.000</td></tr></table>",
     soal: "Kapasitas vital paru-paru orang tersebut adalah …",
     opsi: ["2.000 mL", "2.500 mL", "3.000 mL", "3.500 mL", "4.500 mL"],
@@ -298,7 +298,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Volume paru-paru: <b>kapasitas vital</b> = udara maksimal yang bisa dihembuskan setelah inspirasi maksimal = tidal + cadangan inspirasi + cadangan ekspirasi. <b>Kapasitas total</b> = kapasitas vital + volume residu (udara yang tak pernah bisa dikeluarkan).</p><h4>Langkah</h4><p>500 + 1.500 + 1.500 = <b>3.500 mL</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 2.000 = tidal + satu cadangan (kapasitas inspirasi).</li><li><b>B</b> 2.500 = cadangan ekspirasi + residu (kapasitas residu fungsional).</li><li><b>C</b> 3.000 = dua cadangan saja, tidal terlupa.</li><li><b>E</b> 4.500 = kapasitas <b>total</b> paru-paru (residu ikut dihitung).</li></ul><p class=\"tips\"><b>Tips:</b> volume residu tidak pernah masuk kapasitas vital, karena kapasitas vital adalah udara yang <i>bisa</i> dihembuskan.</p>"
   },
   {
-    id: "bio-25", bab: "Sistem Ekskresi", level: 1, tipe: "pg",
+    id: "bio-25", bab: "Transport dan Pertukaran Zat", level: 1, tipe: "pg",
     soal: "Tahap pembentukan urine yang terjadi di glomerulus dan menghasilkan urine primer adalah …",
     opsi: ["Filtrasi", "Reabsorpsi", "Augmentasi", "Sekresi hormon", "Defekasi"],
     kunci: 0,
@@ -306,7 +306,7 @@ window.BANK_SOAL.biologi = { soal: [
     pembahasan: "<h4>Konsep</h4><p>Tiga tahap pembentukan urine di nefron: <b>filtrasi</b> (glomerulus → urine primer) → <b>reabsorpsi</b> (tubulus kontortus proksimal → urine sekunder) → <b>augmentasi</b> (tubulus kontortus distal → urine sesungguhnya).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Reabsorpsi terjadi di tubulus proksimal dan menghasilkan urine sekunder.</li><li><b>C</b> Augmentasi terjadi di tubulus distal dan menghasilkan urine sesungguhnya.</li><li><b>D</b> Sekresi hormon bukan tahap pembentukan urine.</li><li><b>E</b> Defekasi adalah pengeluaran feses (sistem pencernaan).</li></ul><p class=\"tips\"><b>Tips:</b> urutan F-R-A (Filtrasi, Reabsorpsi, Augmentasi) sejalan dengan urutan tempat: glomerulus → tubulus proksimal → tubulus distal.</p>"
   },
   {
-    id: "bio-26", bab: "Sistem Ekskresi", level: 3, tipe: "kategori",
+    id: "bio-26", bab: "Transport dan Pertukaran Zat", level: 3, tipe: "kategori",
     stimulus: "<p>Hasil uji urine dua orang pasien:</p><table><tr><th>Pasien</th><th>Uji Benedict (glukosa)</th><th>Uji Biuret (protein)</th></tr><tr><td>P</td><td>Merah bata (+)</td><td>Biru (−)</td></tr><tr><td>Q</td><td>Biru (−)</td><td>Ungu (+)</td></tr></table>",
     soal: "Tentukan benar atau salah pernyataan berikut!",
     pernyataan: [

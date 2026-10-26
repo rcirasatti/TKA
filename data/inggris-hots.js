@@ -1,6 +1,6 @@
 // Paket HOTS Bahasa Inggris — gaya tryout TKA (teks dan soal dibuat baru).
 (function () {
-  var GR = "Grammar in Context", TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi & Apresiasi";
+  var GR = "Grammar in Context", TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi dan Apresiasi";
 
   var TA = "<p><b>Text A</b></p>" +
     "<p>Electric scooters have become a common sight in many big cities. Unlike ordinary scooters, which …(1)… by foot, electric scooters …(2)… by a rechargeable battery. " +

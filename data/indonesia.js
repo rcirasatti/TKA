@@ -1,8 +1,8 @@
 // Bank soal Bahasa Indonesia — soal grup berbasis teks, mengikuti kerangka asesmen TKA SMA (Pusmendik).
-// "bab" = kompetensi: Pemahaman Tekstual → Pemahaman Inferensial → Evaluasi & Apresiasi.
+// "bab" = kompetensi: Pemahaman Tekstual → Pemahaman Inferensial → Evaluasi dan Apresiasi.
 // Teks diurutkan dari teks informatif pendek ke teks sastra dan argumentasi.
 (function () {
-  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi & Apresiasi";
+  var TU = "Pemahaman Tekstual", IN = "Pemahaman Inferensial", EV = "Evaluasi dan Apresiasi";
 
   var T1 = "<p><b>Teks 1</b></p>" +
     "<p>(1) Indonesia termasuk negara penghasil sampah makanan terbesar di dunia. (2) Laporan Program Lingkungan PBB (UNEP) tahun 2021 memperkirakan " +
