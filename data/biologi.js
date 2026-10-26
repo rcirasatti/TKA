@@ -403,5 +403,94 @@ window.BANK_SOAL.biologi = { soal: [
     kunci: 1,
     hint: "Ovum yang dilepas dari ovarium masuk ke saluran telur. Embrio yang terbentuk kemudian bergerak ke organ tempat janin tumbuh.",
     pembahasan: "<h4>Konsep</h4><p><b>Fertilisasi</b> (pertemuan sperma dan ovum) terjadi di <b>tuba falopi</b> (oviduk), bagian ampula. Zigot membelah sambil bergerak ke rahim selama ±5–7 hari, lalu menempel pada <b>endometrium</b> (implantasi).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Ovarium adalah tempat pembentukan dan pelepasan ovum, bukan pembuahan.</li><li><b>C</b> Vagina adalah jalan lahir dan tempat masuknya sperma, bukan tempat implantasi.</li><li><b>D</b> Serviks (leher rahim) adalah jalan yang dilalui sperma.</li><li><b>E</b> Ovarium bukan tempat fertilisasi.</li></ul><p class=\"tips\"><b>Tips:</b> jika embrio tertanam di luar rahim (misalnya di tuba), disebut kehamilan <b>ektopik</b>. Ini berbahaya karena tuba bisa pecah.</p>"
+  },
+
+  // ===================== KETERAMPILAN PROSES =====================
+  {
+    id: "bio-34", bab: "Mempertanyakan dan Memprediksi", level: 1, tipe: "pg",
+    stimulus: "<p>Seorang siswa menyemai kecambah kacang hijau di dua tempat. Setelah 5 hari, kecambah yang disimpan di lemari gelap tumbuh lebih tinggi, batangnya kurus, dan daunnya pucat kekuningan. Kecambah yang disimpan di dekat jendela tumbuh lebih pendek, batangnya kokoh, dan daunnya hijau.</p>",
+    soal: "Rumusan masalah yang paling tepat untuk diselidiki lebih lanjut berdasarkan pengamatan tersebut adalah …",
+    opsi: [
+      "Apakah kecambah kacang hijau membutuhkan air untuk tumbuh?",
+      "Bagaimana pengaruh intensitas cahaya terhadap pertumbuhan tinggi kecambah kacang hijau?",
+      "Mengapa biji kacang hijau berwarna hijau?",
+      "Kecambah yang disimpan di tempat gelap tumbuh lebih tinggi.",
+      "Tanaman apa saja yang dapat tumbuh di tempat gelap?"
+    ],
+    kunci: 1,
+    hint: "Rumusan masalah yang baik berbentuk pertanyaan, berhubungan dengan pengamatan, dan menyebutkan dua variabel: apa yang diubah dan apa yang diukur.",
+    pembahasan: "<h4>Konsep</h4><p>Rumusan masalah yang dapat diselidiki harus (1) berbentuk <b>pertanyaan</b>, (2) muncul dari <b>pengamatan</b>, dan (3) menghubungkan <b>variabel bebas</b> dengan <b>variabel terikat</b> sehingga bisa diuji dengan percobaan.</p><h4>Langkah</h4><ol><li>Perbedaan kedua kecambah hanya terletak pada tempatnya: gelap atau terang → variabel bebas = <b>intensitas cahaya</b>.</li><li>Yang diamati berbeda adalah tinggi kecambah → variabel terikat = <b>pertumbuhan tinggi</b>.</li><li>Pertanyaan yang memuat keduanya adalah pilihan B.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Air tidak dibedakan dalam pengamatan, jadi pertanyaan ini tidak muncul dari data.</li><li><b>C</b> Warna biji tidak berkaitan dengan perbedaan yang diamati.</li><li><b>D</b> Ini pernyataan hasil pengamatan, bukan pertanyaan.</li><li><b>E</b> Terlalu luas dan tidak menyebutkan variabel yang dapat diukur pada percobaan ini.</li></ul><p class=\"tips\"><b>Tips:</b> pola rumusan masalah yang aman: \"Bagaimana pengaruh <i>[variabel bebas]</i> terhadap <i>[variabel terikat]</i>?\" Gejala kecambah tinggi-pucat di tempat gelap disebut <b>etiolasi</b>.</p>"
+  },
+  {
+    id: "bio-35", bab: "Mempertanyakan dan Memprediksi", level: 2, tipe: "kategori",
+    stimulus: "<p>Siswa akan menyelidiki pengaruh suhu terhadap fermentasi oleh ragi roti. Tiga tabung diisi larutan gula dan ragi dalam jumlah sama, lalu mulut setiap tabung ditutup balon kosong. Tabung direndam dalam air bersuhu 10 °C, 35 °C, dan 70 °C, kemudian ukuran balon dibandingkan setelah 30 menit.</p>",
+    soal: "Tentukan benar atau salah hipotesis dan prediksi berikut!",
+    pernyataan: [
+      "Hipotesis yang dapat diuji: makin tinggi suhu sampai batas tertentu, makin cepat fermentasi berlangsung sehingga balon makin cepat mengembang.",
+      "Balon pada tabung 70 °C diprediksi mengembang paling besar karena suhunya paling tinggi.",
+      "Balon pada tabung 35 °C diprediksi mengembang paling besar.",
+      "Jika ditambahkan tabung berisi ragi dan air tanpa gula pada 35 °C, balonnya diprediksi hampir tidak mengembang."
+    ],
+    kunci: [true, false, true, true],
+    hint: "Fermentasi ragi dibantu enzim. Ingat bagaimana enzim bekerja pada suhu rendah, suhu optimum, dan suhu terlalu tinggi. Gas apa yang mengisi balon, dan dari bahan apa gas itu dibuat?",
+    pembahasan: "<h4>Konsep</h4><p>Ragi melakukan <b>fermentasi alkohol</b>: glukosa → etanol + <b>CO₂</b> + energi. Gas CO₂ inilah yang mengembangkan balon. Reaksinya dikatalisis enzim, sehingga lajunya naik sampai <b>suhu optimum</b> (sekitar 30–35 °C), lalu turun tajam karena enzim terdenaturasi dan sel ragi mati pada suhu tinggi.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Hipotesis ini menghubungkan variabel bebas (suhu) dengan variabel terikat (laju fermentasi) dan menyebut adanya batas, sehingga bisa diuji.</li><li><b>2</b> <i>Salah.</i> Pada 70 °C enzim ragi rusak dan ragi mati, jadi hampir tidak ada CO₂ yang terbentuk.</li><li><b>3</b> <i>Benar.</i> 35 °C paling dekat dengan suhu optimum ragi. Pada 10 °C enzim bekerja lambat.</li><li><b>4</b> <i>Benar.</i> Tanpa gula tidak ada substrat untuk difermentasi, sehingga CO₂ hampir tidak terbentuk. Tabung ini berguna sebagai <b>kontrol</b>.</li></ul><p class=\"tips\"><b>Tips:</b> prediksi yang baik selalu disertai alasan berbasis konsep. Untuk soal yang melibatkan makhluk hidup atau enzim, \"lebih panas\" tidak selalu berarti \"lebih cepat\".</p>"
+  },
+  {
+    id: "bio-36", bab: "Mempertanyakan dan Memprediksi", level: 3, tipe: "pg",
+    stimulus: "<p>Sejumlah <i>Paramecium</i> dibiakkan dalam wadah berisi medium dengan jumlah makanan tetap. Jumlah individu dihitung setiap 2 hari.</p><table><tr><th>Hari ke-</th><th>0</th><th>2</th><th>4</th><th>6</th><th>8</th><th>10</th><th>12</th></tr><tr><td>Jumlah individu</td><td>10</td><td>40</td><td>160</td><td>400</td><td>480</td><td>500</td><td>500</td></tr></table><p>Pada hari ke-12, seluruh <i>Paramecium</i> dipindahkan ke medium baru dengan volume sama, tetapi jumlah makanannya dua kali lipat.</p>",
+    soal: "Prediksi yang paling tepat tentang jumlah <i>Paramecium</i> setelah dipindahkan adalah …",
+    opsi: [
+      "Tetap 500 karena populasi sudah mencapai jumlah maksimum yang mungkin bagi spesies tersebut",
+      "Naik lalu stabil pada jumlah yang lebih tinggi dari 500 karena daya dukung lingkungan meningkat",
+      "Naik terus secara eksponensial tanpa batas karena makanan bertambah",
+      "Turun karena makanan yang berlebih meracuni Paramecium",
+      "Langsung menjadi 1.000 pada hari ke-12 karena makanan dua kali lipat"
+    ],
+    kunci: 1,
+    hint: "Mengapa populasi berhenti bertambah di angka 500? Apa yang terjadi pada batas itu jika faktor pembatasnya diperbesar?",
+    pembahasan: "<h4>Konsep</h4><p>Populasi dalam lingkungan terbatas tumbuh mengikuti kurva <b>sigmoid (S)</b>: mula-mula lambat, lalu cepat, lalu melambat dan stabil pada <b>daya dukung lingkungan</b> (<i>carrying capacity</i>). Daya dukung ditentukan oleh faktor pembatas, misalnya makanan.</p><h4>Langkah</h4><ol><li>Hari 10–12 jumlahnya tetap 500 → daya dukung medium lama sekitar 500 individu, dengan makanan sebagai faktor pembatas.</li><li>Makanan dijadikan dua kali lipat → daya dukung naik.</li><li>Populasi akan tumbuh lagi, lalu kembali stabil pada batas baru yang lebih tinggi.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Angka 500 adalah batas medium lama, bukan batas spesies.</li><li><b>C</b> Medium baru tetap terbatas (volume sama), sehingga pertumbuhan pasti melambat lagi.</li><li><b>D</b> Tidak ada data atau konsep yang mendukung makanan menjadi racun.</li><li><b>E</b> Populasi bertambah melalui pembelahan yang butuh waktu, tidak langsung berlipat seketika.</li></ul><p class=\"tips\"><b>Tips:</b> untuk soal prediksi, cari dulu <b>pola</b> pada data, lalu tentukan <b>faktor apa</b> yang berubah dan bagaimana faktor itu menggeser pola tersebut.</p>"
+  },
+  {
+    id: "bio-37", bab: "Merencanakan dan Melakukan Penyelidikan", level: 1, tipe: "pg",
+    soal: "Seorang siswa ingin menyelidiki pengaruh dosis pupuk terhadap pertumbuhan tinggi tanaman jagung. Faktor yang harus dibuat sama pada semua pot (variabel kontrol) adalah …",
+    opsi: [
+      "Dosis pupuk yang diberikan",
+      "Tinggi tanaman jagung setelah 3 minggu",
+      "Jenis bibit jagung, volume air siraman, dan jenis tanah",
+      "Jumlah daun yang tumbuh",
+      "Waktu pengukuran yang berbeda untuk setiap pot"
+    ],
+    kunci: 2,
+    hint: "Ada tiga jenis variabel: yang sengaja diubah, yang diukur, dan yang dibuat sama agar percobaan adil.",
+    pembahasan: "<h4>Konsep</h4><p>Dalam percobaan yang adil (<i>fair test</i>), hanya <b>satu</b> faktor yang diubah (variabel bebas). Faktor lain yang dapat memengaruhi hasil dibuat <b>sama</b> (variabel kontrol), sehingga perbedaan hasil benar-benar disebabkan oleh variabel bebas.</p><h4>Langkah</h4><ol><li>Variabel bebas = dosis pupuk.</li><li>Variabel terikat = tinggi tanaman.</li><li>Faktor lain yang memengaruhi pertumbuhan (bibit, air, tanah, cahaya) harus sama → pilihan C.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Dosis pupuk adalah variabel bebas yang sengaja dibuat berbeda.</li><li><b>B</b> Tinggi tanaman adalah variabel terikat yang diukur.</li><li><b>D</b> Jumlah daun juga merupakan hasil pertumbuhan, bukan sesuatu yang bisa diatur sama.</li><li><b>E</b> Waktu pengukuran justru harus <i>sama</i>. Jika berbeda, percobaan menjadi tidak adil.</li></ul><p class=\"tips\"><b>Tips:</b> tanyakan, \"Kalau faktor ini berbeda, apakah bisa mengubah hasil?\" Jika ya dan bukan yang sedang diuji, faktor itu adalah variabel kontrol.</p>"
+  },
+  {
+    id: "bio-38", bab: "Merencanakan dan Melakukan Penyelidikan", level: 2, tipe: "mcma",
+    stimulus: "<p>Siswa ingin membuktikan bahwa cahaya diperlukan dalam fotosintesis dengan menguji keberadaan amilum pada daun menggunakan larutan iodin (percobaan Sachs).</p>",
+    soal: "Langkah percobaan yang tepat adalah … (pilih semua yang benar)",
+    opsi: [
+      "Menyimpan tanaman di tempat gelap selama 1–2 hari sebelum percobaan",
+      "Menutup sebagian daun dengan kertas timah (aluminium foil), lalu menjemur tanaman di bawah cahaya matahari",
+      "Merebus daun dalam air, lalu dalam alkohol, sebelum ditetesi iodin",
+      "Menetesi daun dengan larutan Benedict untuk mendeteksi amilum",
+      "Menutup seluruh permukaan daun dengan kertas timah agar hasilnya lebih jelas"
+    ],
+    kunci: [0, 1, 2],
+    hint: "Pikirkan tujuan setiap langkah: menghilangkan amilum lama, membuat pembanding, menghilangkan warna hijau yang mengganggu pengamatan, dan memakai pereaksi yang tepat untuk amilum.",
+    pembahasan: "<h4>Konsep</h4><p>Percobaan Sachs membuktikan fotosintesis menghasilkan <b>amilum</b> dan memerlukan <b>cahaya</b>. Amilum dideteksi dengan <b>iodin</b>, yang memberi warna biru-hitam.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Tanaman disimpan di tempat gelap agar amilum lama di daun habis dipakai. Dengan begitu, amilum yang ditemukan nanti pasti hasil fotosintesis selama percobaan.</li><li><b>B</b> ✔ Bagian yang ditutup tidak terkena cahaya, sedangkan bagian terbuka terkena cahaya. Keduanya ada pada daun yang sama sehingga bisa dibandingkan.</li><li><b>C</b> ✔ Air panas mematikan sel, dan alkohol melarutkan klorofil sehingga daun pucat dan perubahan warna oleh iodin terlihat jelas.</li><li><b>D</b> ✘ Benedict dipakai untuk gula pereduksi (glukosa). Amilum diuji dengan iodin.</li><li><b>E</b> ✘ Jika seluruh daun ditutup, tidak ada bagian yang terkena cahaya sebagai pembanding, sehingga tidak bisa disimpulkan peran cahaya.</li></ul><p class=\"tips\"><b>Tips:</b> hasil yang diharapkan: bagian yang terkena cahaya berwarna <b>biru-hitam</b> (ada amilum), sedangkan bagian yang ditutup tetap <b>cokelat kekuningan</b> (tidak ada amilum).</p>"
+  },
+  {
+    id: "bio-39", bab: "Merencanakan dan Melakukan Penyelidikan", level: 3, tipe: "kategori",
+    stimulus: "<p>Siswa menguji pengaruh deterjen terhadap pertumbuhan kangkung air dengan rancangan berikut.</p><table><tr><th></th><th>Wadah A</th><th>Wadah B</th></tr><tr><td>Isi</td><td>1 L air kolam</td><td>1 L air kolam + 5 mL deterjen</td></tr><tr><td>Tanaman</td><td>5 batang kangkung</td><td>5 batang kangkung</td></tr><tr><td>Tempat</td><td>Di dalam kelas</td><td>Di halaman, terkena matahari langsung</td></tr></table><p>Pertambahan panjang batang diukur sekali pada hari ke-7.</p>",
+    soal: "Tentukan benar atau salah pernyataan tentang rancangan percobaan tersebut!",
+    pernyataan: [
+      "Rancangan ini belum adil karena intensitas cahaya pada kedua wadah berbeda.",
+      "Wadah A berfungsi sebagai kontrol.",
+      "Jika kangkung di wadah B tumbuh lebih lambat, dapat dipastikan deterjen adalah penyebabnya.",
+      "Menambah beberapa wadah dengan konsentrasi deterjen berbeda dan melakukan pengulangan akan membuat kesimpulan lebih dapat dipercaya."
+    ],
+    kunci: [true, true, false, true],
+    hint: "Bandingkan kedua wadah baris demi baris. Seharusnya hanya ada satu hal yang berbeda. Apakah itu yang terjadi di sini?",
+    pembahasan: "<h4>Konsep</h4><p>Percobaan yang baik hanya mengubah <b>satu variabel bebas</b>, menyediakan <b>kontrol</b> sebagai pembanding, dan melakukan <b>pengulangan</b> agar hasilnya andal. Jika ada dua faktor yang berbeda sekaligus, penyebab perbedaan hasil tidak bisa dipastikan.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Selain deterjen, tempat (cahaya) juga berbeda. Cahaya memengaruhi fotosintesis, sehingga pertumbuhan kangkung ikut terpengaruh.</li><li><b>2</b> <i>Benar.</i> Wadah A tanpa deterjen adalah pembanding (kontrol).</li><li><b>3</b> <i>Salah.</i> Karena cahaya juga berbeda, perbedaan pertumbuhan bisa disebabkan oleh deterjen, oleh cahaya, atau keduanya. Kesimpulan tidak bisa dipastikan.</li><li><b>4</b> <i>Benar.</i> Variasi konsentrasi menunjukkan pola hubungan, dan pengulangan mengurangi pengaruh kebetulan.</li></ul><p class=\"tips\"><b>Tips:</b> perbaikan rancangan ini adalah meletakkan kedua wadah di tempat yang sama, lalu mengukur panjang batang secara berkala (misalnya setiap 2 hari), bukan hanya sekali.</p>"
   }
 ]};
