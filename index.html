@@ -3,22 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f4ef">
   <title>Latihan TKA SMA</title>
   <meta name="description" content="Latihan soal TKA SMA dengan petunjuk dan pembahasan.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="ikon/ikon-192.png">
+  <link rel="apple-touch-icon" href="ikon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
-  <!-- Tambah penanda waktu agar HP selalu memuat versi terbaru (tanpa hard refresh) -->
-  <script>document.write('<link rel="stylesheet" href="css/style.css?v=' + Date.now() + '">');</script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/umum.js"></script>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
-      <span class="eyebrow">Tes Kemampuan Akademik · SMA</span>
+      <div class="hero-atas">
+        <span class="eyebrow">Tes Kemampuan Akademik · SMA</span>
+        <div class="tampilan-wrap"><button class="btn-tampilan" data-tampilan aria-label="Pengaturan tampilan">Aa</button></div>
+      </div>
       <h1>Latihan soal, <em>dari dasar</em> sampai penalaran.</h1>
       <p>Disusun mengikuti kerangka asesmen TKA Pusmendik. Kerjakan, cek, lalu pelajari pembahasannya.</p>
       <div class="ringkas-total" id="total"></div>
       <div id="lanjut"></div>
+      <div class="pintas" id="pintas"></div>
     </section>
 
     <ol class="daftar-mapel" id="grid"></ol>
@@ -29,35 +37,36 @@
         <li>Pilih jawaban, lalu tekan <b>Cek Jawaban</b> untuk melihat benar/salah beserta pembahasannya.</li>
         <li>Setiap soal punya satu <b>petunjuk</b>. Coba kerjakan dulu sebelum membukanya.</li>
         <li>Bentuk soal mengikuti TKA: pilihan ganda, pilihan ganda kompleks, dan Benar/Salah per pernyataan.</li>
+        <li>Soal yang salah masuk <b>Ulas soal salah</b> dan diulang lagi 1, 3, lalu 7 hari kemudian.</li>
+        <li>Tekan <b>Tandai</b> di atas soal untuk menyimpannya ke <b>Soal ditandai</b>.</li>
         <li>Di laptop: <kbd>A</kbd>–<kbd>E</kbd> memilih opsi, <kbd>Enter</kbd> cek/lanjut, <kbd>←</kbd> <kbd>→</kbd> pindah soal.</li>
-        <li>Progres tersimpan otomatis di browser ini.</li>
+        <li>Progres tersimpan otomatis di browser ini. Setelah dibuka sekali, web ini tetap bisa dipakai tanpa internet.</li>
       </ul>
+
+      <h3>Pindah HP</h3>
+      <p>Simpan progres ke file, lalu buka file itu di HP atau browser lain.</p>
+      <div class="pindah">
+        <button class="btn" id="ekspor">Simpan progres ke file</button>
+        <button class="btn" id="impor">Muat progres dari file</button>
+        <input type="file" id="berkas" accept=".json,application/json" hidden>
+      </div>
     </section>
   </main>
 
+  <script src="js/mapel.js"></script>
   <script>
-    // Muat daftar mapel dengan penanda waktu agar mapel baru langsung muncul tanpa hard refresh.
-    (function () {
-      var s = document.createElement("script");
-      s.src = "js/mapel.js?v=" + Date.now();
-      s.onload = tampilkan;
-      document.body.appendChild(s);
-    })();
-
     var PANAH = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
     function bacaProgres(id) {
       var r = { n: 0, b: 0, total: 0, idx: null };
-      try {
-        var s = JSON.parse(localStorage.getItem("tka-" + id) || "null");
-        if (s && s.jawab) {
-          Object.keys(s.jawab).forEach(function (k) {
-            if (s.jawab[k].cek) { r.n++; if (s.jawab[k].benar) r.b++; }
-          });
-          r.total = s.total || 0;
-          r.idx = s.idx;
-        }
-      } catch (e) {}
+      var s = TKA.bacaJson("tka-" + id);
+      if (s && s.jawab) {
+        Object.keys(s.jawab).forEach(function (k) {
+          if (s.jawab[k].cek) { r.n++; if (s.jawab[k].benar) r.b++; }
+        });
+        r.total = s.total || 0;
+        r.idx = s.idx;
+      }
       return r;
     }
 
@@ -86,6 +95,9 @@
             '<span class="ket">' + (m.siap ? m.ket : "Segera hadir") + '</span>' +
             '<span class="kanan">' + kanan + PANAH + '</span></a>';
         });
+        if (g.set.some(function (m) { return m.siap; })) {
+          h += '<a class="per-bab" href="quiz.html?bab=' + k + '">Latihan per bab' + PANAH + '</a>';
+        }
         var li = document.createElement("li");
         li.className = "mapel";
         li.innerHTML = '<span class="no">' + String(i + 1).padStart(2, "0") + '</span><div><h2>' + g.nama + '</h2><div class="paket">' + h + '</div></div>';
@@ -111,7 +123,59 @@
             '<strong>' + m.nama + ' — ' + posisi + '</strong></div>' + PANAH + '</a>';
         }
       } catch (e) {}
+
+      // Pintasan ulas soal salah & soal ditandai.
+      var siap = window.DAFTAR_MAPEL.filter(function (x) { return x.siap; });
+      var ulas = TKA.ulas(siap), tempo = TKA.jatuhTempo(ulas).length, nanti = Object.keys(ulas).length - tempo;
+      var tanda = Object.keys(TKA.tanda()).length, h = "";
+      if (tempo) {
+        h += '<a class="ulas" href="quiz.html?set=ulas&baru=1"><b>' + tempo + '</b><span>soal perlu diulas hari ini</span>' + PANAH + '</a>';
+      } else if (nanti) {
+        h += '<div class="selesai"><b>✓</b><span>Ulasan hari ini beres · ' + nanti + ' soal dijadwalkan muncul lagi</span></div>';
+      }
+      if (tanda) h += '<a class="tandai" href="quiz.html?set=tanda"><b>' + tanda + '</b><span>soal ditandai</span>' + PANAH + '</a>';
+      document.getElementById("pintas").innerHTML = h;
     }
+    tampilkan();
+
+    // ---------- Pindah HP: ekspor & impor semua data tka-* ----------
+    document.getElementById("ekspor").addEventListener("click", function () {
+      var data = {};
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k.indexOf("tka-") === 0) data[k] = localStorage.getItem(k);
+      }
+      var isi = JSON.stringify({ aplikasi: "latihan-tka", versi: 1, waktu: new Date().toISOString(), data: data });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([isi], { type: "application/json" }));
+      a.download = "progres-tka-" + new Date().toISOString().slice(0, 10) + ".json";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    });
+
+    var berkas = document.getElementById("berkas");
+    document.getElementById("impor").addEventListener("click", function () { berkas.click(); });
+    berkas.addEventListener("change", function () {
+      var f = berkas.files[0];
+      if (!f) return;
+      var r = new FileReader();
+      r.onload = function () {
+        var x;
+        try { x = JSON.parse(r.result); } catch (e) {}
+        berkas.value = "";
+        if (!x || x.aplikasi !== "latihan-tka" || !x.data) return alert("File ini bukan file progres Latihan TKA.");
+        if (!confirm("Progres di perangkat ini akan diganti dengan isi file (disimpan " + String(x.waktu || "").slice(0, 10) + "). Lanjutkan?")) return;
+        try {
+          Object.keys(localStorage).filter(function (k) { return k.indexOf("tka-") === 0; })
+            .forEach(function (k) { localStorage.removeItem(k); });
+          Object.keys(x.data).forEach(function (k) {
+            if (k.indexOf("tka-") === 0) localStorage.setItem(k, x.data[k]);
+          });
+        } catch (e) { return alert("Gagal menyimpan: " + e.message); }
+        location.reload();
+      };
+      r.readAsText(f);
+    });
   </script>
 </body>
 </html>
