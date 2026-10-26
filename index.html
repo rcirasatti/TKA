@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latihan TKA SMA</title>
+  <meta name="description" content="Latihan soal TKA SMA dengan petunjuk dan pembahasan.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Latihan TKA SMA</h1>
+      <p>Soal disusun dari materi dasar ke yang rumit, mengacu pada kerangka asesmen TKA Pusmendik.</p>
+    </section>
+
+    <div class="grid-mapel" id="grid"></div>
+
+    <section class="info">
+      <strong>Cara pakai</strong>
+      <ul>
+        <li>Pilih jawaban, lalu tekan <b>Cek Jawaban</b> untuk melihat benar/salah dan pembahasannya.</li>
+        <li>Setiap soal punya <b>1 petunjuk</b> (💡). Coba kerjakan dulu sebelum membukanya.</li>
+        <li>Bentuk soal mengikuti TKA: pilihan ganda, pilihan ganda kompleks (pilih lebih dari satu), dan Benar/Salah per pernyataan.</li>
+        <li>Progres tersimpan otomatis di browser ini.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="js/mapel.js"></script>
+  <script>
+    (function () {
+      var grid = document.getElementById("grid");
+      window.DAFTAR_MAPEL.forEach(function (m) {
+        var prog = "";
+        try {
+          var s = JSON.parse(localStorage.getItem("tka-" + m.id) || "null");
+          if (s && s.jawab) {
+            var n = 0, b = 0;
+            Object.keys(s.jawab).forEach(function (k) {
+              if (s.jawab[k].cek) { n++; if (s.jawab[k].benar) b++; }
+            });
+            if (n) prog = " · " + b + "/" + n + " benar";
+          }
+        } catch (e) {}
+        var a = document.createElement("a");
+        a.className = "mapel-card" + (m.siap ? "" : " off");
+        a.href = m.siap ? "quiz.html?mapel=" + m.id : "#";
+        a.innerHTML =
+          '<div class="ico">' + m.ico + '</div>' +
+          '<h2>' + m.nama + '</h2>' +
+          '<p>' + m.ket + '</p>' +
+          '<span class="tag' + (m.siap ? ' on' : '') + '">' + (m.siap ? "Mulai latihan" + prog : "Segera hadir") + '</span>';
+        grid.appendChild(a);
+      });
+    })();
+  </script>
+</body>
+</html>

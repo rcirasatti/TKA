@@ -1,0 +1,8 @@
+// Daftar mata pelajaran. Ubah `siap: true` saat bank soal mapel tersebut sudah ada di folder data/.
+window.DAFTAR_MAPEL = [
+  { id: "kimia",      nama: "Kimia",            ico: "⚗️", siap: true,  ket: "Struktur atom, stoikiometri, asam-basa, termokimia, laju, kesetimbangan, organik" },
+  { id: "biologi",    nama: "Biologi",          ico: "🧬", siap: false, ket: "Keanekaragaman hayati, sel & metabolisme, sistem organ, keterampilan proses" },
+  { id: "matematika", nama: "Matematika",       ico: "📐", siap: false, ket: "Bilangan, aljabar, geometri, trigonometri, data & peluang" },
+  { id: "inggris",    nama: "Bahasa Inggris",   ico: "🇬🇧", siap: false, ket: "Reading: textual, inferential, evaluation & appreciation" },
+  { id: "indonesia",  nama: "Bahasa Indonesia", ico: "📖", siap: false, ket: "Pemahaman tekstual, inferensial, evaluasi & apresiasi" }
+];
