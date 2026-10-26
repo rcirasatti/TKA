@@ -11,7 +11,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Gen", "Jenis (spesies)", "Ekosistem", "Populasi", "Komunitas"],
     kunci: 0,
     hint: "Semua bunga itu masih satu spesies yang sama (mawar). Perbedaan dalam satu spesies disebabkan oleh apa?",
-    pembahasan: "<p>Mawar merah, putih, dan kuning tetap satu spesies. Perbedaan sifat <b>dalam satu spesies</b> disebabkan oleh perbedaan susunan gen → keanekaragaman tingkat <b>gen</b>.</p><p>Tingkat jenis = perbedaan antarspesies (mis. mawar vs melati). Tingkat ekosistem = perbedaan lingkungan beserta penghuninya (mis. hutan vs pantai).</p>"
+    pembahasan: "<h4>Konsep</h4><p>Tiga tingkat keanekaragaman hayati: <b>gen</b> = variasi di dalam <i>satu spesies</i> (warna, ukuran, rasa); <b>jenis</b> = perbedaan <i>antarspesies</i> dalam satu genus atau famili; <b>ekosistem</b> = perbedaan lingkungan beserta penghuninya.</p><h4>Langkah</h4><p>Mawar merah, putih, kuning, dan merah muda semuanya tetap mawar (satu spesies). Warnanya berbeda karena susunan gennya berbeda → tingkat <b>gen</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Tingkat jenis membandingkan spesies berbeda, misalnya mawar vs melati.</li><li><b>C</b> Tingkat ekosistem membandingkan lingkungan, misalnya hutan vs pantai.</li><li><b>D</b> Populasi dan <b>E</b> komunitas adalah tingkat organisasi kehidupan, bukan tingkat keanekaragaman hayati.</li></ul><p class=\"tips\"><b>Tips:</b> tanyakan \"Masih satu spesies?\" Kalau ya → gen. Kalau beda spesies → jenis. Kalau yang dibandingkan tempatnya → ekosistem.</p>"
   },
   {
     id: "bio-02", bab: "Klasifikasi Makhluk Hidup", level: 1, tipe: "pg",
@@ -19,7 +19,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Oryza Sativa", "oryza sativa", "<i>Oryza sativa</i>", "<i>Oryza Sativa</i>", "<i>oryza</i> Sativa"],
     kunci: 2,
     hint: "Kata pertama (genus) dan kata kedua (penunjuk spesies) punya aturan huruf kapital yang berbeda, dan keduanya dicetak miring atau digarisbawahi.",
-    pembahasan: "<p>Aturan binomial nomenklatur (Carolus Linnaeus):</p><p>• Terdiri atas 2 kata: <b>genus</b> + <b>penunjuk spesies</b>.<br>• Kata pertama diawali huruf <b>kapital</b>, kata kedua seluruhnya huruf <b>kecil</b>.<br>• Dicetak <b>miring</b> (atau digarisbawahi terpisah jika ditulis tangan).</p><p>Jadi yang benar: <b><i>Oryza sativa</i></b>.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Aturan <b>binomial nomenklatur</b> (Linnaeus): (1) dua kata: nama genus + penunjuk spesies; (2) huruf pertama genus <b>kapital</b>, penunjuk spesies <b>seluruhnya huruf kecil</b>; (3) dicetak <b>miring</b>, atau digarisbawahi terpisah jika ditulis tangan.</p><h4>Langkah</h4><p>Hanya <i>Oryza sativa</i> yang memenuhi ketiga aturan sekaligus.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Oryza Sativa: tidak miring dan \"Sativa\" berhuruf kapital.</li><li><b>B</b> oryza sativa: tidak miring dan genus berhuruf kecil.</li><li><b>D</b> <i>Oryza Sativa</i>: sudah miring, tetapi \"Sativa\" tidak boleh kapital.</li><li><b>E</b> <i>oryza</i> Sativa: kapitalnya terbalik, dan hanya sebagian yang miring.</li></ul><p class=\"tips\"><b>Tips:</b> periksa tiga hal berurutan: miring? → genus kapital? → spesies kecil? Satu pelanggaran saja sudah membuat penulisannya salah.</p>"
   },
   {
     id: "bio-03", bab: "Klasifikasi Makhluk Hidup", level: 2, tipe: "kategori",
@@ -33,7 +33,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, false, true],
     hint: "Urutan takson: kingdom – filum – kelas – ordo – famili – genus – spesies. Makin banyak takson yang sama, makin dekat kekerabatannya.",
-    pembahasan: "<p>1 & 2. Makin rendah takson (menuju spesies) → persamaan ciri makin <b>banyak</b>, anggota makin <b>sedikit</b>, kekerabatan makin dekat ✔.</p><p>3. Kucing dan singa sama sampai tingkat <b>famili</b> (Felidae), sedangkan kucing dan anjing hanya sama sampai tingkat <b>ordo</b>. Jadi kucing lebih dekat dengan <i>singa</i> → Salah.</p><p>4. Genus kucing <i>Felis</i>, genus singa <i>Panthera</i> → beda genus, satu famili ✔.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Urutan takson dari tinggi ke rendah: kingdom → filum → kelas → <b>ordo → famili → genus</b> → spesies. Makin rendah takson: persamaan ciri makin <b>banyak</b>, jumlah anggota makin <b>sedikit</b>, kekerabatan makin <b>dekat</b>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Takson rendah (misalnya genus) hanya berisi organisme yang sangat mirip.</li><li><b>2</b> <i>Benar.</i> Satu ordo berisi banyak famili; satu famili berisi lebih sedikit anggota.</li><li><b>3</b> <i>Salah.</i> Kucing–singa sama sampai famili (Felidae); kucing–anjing hanya sama sampai ordo (Carnivora). Famili lebih rendah dari ordo, jadi kucing lebih dekat dengan <b>singa</b>.</li><li><b>4</b> <i>Benar.</i> Kata pertama nama ilmiah = genus: <i>Felis</i> vs <i>Panthera</i> (beda), tetapi famili sama (Felidae).</li></ul><p class=\"tips\"><b>Tips:</b> untuk membandingkan kekerabatan, cari takson <i>terendah</i> yang masih sama. Makin rendah takson yang sama, makin dekat kerabatnya.</p>"
   },
   {
     id: "bio-04", bab: "Klasifikasi Makhluk Hidup", level: 2, tipe: "mcma",
@@ -47,7 +47,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [0, 2, 3],
     hint: "Jamur bukan tumbuhan dan bukan bakteri. Bagaimana jamur memperoleh makanan, dan apakah selnya punya membran inti?",
-    pembahasan: "<p>Ciri Fungi:</p><p>• Dinding sel dari <b>kitin</b> ✔<br>• <b>Tidak</b> berklorofil → tidak berfotosintesis<br>• <b>Heterotrof</b> (saprofit, parasit, atau simbiosis) ✔<br>• <b>Eukariotik</b> (memiliki membran inti) ✔<br>• Peptidoglikan adalah penyusun dinding sel <i>bakteri</i>, bukan jamur.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Ciri kingdom <b>Fungi</b>: eukariotik, dinding sel dari <b>kitin</b>, <b>tidak berklorofil</b> sehingga <b>heterotrof</b> (saprofit, parasit, atau bersimbiosis), menyimpan cadangan makanan berupa glikogen.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Kitin adalah penyusun dinding sel jamur (sama dengan cangkang serangga).</li><li><b>B</b> ✘ Jamur tidak punya klorofil. Karena itulah jamur dipisahkan dari kingdom tumbuhan.</li><li><b>C</b> ✔ Mendapat makanan dari zat organik lain (heterotrof).</li><li><b>D</b> ✔ Sel jamur punya membran inti (eukariotik).</li><li><b>E</b> ✘ Peptidoglikan adalah penyusun dinding sel <b>bakteri</b>. Dinding sel tumbuhan dari selulosa.</li></ul><p class=\"tips\"><b>Tips:</b> pasangan dinding sel yang wajib hafal: bakteri = peptidoglikan, jamur = kitin, tumbuhan = selulosa.</p>"
   },
   {
     id: "bio-05", bab: "Bakteri", level: 1, tipe: "pg",
@@ -61,7 +61,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Opsi yang dimiliki SEMUA sel (bakteri, hewan, tumbuhan) tidak bisa menjadi pembeda.",
-    pembahasan: "<p>Membran sel, ribosom, sitoplasma, dan DNA dimiliki <i>semua</i> sel, jadi bukan pembeda.</p><p>Bakteri adalah sel <b>prokariotik</b>: materi genetiknya tidak dibungkus membran inti (berada di daerah nukleoid) dan tidak punya organel bermembran seperti mitokondria.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Sel <b>prokariotik</b> (bakteri) tidak punya <b>membran inti</b>: DNA-nya berada bebas di daerah nukleoid. Sel juga tidak punya organel bermembran. Sel hewan dan tumbuhan adalah <b>eukariotik</b>. Ciri <i>pembeda</i> harus sesuatu yang dimiliki satu kelompok tetapi tidak dimiliki kelompok lain.</p><h4>Langkah</h4><p>Dari semua opsi, hanya \"tidak memiliki membran inti\" yang benar-benar membedakan bakteri dari sel hewan dan tumbuhan.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Membran sel dimiliki <i>semua</i> sel.</li><li><b>C</b> Ribosom juga ada di semua sel, karena semua sel membuat protein.</li><li><b>D</b> Sitoplasma ada di semua sel.</li><li><b>E</b> DNA ada di semua sel; bedanya hanya dibungkus membran atau tidak.</li></ul><p class=\"tips\"><b>Tips:</b> soal \"ciri pembeda\" menjebak dengan pernyataan yang <i>benar</i> tetapi tidak membedakan. Tanyakan: apakah sel hewan juga memilikinya?</p>"
   },
   {
     id: "bio-06", bab: "Bakteri", level: 2, tipe: "mcma",
@@ -75,7 +75,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [0, 1, 3],
     hint: "Cocokkan nama bakteri dengan perannya; bakteri penyebab penyakit tentu merugikan.",
-    pembahasan: "<p>Menguntungkan:<br>• <i>Lactobacillus bulgaricus</i> → yoghurt ✔<br>• <i>Rhizobium</i> → menyuburkan tanah dengan mengikat N<sub>2</sub> ✔<br>• <i>Acetobacter xylinum</i> → nata de coco ✔</p><p>Merugikan (patogen): <i>Mycobacterium tuberculosis</i> (TBC) dan <i>Salmonella typhi</i> (tifus).</p>"
+    pembahasan: "<h4>Konsep</h4><p>Peran bakteri bagi manusia ada dua: <b>menguntungkan</b> (pangan fermentasi, kesuburan tanah, obat) dan <b>merugikan</b> (penyebab penyakit atau patogen, pembusuk makanan).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ <i>Lactobacillus bulgaricus</i> memfermentasi laktosa susu menjadi asam laktat → yoghurt.</li><li><b>B</b> ✔ <i>Rhizobium</i> bersimbiosis di bintil akar kacang-kacangan dan mengikat N₂ udara → tanah subur.</li><li><b>C</b> ✘ <i>Mycobacterium tuberculosis</i> menyebabkan TBC (patogen).</li><li><b>D</b> ✔ <i>Acetobacter xylinum</i> mengubah gula air kelapa menjadi serat selulosa → nata de coco.</li><li><b>E</b> ✘ <i>Salmonella typhi</i> menyebabkan tifus (patogen).</li></ul><p class=\"tips\"><b>Tips:</b> nama spesies yang mengandung nama penyakit (<i>tuberculosis</i>, <i>typhi</i>, <i>tetani</i>, <i>cholerae</i>) hampir pasti patogen.</p>"
   },
   {
     id: "bio-07", bab: "Bakteri", level: 2, tipe: "pg",
@@ -83,7 +83,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["6 sel", "12 sel", "32 sel", "64 sel", "128 sel"],
     kunci: 3,
     hint: "Hitung dulu berapa kali pembelahan terjadi dalam 2 jam. Setiap pembelahan, jumlah sel menjadi 2 kali lipat.",
-    pembahasan: "<p>2 jam = 120 menit → jumlah pembelahan = 120 / 20 = 6 kali.</p><p>Jumlah sel = 1 × 2<sup>6</sup> = <b>64 sel</b>.</p><p>Jebakan: 6 sel (hanya jumlah pembelahan) atau 12 sel (dikali 2, bukan dipangkatkan).</p>"
+    pembahasan: "<h4>Konsep</h4><p>Pembelahan biner: 1 sel → 2 sel, sehingga jumlahnya <b>berlipat ganda</b> setiap kali membelah. Jumlah sel = N₀ × 2<sup>n</sup>, dengan n = banyak pembelahan = waktu total / waktu satu pembelahan.</p><h4>Langkah</h4><ol><li>2 jam = 120 menit → n = 120/20 = 6 kali.</li><li>Jumlah = 1 × 2⁶ = <b>64 sel</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 6 sel = jumlah pembelahan, bukan jumlah sel.</li><li><b>B</b> 12 sel = 6 × 2, dikali alih-alih dipangkatkan.</li><li><b>C</b> 32 sel = 2⁵, kurang satu pembelahan.</li><li><b>E</b> 128 sel = 2⁷, kelebihan satu pembelahan.</li></ul><p class=\"tips\"><b>Tips:</b> buat tabel cepat: 0 menit = 1, 20 = 2, 40 = 4, 60 = 8, 80 = 16, 100 = 32, 120 = 64.</p>"
   },
   {
     id: "bio-08", bab: "Ekosistem", level: 1, tipe: "pg",
@@ -91,7 +91,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Padi", "Tikus", "Ular", "Elang", "Pengurai"],
     kunci: 2,
     hint: "Produsen ada di awal rantai. Konsumen tingkat I memakan produsen, konsumen tingkat II memakan konsumen tingkat I.",
-    pembahasan: "<p>Padi = produsen. Tikus = konsumen I (herbivor). <b>Ular</b> = konsumen II (memakan tikus). Elang = konsumen III.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Tingkat trofik dihitung dari produsen: <b>produsen</b> (berfotosintesis) → konsumen I (pemakan produsen, herbivor) → konsumen II (pemakan konsumen I) → dan seterusnya.</p><h4>Langkah</h4><p>Padi (produsen) → tikus (konsumen I) → <b>ular (konsumen II)</b> → elang (konsumen III).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Padi adalah produsen, bukan konsumen.</li><li><b>B</b> Tikus adalah konsumen I. Jebakannya: tikus memang organisme ke-2 di rantai, tetapi tingkat konsumen dihitung mulai dari pemakan produsen.</li><li><b>D</b> Elang adalah konsumen III.</li><li><b>E</b> Pengurai tidak tercantum di rantai ini dan perannya bukan konsumen bertingkat.</li></ul><p class=\"tips\"><b>Tips:</b> konsumen ke-n = organisme di urutan ke-(n + 1) dalam rantai, karena urutan pertama selalu produsen.</p>"
   },
   {
     id: "bio-09", bab: "Ekosistem", level: 3, tipe: "kategori",
@@ -105,7 +105,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Telusuri setiap jalur dari rumput sampai ke puncak. Satu organisme bisa menempati tingkat trofik berbeda pada jalur yang berbeda.",
-    pembahasan: "<p>1. Rumput berfotosintesis → produsen ✔.</p><p>2. Katak adalah pemangsa belalang. Jika katak berkurang, tekanan pemangsaan turun → belalang cenderung bertambah ✔.</p><p>3. Rumput → kelinci → <b>ular</b> (konsumen II); rumput → belalang → katak → <b>ular</b> (konsumen III) ✔.</p><p>4. Rumput → belalang → pipit → elang (konsumen III), tetapi rumput → belalang → katak → ular → elang (konsumen <b>IV</b>). Jadi elang tidak <i>hanya</i> konsumen III → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Dalam <b>jaring-jaring makanan</b>, satu organisme bisa menempati <b>beberapa tingkat trofik</b>, tergantung jalur mana yang diikuti. Perubahan satu populasi memengaruhi mangsa dan pemangsanya.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Rumput berfotosintesis → produsen.</li><li><b>2</b> <i>Benar.</i> Katak memangsa belalang. Jika katak berkurang, pemangsa belalang berkurang → belalang cenderung bertambah.</li><li><b>3</b> <i>Benar.</i> Rumput → kelinci → ular (konsumen II); rumput → belalang → katak → ular (konsumen III).</li><li><b>4</b> <i>Salah.</i> Rumput → belalang → pipit → elang (konsumen III), tetapi rumput → belalang → katak → ular → elang (konsumen <b>IV</b>). Ada pula rumput → kelinci → ular → elang (konsumen III).</li></ul><p class=\"tips\"><b>Tips:</b> kata \"hanya\" di pernyataan biologi sering menjadi tanda pernyataan salah. Cari satu jalur pengecualian untuk membuktikannya.</p>"
   },
   {
     id: "bio-10", bab: "Ekosistem", level: 2, tipe: "pg",
@@ -113,7 +113,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["10 kkal", "100 kkal", "1.000 kkal", "2.000 kkal", "9.000 kkal"],
     kunci: 1,
     hint: "Produsen → konsumen I → konsumen II: ada dua kali perpindahan energi.",
-    pembahasan: "<p>Produsen 10.000 kkal → konsumen I = 10% × 10.000 = 1.000 kkal → konsumen II = 10% × 1.000 = <b>100 kkal</b>.</p><p>Sisa energi di tiap tingkat hilang sebagai panas (respirasi) dan tidak dapat dimanfaatkan tingkat berikutnya.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Hukum 10%</b>: hanya sekitar 10% energi yang berpindah ke tingkat trofik berikutnya. Sisanya (±90%) dipakai untuk respirasi, hilang sebagai panas, atau tidak termakan. Itulah sebabnya piramida energi selalu mengerucut ke atas.</p><h4>Langkah</h4><ol><li>Produsen 10.000 kkal.</li><li>Konsumen I = 10% × 10.000 = 1.000 kkal.</li><li>Konsumen II = 10% × 1.000 = <b>100 kkal</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 10 kkal = konsumen III (satu tingkat terlalu jauh).</li><li><b>C</b> 1.000 kkal = konsumen I.</li><li><b>D</b> 2.000 kkal: memakai 20%.</li><li><b>E</b> 9.000 kkal = energi yang <i>hilang</i> dari produsen ke konsumen I.</li></ul><p class=\"tips\"><b>Tips:</b> setiap naik satu tingkat, hapus satu angka nol: 10.000 → 1.000 → 100 → 10.</p>"
   },
   {
     id: "bio-11", bab: "Ekosistem", level: 2, tipe: "pg",
@@ -121,7 +121,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Fiksasi nitrogen", "Amonifikasi", "Nitrifikasi", "Denitrifikasi", "Asimilasi"],
     kunci: 2,
     hint: "Produk akhirnya adalah nitrat. Nama prosesnya mirip dengan nama produknya.",
-    pembahasan: "<p>Amonia → nitrit → nitrat = <b>nitrifikasi</b>.</p><p>• Fiksasi: N<sub>2</sub> udara → senyawa N (mis. oleh <i>Rhizobium</i>).<br>• Amonifikasi: sisa organisme → amonia (oleh pengurai).<br>• Denitrifikasi: nitrat → N<sub>2</sub> kembali ke udara.<br>• Asimilasi: tumbuhan menyerap nitrat untuk membuat protein.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Tahapan <b>daur nitrogen</b>: fiksasi (N₂ → senyawa N) → amonifikasi (bahan organik → NH₃) → <b>nitrifikasi</b> (NH₃ → NO₂⁻ → NO₃⁻) → asimilasi (NO₃⁻ diserap tumbuhan) → denitrifikasi (NO₃⁻ → N₂ kembali ke udara).</p><h4>Langkah</h4><p>Amonia → nitrit (oleh <i>Nitrosomonas</i>) → nitrat (oleh <i>Nitrobacter</i>) = <b>nitrifikasi</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Fiksasi = mengubah N₂ dari udara, misalnya oleh <i>Rhizobium</i> atau petir.</li><li><b>B</b> Amonifikasi = pengurai mengubah sisa organisme menjadi amonia (tahap sebelum nitrifikasi).</li><li><b>D</b> Denitrifikasi = nitrat → N₂ (arah kebalikannya).</li><li><b>E</b> Asimilasi = tumbuhan memakai nitrat untuk membuat protein.</li></ul><p class=\"tips\"><b>Tips:</b> nitrifikasi menambah oksigen bertahap: NH₃ → NO₂⁻ → NO₃⁻. <i>Nitrosomonas</i> mengerjakan langkah pertama (→ nitrit), <i>Nitrobacter</i> langkah kedua (→ nitrat).</p>"
   },
 
   // ===================== SEL & METABOLISME =====================
@@ -131,7 +131,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Ribosom", "Mitokondria", "Badan Golgi", "Lisosom", "Retikulum endoplasma halus"],
     kunci: 1,
     hint: "Organel ini sering dijuluki \"pembangkit tenaga sel\" dan memiliki membran dalam yang berlipat-lipat (krista).",
-    pembahasan: "<p><b>Mitokondria</b> adalah tempat siklus Krebs dan transpor elektron yang menghasilkan sebagian besar ATP.</p><p>Ribosom = sintesis protein; badan Golgi = pengemasan dan sekresi; lisosom = pencernaan intrasel; RE halus = sintesis lipid dan detoksifikasi.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Mitokondria</b> disebut \"pembangkit tenaga sel\": tempat siklus Krebs (di matriks) dan transpor elektron (di membran dalam) yang menghasilkan sebagian besar ATP dari respirasi aerob.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Ribosom: sintesis protein.</li><li><b>C</b> Badan Golgi: memodifikasi, mengemas, dan menyekresikan zat.</li><li><b>D</b> Lisosom: pencernaan intrasel dengan enzim hidrolitik.</li><li><b>E</b> RE halus: sintesis lipid dan detoksifikasi.</li></ul><p class=\"tips\"><b>Tips:</b> sel yang butuh banyak energi (otot jantung, sperma) memiliki sangat banyak mitokondria. Fakta ini sering keluar di soal penalaran.</p>"
   },
   {
     id: "bio-13", bab: "Sel", level: 2, tipe: "kategori",
@@ -144,7 +144,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Bayangkan bentuk sel tumbuhan yang kaku dan tetap. Bagian apa yang membuatnya kaku dan menjaga tekanan airnya?",
-    pembahasan: "<p>1. Dinding sel (selulosa) hanya pada sel tumbuhan ✔.<br>2. Kloroplas untuk fotosintesis pada sel tumbuhan hijau ✔.<br>3. Sentriol berperan dalam pembelahan sel hewan ✔.<br>4. Vakuola <b>besar</b> adalah ciri sel <i>tumbuhan</i>; sel hewan hanya punya vakuola kecil atau tidak ada → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Organel khas <b>sel tumbuhan</b>: dinding sel (selulosa), kloroplas, vakuola besar dan menetap. Organel khas <b>sel hewan</b>: sentriol (sentrosom), lisosom lebih banyak, vakuola kecil atau tidak ada.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Dinding sel selulosa hanya ada pada sel tumbuhan (dibandingkan dengan sel hewan).</li><li><b>2</b> <i>Benar.</i> Kloroplas ada pada sel tumbuhan yang berfotosintesis, misalnya daun. Sel akar tidak memilikinya.</li><li><b>3</b> <i>Benar.</i> Sentriol membantu pembentukan benang spindel saat pembelahan sel hewan.</li><li><b>4</b> <i>Salah.</i> Vakuola besar dan menetap adalah ciri sel <b>tumbuhan</b>.</li></ul><p class=\"tips\"><b>Tips:</b> hafalkan tiga ciri khas tumbuhan: dinding sel, kloroplas, vakuola besar. Yang khas hewan: sentriol.</p>"
   },
   {
     id: "bio-14", bab: "Sel", level: 3, tipe: "kategori",
@@ -158,7 +158,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Massa bertambah = air masuk, massa berkurang = air keluar. Isotonis berarti tidak ada perubahan massa. Variabel bebas adalah yang sengaja diubah-ubah oleh peneliti.",
-    pembahasan: "<p>1. Air murni hipotonis terhadap sel → air masuk (osmosis) → massa naik ✔.</p><p>2. Perubahan massa berubah dari + (10%) ke − (20%), jadi titik 0% (isotonis) ada di antara keduanya ✔.</p><p>3. Larutan 30% hipertonis → air keluar dari sel → massa turun (sel dapat mengalami plasmolisis) ✔.</p><p>4. Yang sengaja diubah adalah <b>konsentrasi gula</b> (variabel bebas). Perubahan massa adalah hasil yang diukur (<b>variabel terikat</b>) → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Osmosis</b> = perpindahan air melalui membran dari larutan <b>hipotonis</b> (zat terlarut sedikit, air banyak) ke larutan <b>hipertonis</b> (zat terlarut banyak). Di titik <b>isotonis</b> tidak ada perpindahan air bersih, sehingga massa tetap.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Air murni hipotonis terhadap sel kentang → air masuk → massa naik (+12%).</li><li><b>2</b> <i>Benar.</i> Massa naik di 10% (+4%) dan turun di 20% (−3%). Titik \"nol\" (isotonis) pasti ada di antara keduanya.</li><li><b>3</b> <i>Benar.</i> Larutan 30% hipertonis → air keluar → massa turun (sel bisa plasmolisis).</li><li><b>4</b> <i>Salah.</i> Variabel <b>bebas</b> = yang sengaja diubah peneliti = konsentrasi gula. Perubahan massa adalah hasil yang diukur = variabel <b>terikat</b>.</li></ul><p class=\"tips\"><b>Tips:</b> variabel bebas = \"apa yang <i>saya ubah</i>?\"; variabel terikat = \"apa yang <i>saya ukur</i>?\"; variabel kontrol = \"apa yang <i>saya samakan</i>?\" (ukuran kentang, waktu).</p>"
   },
   {
     id: "bio-15", bab: "Metabolisme Sel", level: 2, tipe: "mcma",
@@ -172,7 +172,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [0, 1, 3],
     hint: "Enzim adalah biokatalisator. Ingat sifat katalis: mempercepat reaksi tetapi tidak ikut berubah. Ingat juga model \"gembok dan kunci\".",
-    pembahasan: "<p>• Enzim adalah <b>protein</b> ✔<br>• Bekerja <b>spesifik</b> (model gembok–kunci) ✔ — sehingga tidak bisa bekerja pada semua substrat<br>• Sebagai katalis, enzim <b>tidak ikut habis</b> dan dapat dipakai berulang<br>• Dipengaruhi <b>suhu dan pH</b> karena protein dapat rusak (terdenaturasi) ✔</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Enzim</b> adalah biokatalisator berupa <b>protein</b>. Sifatnya: bekerja <b>spesifik</b> (satu enzim untuk satu substrat, model gembok-kunci), <b>tidak ikut bereaksi</b> sehingga bisa dipakai berulang, bekerja bolak-balik, dan <b>dipengaruhi suhu serta pH</b> karena protein bisa rusak.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Enzim tersusun atas protein.</li><li><b>B</b> ✔ Sisi aktif enzim hanya cocok dengan substrat tertentu.</li><li><b>C</b> ✘ Enzim adalah katalis, jadi tidak habis dan bisa dipakai lagi.</li><li><b>D</b> ✔ Suhu atau pH ekstrem membuat protein enzim terdenaturasi.</li><li><b>E</b> ✘ Bertentangan dengan sifat spesifik (B). Contoh: amilase hanya memecah amilum, bukan protein.</li></ul><p class=\"tips\"><b>Tips:</b> semua sifat enzim bisa diturunkan dari dua fakta: enzim = <b>protein</b> (jadi peka suhu/pH) dan enzim = <b>katalis</b> (jadi tidak habis).</p>"
   },
   {
     id: "bio-16", bab: "Metabolisme Sel", level: 3, tipe: "pg",
@@ -187,7 +187,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Enzim adalah protein. Apa yang terjadi pada protein (misalnya putih telur) jika dipanaskan?",
-    pembahasan: "<p>Aktivitas katalase naik sampai suhu optimum (±40 °C), lalu turun drastis.</p><p>Pada 60 °C, struktur protein enzim <b>rusak (terdenaturasi)</b> sehingga bentuk sisi aktif berubah dan tidak bisa mengikat substrat. Kerusakan ini permanen.</p><p>Opsi C keliru: enzim yang hanya <i>tidak aktif sementara</i> adalah kondisi pada suhu rendah. Gas yang terbentuk adalah O<sub>2</sub> (2H<sub>2</sub>O<sub>2</sub> → 2H<sub>2</sub>O + O<sub>2</sub>), bukan CO<sub>2</sub>.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Aktivitas enzim naik seiring suhu sampai <b>suhu optimum</b>, lalu turun tajam karena protein enzim <b>terdenaturasi</b>: bentuk sisi aktif rusak <b>permanen</b> dan tidak bisa mengikat substrat. Suhu rendah hanya membuat enzim <i>tidak aktif sementara</i>.</p><h4>Langkah</h4><ol><li>Gelembung terbanyak pada 40 °C → itulah suhu optimum katalase.</li><li>Pada 60 °C tidak ada gelembung sama sekali → enzim rusak → <b>denaturasi</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Setiap suhu memakai larutan H₂O₂ sendiri, dan pada suhu lain masih ada gelembung. Jadi substrat tidak habis.</li><li><b>C</b> \"Aktif kembali jika didinginkan\" adalah sifat enzim pada suhu <i>rendah</i>. Denaturasi tidak bisa pulih.</li><li><b>D</b> Gas yang dihasilkan adalah O₂ (2H₂O₂ → 2H₂O + O₂), bukan CO₂.</li><li><b>E</b> Suhu optimum ada di puncak aktivitas (40 °C), bukan di titik nol.</li></ul><p class=\"tips\"><b>Tips:</b> grafik aktivitas enzim naik perlahan lalu jatuh curam setelah optimum. Sisi kanan yang curam menandakan denaturasi.</p>"
   },
   {
     id: "bio-17", bab: "Metabolisme Sel", level: 2, tipe: "kategori",
@@ -200,7 +200,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Urutan tahap: glikolisis → dekarboksilasi oksidatif → siklus Krebs → transpor elektron. Oksigen baru diperlukan di tahap paling akhir.",
-    pembahasan: "<p>1. Glikolisis (glukosa → 2 piruvat) di <b>sitoplasma</b> ✔.<br>2. Siklus Krebs di <b>matriks mitokondria</b> ✔.<br>3. Transpor elektron di membran dalam mitokondria menghasilkan ATP paling banyak (buku SMA umumnya menyebut 34 ATP dari total 38 ATP; glikolisis dan siklus Krebs masing-masing hanya 2 ATP) ✔.<br>4. Oksigen adalah <b>akseptor elektron terakhir</b> pada tahap <i>transpor elektron</i> (membentuk H<sub>2</sub>O), bukan pada glikolisis → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Tiga tahap respirasi aerob: <b>glikolisis</b> (sitoplasma) → <b>siklus Krebs</b> (matriks mitokondria) → <b>transpor elektron</b> (membran dalam mitokondria). Oksigen baru dipakai di tahap terakhir sebagai <b>akseptor elektron terakhir</b> (membentuk H₂O).</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Glukosa → 2 piruvat terjadi di sitoplasma, tanpa perlu O₂.</li><li><b>2</b> <i>Benar.</i> Siklus Krebs terjadi di matriks mitokondria.</li><li><b>3</b> <i>Benar.</i> Transpor elektron menghasilkan ±34 ATP, jauh lebih banyak daripada glikolisis (2) dan Krebs (2).</li><li><b>4</b> <i>Salah.</i> O₂ menerima elektron di ujung <b>transpor elektron</b>. Glikolisis justru bisa berlangsung tanpa O₂ (dasar fermentasi).</li></ul><p class=\"tips\"><b>Tips:</b> hafalkan pasangan \"tahap – tempat – ATP\": glikolisis–sitoplasma–2, Krebs–matriks–2, TE–membran dalam–34.</p>"
   },
   {
     id: "bio-18", bab: "Metabolisme Sel", level: 1, tipe: "pg",
@@ -214,7 +214,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 0,
     hint: "Saat aktivitas berat, pasokan oksigen ke otot tidak mencukupi sehingga sel otot melakukan respirasi tanpa oksigen.",
-    pembahasan: "<p>Kekurangan O<sub>2</sub> membuat sel otot melakukan <b>fermentasi asam laktat</b>: glukosa → asam laktat + 2 ATP.</p><p>Penumpukan <b>asam laktat</b> menyebabkan rasa pegal dan lelah. Fermentasi alkohol terjadi pada ragi (khamir), bukan pada otot manusia.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Saat olahraga berat, pasokan O₂ ke otot tidak mencukupi. Otot lalu melakukan <b>fermentasi asam laktat</b> (respirasi anaerob): glukosa → asam laktat + 2 ATP. Asam laktat yang menumpuk menimbulkan rasa pegal dan lelah.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Fermentasi alkohol terjadi pada ragi atau khamir (pembuatan tape, roti), bukan pada otot manusia.</li><li><b>C</b> Masalahnya justru <i>kekurangan</i> oksigen.</li><li><b>D</b> Glukosa sedang dipakai cepat, bukan menumpuk.</li><li><b>E</b> ATP sedang kurang (fermentasi hanya menghasilkan 2 ATP), bukan berlebih.</li></ul><p class=\"tips\"><b>Tips:</b> fermentasi asam laktat terjadi di otot manusia dan pada bakteri yoghurt. Fermentasi alkohol terjadi pada ragi dan menghasilkan CO₂ + etanol.</p>"
   },
   {
     id: "bio-19", bab: "Metabolisme Sel", level: 2, tipe: "pg",
@@ -228,7 +228,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Reaksi terang memerlukan cahaya dan air. Cahaya memecah salah satu bahan baku fotosintesis.",
-    pembahasan: "<p>Pada <b>reaksi terang</b> (di membran tilakoid), energi cahaya memecah air: 2H<sub>2</sub>O → 4H<sup>+</sup> + 4e<sup>−</sup> + <b>O<sub>2</sub></b>. Proses ini disebut <b>fotolisis</b>.</p><p>CO<sub>2</sub> tidak diuraikan menjadi O<sub>2</sub>; CO<sub>2</sub> difiksasi pada siklus Calvin (reaksi gelap) untuk membentuk glukosa.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Fotosintesis punya dua tahap. <b>Reaksi terang</b> (membran tilakoid): cahaya memecah air (<b>fotolisis</b>): 2H₂O → 4H⁺ + 4e⁻ + O₂, lalu O₂ dilepas. <b>Reaksi gelap / siklus Calvin</b> (stroma): CO₂ difiksasi menjadi glukosa.</p><h4>Langkah</h4><p>O₂ fotosintesis berasal dari pemecahan <b>air</b> pada reaksi terang (dibuktikan dengan isotop ¹⁸O yang dilabelkan pada H₂O).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> CO₂ tidak diuraikan menjadi O₂; atom C dan O-nya masuk ke glukosa.</li><li><b>C</b> Glukosa adalah <i>produk</i> reaksi gelap, bukan yang diuraikan.</li><li><b>D</b> Stomata adalah jalan masuk CO₂ dan jalan keluar O₂, bukan sumber O₂.</li><li><b>E</b> Klorofil menyerap cahaya, tetapi tidak dipecah.</li></ul><p class=\"tips\"><b>Tips:</b> reaksi terang \"memecah air dan mengisi baterai\" (ATP, NADPH). Reaksi gelap \"memakai baterai untuk merakit gula dari CO₂\".</p>"
   },
   {
     id: "bio-20", bab: "Metabolisme Sel", level: 3, tipe: "mcma",
@@ -243,7 +243,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [0, 1, 2],
     hint: "Makin dekat lampu, makin terang cahaya yang diterima tanaman. Jenis tanaman tidak diubah-ubah, jadi termasuk variabel apa?",
-    pembahasan: "<p>• Jarak lampu sengaja diubah → <b>variabel bebas</b> ✔<br>• Fotosintesis menghasilkan gas <b>O<sub>2</sub></b> ✔<br>• Makin dekat lampu (cahaya makin kuat), gelembung makin banyak → laju fotosintesis <b>naik</b> ✔<br>• Jenis tanaman dibuat sama → <i>variabel kontrol</i>. Variabel terikatnya adalah jumlah gelembung.<br>• CO<sub>2</sub> justru <i>dipakai</i> dalam fotosintesis, bukan dihasilkan.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Percobaan Ingenhousz: gelembung gas pada <i>Hydrilla</i> adalah O₂ hasil fotosintesis. Makin dekat lampu → intensitas cahaya makin tinggi → laju fotosintesis makin cepat. Ingat juga jenis variabel percobaan.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Jarak lampu sengaja diubah → variabel bebas.</li><li><b>B</b> ✔ Fotosintesis melepas O₂.</li><li><b>C</b> ✔ Jarak 10 cm (cahaya terkuat) → 30 gelembung; jarak 40 cm → 4 gelembung.</li><li><b>D</b> ✘ Jenis tanaman dibuat sama → variabel <b>kontrol</b>. Variabel terikatnya adalah jumlah gelembung.</li><li><b>E</b> ✘ CO₂ <i>dipakai</i> dalam fotosintesis, bukan dihasilkan.</li></ul><p class=\"tips\"><b>Tips:</b> hubungan jarak ↔ intensitas cahaya itu terbalik: jarak makin jauh, cahaya makin lemah. Hati-hati membaca arah grafiknya.</p>"
   },
 
   // ===================== PROSES-PROSES PADA MAKHLUK HIDUP =====================
@@ -259,7 +259,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Pembuluh yang menuju jantung disebut vena. Darah dari paru-paru masuk ke sisi jantung yang nantinya memompa darah ke seluruh tubuh.",
-    pembahasan: "<p>Peredaran darah kecil: ventrikel kanan → arteri pulmonalis → paru-paru (mengikat O<sub>2</sub>) → <b>vena pulmonalis</b> → <b>atrium kiri</b>.</p><p>Vena pulmonalis adalah satu-satunya vena yang membawa darah kaya oksigen.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Peredaran darah kecil</b> (jantung ↔ paru-paru): ventrikel kanan → arteri pulmonalis → paru-paru (mengikat O₂) → <b>vena pulmonalis → atrium kiri</b>. Aturan penamaan: <b>arteri</b> = menjauhi jantung, <b>vena</b> = menuju jantung, apa pun kandungan O₂-nya.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Vena kava membawa darah miskin O₂ dari seluruh tubuh ke atrium kanan.</li><li><b>C</b> Arteri pulmonalis membawa darah <i>keluar</i> dari ventrikel kanan ke paru-paru (miskin O₂).</li><li><b>D</b> Aorta membawa darah keluar dari ventrikel kiri ke seluruh tubuh.</li><li><b>E</b> Pembuluhnya benar, tetapi darah masuk ke <i>atrium</i>, bukan langsung ke ventrikel, dan sisinya kiri.</li></ul><p class=\"tips\"><b>Tips:</b> darah selalu <b>masuk ke atrium</b> dan <b>keluar dari ventrikel</b>. Sisi kiri jantung = darah kaya O₂, sisi kanan = miskin O₂.</p>"
   },
   {
     id: "bio-22", bab: "Sistem Sirkulasi", level: 2, tipe: "kategori",
@@ -272,7 +272,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, false, true, true],
     hint: "Aglutinogen ada di permukaan sel darah merah, aglutinin (antibodi) ada di plasma. Penggumpalan terjadi jika aglutinogen donor bertemu aglutinin resipien yang sesuai.",
-    pembahasan: "<p>1. Golongan A: aglutinogen A, aglutinin β ✔.</p><p>2. Golongan O memiliki aglutinin α dan β, sehingga darah A, B, atau AB akan menggumpal. Golongan O hanya bisa menerima dari O. O adalah <b>donor</b> universal, bukan resipien universal → Salah.</p><p>3. Golongan AB tidak punya aglutinin → <b>resipien universal</b> ✔.</p><p>4. Aglutinogen B dari donor tidak bertemu aglutinin apa pun di plasma AB → aman ✔.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Golongan darah ABO: <b>aglutinogen</b> (antigen di permukaan sel darah merah) dan <b>aglutinin</b> (antibodi di plasma) selalu \"berlawanan\". A: antigen A, anti-B. B: antigen B, anti-A. AB: antigen A dan B, tanpa aglutinin. O: tanpa antigen, anti-A dan anti-B. Transfusi aman jika antigen donor <b>tidak bertemu</b> antibodi pasangannya di plasma resipien.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Golongan A memiliki aglutinogen A dan aglutinin β (anti-B).</li><li><b>2</b> <i>Salah.</i> Plasma golongan O mengandung anti-A dan anti-B, jadi darah A, B, atau AB akan menggumpal. O adalah donor universal, bukan resipien universal.</li><li><b>3</b> <i>Benar.</i> AB tidak punya aglutinin → resipien universal.</li><li><b>4</b> <i>Benar.</i> Antigen B dari donor tidak bertemu anti-B di plasma AB (karena tidak ada) → aman.</li></ul><p class=\"tips\"><b>Tips:</b> <b>O</b> = \"Open giver\" (donor untuk semua); <b>AB</b> = \"Accepts Blood\" dari semua.</p>"
   },
   {
     id: "bio-23", bab: "Sistem Respirasi", level: 2, tipe: "pg",
@@ -286,7 +286,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 0,
     hint: "Udara selalu mengalir dari tekanan tinggi ke tekanan rendah. Agar udara masuk, tekanan di paru-paru harus lebih rendah dari udara luar.",
-    pembahasan: "<p>Inspirasi dada: otot <b>antartulang rusuk luar berkontraksi</b> → tulang rusuk terangkat → <b>rongga dada membesar</b> → volume paru-paru bertambah → <b>tekanan turun</b> lebih rendah dari udara luar → <b>udara masuk</b>.</p><p>Opsi lain salah di salah satu mata rantai (misalnya rongga dada mengecil atau tekanan naik, yang justru terjadi saat ekspirasi).</p>"
+    pembahasan: "<h4>Konsep</h4><p>Udara bergerak dari tekanan <b>tinggi ke rendah</b>. Saat <b>inspirasi</b>, rongga dada harus membesar supaya tekanan di paru-paru turun di bawah tekanan udara luar, sehingga udara masuk. Pernapasan dada digerakkan oleh <b>otot antartulang rusuk luar</b>.</p><h4>Langkah</h4><p>Otot antartulang rusuk luar berkontraksi → tulang rusuk terangkat → rongga dada <b>membesar</b> → tekanan paru-paru <b>turun</b> → udara <b>masuk</b> = opsi A.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Relaksasi dan rongga mengecil adalah mekanisme ekspirasi; tekanan naik membuat udara keluar, bukan masuk.</li><li><b>C</b> Diafragma <i>berkontraksi</i> (mendatar) saat inspirasi perut, dan tekanan harus turun.</li><li><b>D</b> Rantainya campur aduk: rongga membesar dan tekanan turun seharusnya membuat udara masuk.</li><li><b>E</b> Kontraksi otot rusuk luar membuat rongga <i>membesar</i>, bukan mengecil.</li></ul><p class=\"tips\"><b>Tips:</b> cek logika rantai fisikanya: volume naik ⇔ tekanan turun ⇔ udara masuk. Opsi yang melanggar satu mata rantai pasti salah.</p>"
   },
   {
     id: "bio-24", bab: "Sistem Respirasi", level: 2, tipe: "pg",
@@ -295,7 +295,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["2.000 mL", "2.500 mL", "3.000 mL", "3.500 mL", "4.500 mL"],
     kunci: 3,
     hint: "Kapasitas vital = jumlah udara maksimal yang bisa dikeluarkan setelah menarik napas sedalam-dalamnya. Udara residu tidak bisa dikeluarkan.",
-    pembahasan: "<p>Kapasitas vital = volume tidal + cadangan inspirasi + cadangan ekspirasi = 500 + 1.500 + 1.500 = <b>3.500 mL</b>.</p><p>Jika ditambah volume residu (1.000 mL), hasilnya kapasitas <i>total</i> paru-paru = 4.500 mL.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Volume paru-paru: <b>kapasitas vital</b> = udara maksimal yang bisa dihembuskan setelah inspirasi maksimal = tidal + cadangan inspirasi + cadangan ekspirasi. <b>Kapasitas total</b> = kapasitas vital + volume residu (udara yang tak pernah bisa dikeluarkan).</p><h4>Langkah</h4><p>500 + 1.500 + 1.500 = <b>3.500 mL</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 2.000 = tidal + satu cadangan (kapasitas inspirasi).</li><li><b>B</b> 2.500 = cadangan ekspirasi + residu (kapasitas residu fungsional).</li><li><b>C</b> 3.000 = dua cadangan saja, tidal terlupa.</li><li><b>E</b> 4.500 = kapasitas <b>total</b> paru-paru (residu ikut dihitung).</li></ul><p class=\"tips\"><b>Tips:</b> volume residu tidak pernah masuk kapasitas vital, karena kapasitas vital adalah udara yang <i>bisa</i> dihembuskan.</p>"
   },
   {
     id: "bio-25", bab: "Sistem Ekskresi", level: 1, tipe: "pg",
@@ -303,7 +303,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Filtrasi", "Reabsorpsi", "Augmentasi", "Sekresi hormon", "Defekasi"],
     kunci: 0,
     hint: "Glomerulus berfungsi seperti saringan darah.",
-    pembahasan: "<p>Tahapan pembentukan urine:</p><p>1. <b>Filtrasi</b> di glomerulus → urine primer (masih mengandung glukosa, asam amino, garam, air).<br>2. Reabsorpsi di tubulus kontortus proksimal → urine sekunder.<br>3. Augmentasi di tubulus kontortus distal → urine sesungguhnya.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Tiga tahap pembentukan urine di nefron: <b>filtrasi</b> (glomerulus → urine primer) → <b>reabsorpsi</b> (tubulus kontortus proksimal → urine sekunder) → <b>augmentasi</b> (tubulus kontortus distal → urine sesungguhnya).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>B</b> Reabsorpsi terjadi di tubulus proksimal dan menghasilkan urine sekunder.</li><li><b>C</b> Augmentasi terjadi di tubulus distal dan menghasilkan urine sesungguhnya.</li><li><b>D</b> Sekresi hormon bukan tahap pembentukan urine.</li><li><b>E</b> Defekasi adalah pengeluaran feses (sistem pencernaan).</li></ul><p class=\"tips\"><b>Tips:</b> urutan F-R-A (Filtrasi, Reabsorpsi, Augmentasi) sejalan dengan urutan tempat: glomerulus → tubulus proksimal → tubulus distal.</p>"
   },
   {
     id: "bio-26", bab: "Sistem Ekskresi", level: 3, tipe: "kategori",
@@ -317,7 +317,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Protein berukuran besar sehingga normalnya tidak lolos saringan glomerulus. Glukosa lolos saringan, tetapi seharusnya diserap kembali di bagian lain nefron.",
-    pembahasan: "<p>1. Benedict merah bata = ada glukosa. Gula darah tinggi akibat kurang insulin (diabetes melitus) membuat glukosa tidak terserap semua ✔.</p><p>2. Biuret ungu = ada protein. Protein normalnya tidak lolos filtrasi; jika ada di urine, glomerulus mengalami kerusakan (mis. nefritis) ✔.</p><p>3. Urine primer hasil filtrasi memang masih mengandung glukosa ✔.</p><p>4. Penyerapan kembali (reabsorpsi) glukosa terjadi di <b>tubulus kontortus proksimal</b>, bukan di glomerulus → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Uji makanan: <b>Benedict</b> → merah bata jika ada glukosa; <b>Biuret</b> → ungu jika ada protein. Pada orang sehat, protein (molekul besar) tertahan di glomerulus, sedangkan glukosa ikut tersaring tetapi diserap kembali seluruhnya di <b>tubulus proksimal</b>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Urine P mengandung glukosa. Kekurangan insulin (diabetes melitus) membuat gula darah sangat tinggi, sehingga tubulus tidak sanggup menyerap kembali semuanya.</li><li><b>2</b> <i>Benar.</i> Urine Q mengandung protein. Protein seharusnya tidak lolos filtrasi, jadi glomerulus rusak (misalnya nefritis).</li><li><b>3</b> <i>Benar.</i> Glukosa berukuran kecil sehingga ikut tersaring ke urine primer.</li><li><b>4</b> <i>Salah.</i> Glomerulus adalah tempat <i>filtrasi</i>. Reabsorpsi glukosa terjadi di <b>tubulus kontortus proksimal</b>.</li></ul><p class=\"tips\"><b>Tips:</b> protein di urine → masalah di <b>glomerulus</b> (filtrasi). Glukosa di urine → biasanya masalah <b>gula darah</b> (insulin), bukan ginjalnya.</p>"
   },
   {
     id: "bio-27", bab: "Sistem Imun", level: 1, tipe: "pg",
@@ -325,7 +325,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Aktif alami", "Aktif buatan", "Pasif alami", "Pasif buatan", "Bawaan (nonspesifik)"],
     kunci: 1,
     hint: "Tentukan dua hal: apakah tubuh membuat antibodinya sendiri (aktif/pasif), dan apakah antigen masuk secara sengaja melalui tindakan medis (alami/buatan)?",
-    pembahasan: "<p>Vaksin berisi antigen yang dilemahkan → tubuh <b>membuat antibodi sendiri</b> (aktif) dan antigen dimasukkan secara <b>sengaja</b> (buatan) → kekebalan <b>aktif buatan</b>.</p><p>Aktif alami: setelah sembuh dari sakit. Pasif alami: antibodi dari ibu (ASI/plasenta). Pasif buatan: suntikan serum antibodi (mis. antibisa ular).</p>"
+    pembahasan: "<h4>Konsep</h4><p>Kekebalan dibedakan berdasarkan dua pertanyaan: <b>siapa yang membuat antibodi?</b> (tubuh sendiri = aktif; diberi dari luar = pasif) dan <b>bagaimana didapat?</b> (alami = tanpa disengaja; buatan = sengaja oleh tindakan medis).</p><h4>Langkah</h4><p>Vaksin berisi antigen yang dilemahkan → tubuh membuat antibodi sendiri (<b>aktif</b>) → diberikan sengaja lewat imunisasi (<b>buatan</b>).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Aktif alami = kebal setelah sembuh dari sakit campak.</li><li><b>C</b> Pasif alami = antibodi dari ibu lewat plasenta atau ASI.</li><li><b>D</b> Pasif buatan = suntikan serum berisi antibodi jadi (misalnya antibisa ular, antitetanus).</li><li><b>E</b> Kekebalan bawaan sudah ada sejak lahir dan tidak spesifik terhadap campak.</li></ul><p class=\"tips\"><b>Tips:</b> <b>vaksin</b> = antigen → tubuh bekerja (aktif). <b>Serum</b> = antibodi jadi → tubuh pasif. Serum bekerja cepat tetapi tidak bertahan lama.</p>"
   },
   {
     id: "bio-28", bab: "Sistem Imun", level: 2, tipe: "pg",
@@ -339,7 +339,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "HIV menyerang sel yang berperan sebagai \"komandan\" sistem imun spesifik, yaitu sel yang mengaktifkan sel B dan sel T lainnya.",
-    pembahasan: "<p>HIV menginfeksi sel <b>T helper</b> (CD4). Sel T helper berfungsi mengaktifkan sel B (pembentuk antibodi) dan sel T sitotoksik.</p><p>Jika jumlah T helper turun, respons imun spesifik lumpuh, sehingga penderita mudah terkena infeksi oportunistik.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Sel T helper</b> (CD4) adalah \"komandan\" sistem imun spesifik: mengaktifkan sel B (pembuat antibodi) dan sel T sitotoksik (pembunuh sel terinfeksi). HIV menginfeksi dan menghancurkan sel T helper.</p><h4>Langkah</h4><p>T helper berkurang → sel B dan T sitotoksik tidak teraktivasi → respons imun spesifik lumpuh → penderita mudah terserang <b>infeksi oportunistik</b> (penyakit yang biasanya tidak berbahaya).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Sel darah merah tidak diserang HIV. Gejala ini lebih mirip anemia atau malaria.</li><li><b>C</b> Keping darah tidak diserang HIV. Gangguan pembekuan lebih terkait demam berdarah atau hemofilia.</li><li><b>D</b> Sel B terganggu secara <i>tidak langsung</i> karena tidak diaktifkan, bukan diserang langsung.</li><li><b>E</b> Neutrofil bukan sasaran utama HIV, dan fagositosis tidak berhenti total.</li></ul><p class=\"tips\"><b>Tips:</b> penderita AIDS umumnya tidak meninggal karena virus HIV itu sendiri, tetapi karena infeksi lain (TBC, pneumonia) akibat sistem imunnya lumpuh.</p>"
   },
   {
     id: "bio-29", bab: "Sistem Koordinasi", level: 1, tipe: "pg",
@@ -353,7 +353,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Gerak refleks terjadi sangat cepat karena impulsnya tidak diolah di otak. Saraf sensorik membawa impuls MENUJU pusat saraf.",
-    pembahasan: "<p>Lengkung refleks tangan: <b>reseptor</b> (kulit) → <b>neuron sensorik</b> → <b>sumsum tulang belakang</b> (neuron konektor) → <b>neuron motorik</b> → <b>efektor</b> (otot tangan).</p><p>Gerak sadar melibatkan otak, sedangkan refleks tangan/kaki cukup diolah di sumsum tulang belakang sehingga lebih cepat.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Gerak refleks</b> adalah gerak cepat tanpa disadari. Impulsnya tidak melewati otak sadar, tetapi diolah di <b>sumsum tulang belakang</b> (untuk refleks tangan/kaki). Jalurnya disebut lengkung refleks: reseptor → saraf sensorik → pusat (sumsum) → saraf motorik → efektor.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Melalui otak = jalur gerak <i>sadar</i>, lebih lambat.</li><li><b>C</b> Urutan sensorik dan motorik tertukar. Sensorik selalu membawa impuls dari reseptor.</li><li><b>D</b> Arahnya terbalik total, dimulai dari efektor.</li><li><b>E</b> Otak tidak terlibat, dan saraf sensorik tidak menuju efektor.</li></ul><p class=\"tips\"><b>Tips:</b> <b>S</b>ensorik = <b>S</b>inyal masuk (dari reseptor); <b>M</b>otorik = <b>M</b>enggerakkan (ke otot). Refleks kedip mata dan bersin berpusat di otak, sedangkan refleks tangan/kaki di sumsum tulang belakang.</p>"
   },
   {
     id: "bio-30", bab: "Sistem Koordinasi", level: 2, tipe: "mcma",
@@ -367,7 +367,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [0, 1, 2],
     hint: "Insulin dan glukagon bekerja berlawanan. Adrenalin adalah hormon \"siaga\" yang dilepas saat takut atau tegang.",
-    pembahasan: "<p>• Insulin: glukosa → glikogen, gula darah <b>turun</b> ✔<br>• ADH: reabsorpsi air naik → urine sedikit dan pekat ✔<br>• Tiroksin: mengatur metabolisme dan pertumbuhan ✔<br>• Glukagon justru <i>menaikkan</i> gula darah (glikogen → glukosa)<br>• Adrenalin justru <i>mempercepat</i> denyut jantung</p>"
+    pembahasan: "<h4>Konsep</h4><p>Hormon penting dan fungsinya: <b>insulin</b> menurunkan gula darah; <b>glukagon</b> menaikkan gula darah; <b>ADH</b> menghemat air (urine sedikit); <b>tiroksin</b> mengatur metabolisme; <b>adrenalin</b> menyiapkan tubuh menghadapi bahaya (jantung berdebar, gula darah naik).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ Insulin mengubah glukosa menjadi glikogen → gula darah turun.</li><li><b>B</b> ✔ ADH meningkatkan reabsorpsi air di tubulus → urine sedikit dan pekat.</li><li><b>C</b> ✔ Tiroksin mengatur laju metabolisme dan pertumbuhan.</li><li><b>D</b> ✘ Glukagon <i>menaikkan</i> gula darah (glikogen → glukosa). Ia antagonis insulin.</li><li><b>E</b> ✘ Adrenalin <i>mempercepat</i> denyut jantung (respons \"lawan atau lari\").</li></ul><p class=\"tips\"><b>Tips:</b> insulin dan glukagon bekerja berlawanan. Insulin \"<b>menyimpan</b>\" gula, glukagon \"<b>melepas</b>\" gula.</p>"
   },
   {
     id: "bio-31", bab: "Sistem Reproduksi", level: 1, tipe: "pg",
@@ -375,7 +375,7 @@ window.BANK_SOAL.biologi = { soal: [
     opsi: ["Epididimis", "Vas deferens", "Tubulus seminiferus", "Kelenjar prostat", "Vesikula seminalis"],
     kunci: 2,
     hint: "Sperma dibentuk di dalam testis, tepatnya di saluran-saluran kecil yang berkelok-kelok.",
-    pembahasan: "<p>Spermatogenesis terjadi di <b>tubulus seminiferus</b> di dalam testis. Di antara tubulus terdapat sel Leydig penghasil testosteron, sedangkan sel Sertoli menyediakan nutrisi bagi sperma.</p><p>Epididimis = tempat pematangan dan penyimpanan sementara sperma; vas deferens = saluran sperma; prostat dan vesikula seminalis = penghasil cairan semen.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Spermatogenesis</b> (pembentukan sperma) terjadi di <b>tubulus seminiferus</b> di dalam testis. Di sekitarnya ada sel Sertoli (memberi nutrisi sperma) dan sel Leydig (menghasilkan testosteron).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Epididimis adalah tempat <i>pematangan</i> dan penyimpanan sementara sperma.</li><li><b>B</b> Vas deferens adalah saluran pengangkut sperma.</li><li><b>D</b> Prostat menghasilkan cairan basa yang melindungi sperma.</li><li><b>E</b> Vesikula seminalis menghasilkan cairan kaya fruktosa (sumber energi sperma).</li></ul><p class=\"tips\"><b>Tips:</b> urutan perjalanan sperma: tubulus seminiferus → epididimis → vas deferens → uretra. Pembentukan selalu di awal jalur.</p>"
   },
   {
     id: "bio-32", bab: "Sistem Reproduksi", level: 3, tipe: "kategori",
@@ -388,7 +388,7 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: [true, true, true, false],
     hint: "Progesteron berfungsi mempertahankan dinding rahim (endometrium) yang tebal. Apa yang terjadi pada dinding rahim jika hormon ini berkurang?",
-    pembahasan: "<p>1. FSH (dari hipofisis) merangsang pematangan folikel ✔.<br>2. Lonjakan LH sekitar hari ke-14 memicu <b>ovulasi</b> ✔.<br>3. Folikel bekas ovulasi menjadi korpus luteum yang menghasilkan progesteron ✔.<br>4. Jika tidak terjadi pembuahan, korpus luteum menyusut, kadar progesteron <b>turun</b>, endometrium luruh → menstruasi. Jadi penyebabnya penurunan, bukan peningkatan → Salah.</p>"
+    pembahasan: "<h4>Konsep</h4><p>Siklus menstruasi diatur hormon: <b>FSH</b> → folikel matang (menghasilkan estrogen) → lonjakan <b>LH</b> → ovulasi → folikel bekas menjadi <b>korpus luteum</b> → menghasilkan <b>progesteron</b> yang mempertahankan dinding rahim. Tanpa pembuahan, korpus luteum menyusut → progesteron turun → dinding rahim luruh.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> FSH (<i>Follicle Stimulating Hormone</i>) merangsang pematangan folikel.</li><li><b>2</b> <i>Benar.</i> Lonjakan LH sekitar hari ke-14 memicu pelepasan sel telur.</li><li><b>3</b> <i>Benar.</i> Korpus luteum menghasilkan progesteron (dan sedikit estrogen).</li><li><b>4</b> <i>Salah.</i> Menstruasi dipicu oleh <b>penurunan</b> progesteron. Progesteron justru mempertahankan endometrium.</li></ul><p class=\"tips\"><b>Tips:</b> anggap progesteron sebagai \"penyangga\" dinding rahim. Kalau penyangganya hilang, dinding rahim runtuh dan terjadi menstruasi.</p>"
   },
   {
     id: "bio-33", bab: "Sistem Reproduksi", level: 2, tipe: "pg",
@@ -402,6 +402,6 @@ window.BANK_SOAL.biologi = { soal: [
     ],
     kunci: 1,
     hint: "Ovum yang dilepas dari ovarium masuk ke saluran telur. Embrio yang terbentuk kemudian bergerak ke organ tempat janin tumbuh.",
-    pembahasan: "<p>Fertilisasi normal terjadi di <b>tuba falopi (oviduk)</b>. Zigot membelah menjadi blastosis sambil bergerak ke rahim, lalu menempel (<b>implantasi</b>) pada <b>endometrium</b> (dinding rahim).</p><p>Kehamilan yang tertanam di luar rahim (misalnya di tuba) disebut kehamilan ektopik dan berbahaya.</p>"
+    pembahasan: "<h4>Konsep</h4><p><b>Fertilisasi</b> (pertemuan sperma dan ovum) terjadi di <b>tuba falopi</b> (oviduk), bagian ampula. Zigot membelah sambil bergerak ke rahim selama ±5–7 hari, lalu menempel pada <b>endometrium</b> (implantasi).</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Ovarium adalah tempat pembentukan dan pelepasan ovum, bukan pembuahan.</li><li><b>C</b> Vagina adalah jalan lahir dan tempat masuknya sperma, bukan tempat implantasi.</li><li><b>D</b> Serviks (leher rahim) adalah jalan yang dilalui sperma.</li><li><b>E</b> Ovarium bukan tempat fertilisasi.</li></ul><p class=\"tips\"><b>Tips:</b> jika embrio tertanam di luar rahim (misalnya di tuba), disebut kehamilan <b>ektopik</b>. Ini berbahaya karena tuba bisa pecah.</p>"
   }
 ]};

@@ -222,14 +222,24 @@ th { font-size: .78rem; font-weight: 600; color: var(--muted); border-bottom-col
 }
 .hint-box .eyebrow { color: var(--hint); display: flex; align-items: center; gap: 6px; margin-bottom: 2px; }
 .feedback { margin-top: 20px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); overflow: hidden; }
-.feedback .kepala { display: flex; align-items: center; gap: 10px; padding: 12px 16px; }
+.feedback .kepala { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; padding: 12px 16px; }
 .feedback.ok .kepala { background: var(--ok-soft); color: var(--ok); }
 .feedback.bad .kepala { background: var(--bad-soft); color: var(--bad); }
-.feedback .judul { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; }
+.feedback .judul { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; white-space: nowrap; }
 .feedback .kunci-teks { margin-left: auto; font-size: .85rem; color: var(--text); }
 .pembahasan { padding: 6px 16px 14px; font-size: .95rem; }
 .pembahasan > .eyebrow { display: block; margin: 8px 0 2px; }
 .pembahasan p { margin: 6px 0; }
+.pembahasan h4 {
+  margin: 16px 0 4px; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent);
+}
+.pembahasan h4:first-of-type { margin-top: 10px; }
+.pembahasan ol, .pembahasan ul { margin: 6px 0; padding-left: 20px; }
+.pembahasan li { margin: 3px 0; }
+.pembahasan ul.pengecoh { list-style: none; padding: 0; }
+.pembahasan ul.pengecoh li { padding-left: 26px; position: relative; }
+.pembahasan ul.pengecoh li > b:first-child { position: absolute; left: 0; color: var(--muted); }
+.pembahasan .tips { background: var(--surface-2); border-radius: 8px; padding: 8px 12px; margin-top: 10px; }
 
 /* Aksi (menempel di bawah) */
 .aksi {

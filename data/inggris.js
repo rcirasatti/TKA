@@ -112,7 +112,7 @@
       ],
       kunci: 1,
       hint: "Cari kata \"for\" setelah tanggal penutupan. Apa arti \"annual book inventory\"?",
-      pembahasan: "<p>Teks: \"closed … <b>for the annual book inventory</b>\". <i>Inventory</i> = pendataan/pemeriksaan stok. Jadi perpustakaan tutup karena petugas akan memeriksa (mendata) seluruh buku.</p><p>Ujian disebut di teks, tetapi sebagai alasan meminjam buku referensi, bukan alasan tutup.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pertanyaan <b>\"Why …?\"</b> meminta alasan. Cari kata penanda sebab/tujuan di teks, seperti <i>because, for, so that, due to</i>. Di sini penandanya <b>\"for\"</b> (untuk/karena).</p><h4>Bukti di teks</h4><p>\"The school library will be closed … <b>for the annual book inventory</b>.\" <i>Inventory</i> = pendataan atau pemeriksaan seluruh stok. Jadi petugas akan memeriksa semua buku → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Ujian memang disebut, tetapi sebagai alasan meminjam buku referensi, bukan alasan tutup.</li><li><b>C</b> Tidak ada kata <i>renovated/repair</i>.</li><li><b>D</b> Teachers' Room hanya disebut sebagai lokasi drop box.</li><li><b>E</b> Tidak ada hari libur yang disebut.</li></ul><p class=\"tips\"><b>Tips:</b> pengecoh sering memakai kata yang <i>memang ada</i> di teks (exam, teachers) tetapi dipasangkan dengan informasi yang salah. Cocokkan maknanya, jangan hanya kata yang sama.</p>"
     },
     {
       id: "ing-02", bab: TU, level: 1, tipe: "pg", stimulus: T1,
@@ -126,7 +126,7 @@
       ],
       kunci: 2,
       hint: "Cari kalimat yang dimulai dengan \"During this period …\".",
-      pembahasan: "<p>Teks: \"During this period, students can return borrowed books to <b>the drop box in front of the Teachers' Room</b>.\"</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pertanyaan <b>\"Where …?\"</b> dengan detail spesifik → <i>scanning</i>: cari kata kunci soal (<i>return, borrowed books</i>) di teks, lalu baca kalimat itu dengan teliti.</p><h4>Bukti di teks</h4><p>\"During this period, students can <b>return borrowed books to the drop box in front of the Teachers' Room</b>.\" → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Perpustakaan (termasuk konternya) sedang tutup.</li><li><b>B</b> \"Head of the Library\" hanya nama pengirim pengumuman.</li><li><b>D</b> Ruang kelas tidak disebut.</li><li><b>E</b> Buku justru <i>bisa</i> dikembalikan lewat drop box selama perpustakaan tutup.</li></ul><p class=\"tips\"><b>Tips:</b> <i>during this period</i> = selama masa itu, yaitu masa perpustakaan tutup. Frasa penunjuk waktu seperti ini menghubungkan informasi antarkalimat.</p>"
     },
     {
       id: "ing-03", bab: IN, level: 2, tipe: "kategori", stimulus: T1,
@@ -139,7 +139,7 @@
       ],
       kunci: [true, false, true, false],
       hint: "Hitung hari dari Monday sampai Wednesday. Perhatikan juga judul pengumuman untuk mengetahui sasaran pembacanya.",
-      pembahasan: "<p>1. Monday–Wednesday (10–12 November) = 3 hari ✔.</p><p>2. Tanggal 12 November perpustakaan masih tutup → Salah.</p><p>3. \"may borrow them on Friday, 7 November, with a maximum of three books per student\" ✔.</p><p>4. Judulnya \"ATTENTION ALL <b>STUDENTS</b>\" → sasarannya siswa, bukan guru → Salah.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Untuk Benar/Salah, cek <b>setiap</b> pernyataan ke teks. Perhatikan tanggal, angka, dan kata seperti <i>only, all, mainly</i>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Monday 10 – Wednesday 12 November = 3 hari.</li><li><b>2</b> <i>Salah.</i> 12 November masih masa tutup; buka lagi 13 November.</li><li><b>3</b> <i>Benar.</i> \"may borrow them on Friday, 7 November, <b>with a maximum of three books</b> per student\" (maksimal tiga buku).</li><li><b>4</b> <i>Salah.</i> Judulnya \"ATTENTION <b>ALL STUDENTS</b>\" → ditujukan untuk siswa.</li></ul><p class=\"tips\"><b>Tips:</b> judul pengumuman (<i>Attention …</i>, <i>To: …</i>) langsung memberi tahu sasaran pembacanya.</p>"
     },
 
     // ---------- Text 2: Email ----------
@@ -155,7 +155,7 @@
       ],
       kunci: 2,
       hint: "Perhatikan permintaan utama Nadia di paragraf kedua: apa yang diminta dan kapan mereka bertemu?",
-      pembahasan: "<p>Nadia meminta Kevin membawa barang tertentu, menyebut apa yang akan ia siapkan sendiri, serta menentukan waktu dan tempat bertemu. Jadi tujuannya <b>mengatur pertemuan dan membagi tugas</b> proyek.</p><p>Proposal sudah disetujui (\"approved … yesterday\"), dan Dimas hanya cadangan jika Kevin tidak bisa datang.</p>"
+      pembahasan: "<h4>Strategi</h4><p><b>\"Main purpose\"</b> = tujuan utama keseluruhan teks, bukan satu detail. Lihat apa yang <i>diminta</i> penulis dari pembaca. Pada e-mail, biasanya ada di bagian permintaan (<i>Could you…? Let's…</i>).</p><h4>Bukti di teks</h4><p>\"<b>Could you bring</b> the plastic bottles and the charcoal…? <b>I will prepare</b> the sand and gravel. <b>Let's meet</b> at my house at 9 a.m.\" → membagi tugas dan mengatur pertemuan → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Tidak ada pesta ulang tahun.</li><li><b>B</b> Proposal sudah disetujui (\"approved … yesterday\").</li><li><b>D</b> Cara kerja filter tidak dijelaskan; bahannya hanya disebut sekilas.</li><li><b>E</b> E-mail ditujukan ke Kevin; Dimas hanya cadangan.</li></ul><p class=\"tips\"><b>Tips:</b> opsi tujuan yang benar biasanya merangkum <i>beberapa</i> bagian teks sekaligus. Opsi yang hanya cocok dengan satu kalimat biasanya hanya detail.</p>"
     },
     {
       id: "ing-05", bab: TU, level: 2, tipe: "mcma", stimulus: T2,
@@ -163,7 +163,7 @@
       opsi: ["Plastic bottles", "Sand", "Charcoal", "Gravel", "A water test kit"],
       kunci: [0, 2],
       hint: "Bedakan apa yang diminta dari Kevin (\"Could you bring …\") dan apa yang akan disiapkan Nadia (\"I will prepare …\").",
-      pembahasan: "<p>\"Could you bring <b>the plastic bottles</b> and <b>the charcoal</b>?\" → tugas Kevin.</p><p>\"I will prepare the sand and gravel.\" → tugas Nadia. Alat uji air tidak diminta dari Kevin.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pilih semua yang benar → bedakan dengan cermat <b>siapa melakukan apa</b>. Perhatikan subjek kalimat: <i>you</i> (Kevin) vs <i>I</i> (Nadia).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ \"<b>Could you</b> bring the plastic bottles…\" (tugas Kevin).</li><li><b>B</b> ✘ \"<b>I</b> will prepare the sand…\" (tugas Nadia).</li><li><b>C</b> ✔ \"…and the charcoal\" (masih dalam permintaan untuk Kevin).</li><li><b>D</b> ✘ Gravel disiapkan Nadia.</li><li><b>E</b> ✘ Alat uji air tidak diminta dari Kevin. Bu Lestari hanya meminta tim menambahkan pengujian.</li></ul><p class=\"tips\"><b>Tips:</b> dalam surat atau e-mail, <i>you</i> = penerima dan <i>I</i> = penulis. Jebakan klasiknya adalah menukar keduanya.</p>"
     },
     {
       id: "ing-06", bab: IN, level: 2, tipe: "pg", stimulus: T2,
@@ -177,7 +177,7 @@
       ],
       kunci: 1,
       hint: "Siapa yang biasanya berwenang menyetujui proposal dan meminta tambahan pada proyek siswa?",
-      pembahasan: "<p>Mrs. Lestari \"<b>approved our proposal</b>\" dan \"<b>asked us to add a test</b>\". Orang yang menyetujui dan memberi masukan pada proposal proyek sekolah kemungkinan besar adalah <b>guru pembimbing</b>.</p><p>Opsi D bertentangan dengan teks, sedangkan opsi lain tidak didukung teks.</p>"
+      pembahasan: "<h4>Strategi</h4><p><b>Inferensi</b> = kesimpulan yang <i>didukung</i> petunjuk teks walau tidak ditulis langsung. Pilih yang paling masuk akal dari bukti, bukan sekadar mungkin.</p><h4>Bukti di teks</h4><p>Mrs. Lestari \"<b>approved our proposal</b>\" dan \"<b>asked us to add a test</b>\". Orang yang menyetujui dan memberi masukan pada proyek lomba sains sekolah kemungkinan besar adalah <b>guru pembimbing</b> → <b>B</b>. Kata <i>probably</i> di opsi menandakan ini kesimpulan.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Tidak ada petunjuk hubungan keluarga.</li><li><b>C</b> Pertemuan Sabtu hanya untuk Nadia dan Kevin (atau Dimas).</li><li><b>D</b> Bertentangan dengan teks: proposal justru disetujui.</li><li><b>E</b> Charcoal dibawa Kevin.</li></ul><p class=\"tips\"><b>Tips:</b> inferensi yang baik tidak bertentangan dengan teks <i>dan</i> punya bukti pendukung. Coret dulu opsi yang bertentangan, lalu yang tidak punya bukti.</p>"
     },
 
     // ---------- Text 3: Descriptive ----------
@@ -193,7 +193,7 @@
       ],
       kunci: 2,
       hint: "Baca kalimat pertama paragraf 2, lalu lihat apa saja yang dijelaskan sesudahnya (kepala, kaki, kulit, lidah, kecepatan lari).",
-      pembahasan: "<p>Paragraf 2 membahas kepala, kaki, kulit, lidah, dan kemampuan berlari → <b>ciri fisik dan kemampuan</b> Komodo.</p><p>Tempat hidup = paragraf 1, makanan = paragraf 3, ancaman = paragraf 4.</p>"
+      pembahasan: "<h4>Strategi</h4><p><b>Main idea</b> paragraf = topik yang dibahas oleh <i>semua</i> kalimat di paragraf itu. Kalimat pertama sering menjadi kalimat topik.</p><h4>Bukti di teks</h4><p>Paragraf 2 membahas <i>flat heads, strong legs, rough skin, forked tongues</i> (ciri fisik) dan <i>can run up to 20 km/h</i> (kemampuan) → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Tempat hidup = paragraf 1.</li><li><b>B</b> Makanan = paragraf 3.</li><li><b>D</b> Ancaman kepunahan = paragraf 4.</li><li><b>E</b> Cara berburu tidak dibahas khusus; rusa hanya disebut sebagai makanan di paragraf 3.</li></ul><p class=\"tips\"><b>Tips:</b> pada teks deskripsi hewan, biasanya tiap paragraf satu aspek: klasifikasi/habitat → fisik → makanan/perilaku → status.</p>"
     },
     {
       id: "ing-08", bab: IN, level: 2, tipe: "pg", stimulus: T3,
@@ -201,7 +201,7 @@
       opsi: ["hide", "notice", "produce", "remove", "avoid"],
       kunci: 1,
       hint: "Ganti kata \"detect\" dengan setiap opsi: lidah Komodo membantu mereka ___ bau makanan dari jarak jauh. Mana yang masuk akal?",
-      pembahasan: "<p>\"help them <b>detect</b> the smell of food from several kilometres away\" → lidah membantu <i>mengenali/menangkap</i> bau dari jauh.</p><p>Sinonim yang paling tepat: <b>notice</b> (menyadari/mengenali).</p>"
+      pembahasan: "<h4>Strategi</h4><p>Soal sinonim: pahami kata dari <b>konteks kalimatnya</b>, lalu uji setiap opsi dengan menggantikan kata itu dalam kalimat.</p><h4>Bukti di teks</h4><p>\"Their forked tongues … help them <b>detect</b> the smell of food from several kilometres away.\" Lidah membantu <i>menangkap/mengenali</i> bau dari jauh → <i>notice</i> (menyadari, mengenali) → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> hide = menyembunyikan (tidak logis: menyembunyikan bau makanan).</li><li><b>C</b> produce = menghasilkan (lidah tidak menghasilkan bau).</li><li><b>D</b> remove = menghilangkan.</li><li><b>E</b> avoid = menghindari (berlawanan dengan mencari makanan).</li></ul><p class=\"tips\"><b>Tips:</b> kata serapan membantu: <i>detect</i> mirip \"deteksi\" (mendeteksi = mengetahui adanya sesuatu).</p>"
     },
     {
       id: "ing-09", bab: TU, level: 2, tipe: "kategori", stimulus: T3,
@@ -214,7 +214,7 @@
       ],
       kunci: [true, true, false, true],
       hint: "Cek paragraf 3 tentang jenis makanannya, dan paragraf 4 tentang \"illegal hunting of the animals they eat\".",
-      pembahasan: "<p>1. \"found only on a few islands in Indonesia\" ✔.</p><p>2. \"forked tongues … help them detect the smell of food\" ✔.</p><p>3. \"from deer and wild pigs <b>to dead animals</b>\" → juga makan bangkai → Salah.</p><p>4. Perburuan liar terhadap hewan mangsanya membuat makanan Komodo berkurang ✔.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pernyataan dengan kata mutlak (<i>only, always, never</i>) perlu dicek ekstra hati-hati. Cukup satu contoh yang bertentangan untuk membuatnya salah.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> \"found only on a few islands in Indonesia, including Komodo, Rinca, and Flores\".</li><li><b>2</b> <i>Benar.</i> \"forked tongues … help them detect the smell of food\".</li><li><b>3</b> <i>Salah.</i> \"from deer and wild pigs <b>to dead animals</b>\" → Komodo juga makan bangkai, jadi tidak <i>only</i> hewan hidup.</li><li><b>4</b> <i>Benar.</i> \"illegal hunting of <b>the animals they eat</b>\" → mangsa Komodo diburu sehingga jumlahnya berkurang.</li></ul><p class=\"tips\"><b>Tips:</b> pernyataan 4 adalah parafrase. Teks berkata \"perburuan hewan mangsanya\", pernyataan berkata \"jumlah mangsa berkurang\". Maknanya sama walau kata-katanya berbeda.</p>"
     },
 
     // ---------- Text 4: Recount ----------
@@ -230,7 +230,7 @@
       ],
       kunci: 1,
       hint: "Cari frasa \"so that …\" di kalimat kedua — frasa ini menyatakan tujuan.",
-      pembahasan: "<p>\"We left our homestay in Dieng at 1 a.m. <b>so that we could reach the summit before sunrise</b>.\"</p><p>\"So that\" = agar/supaya → menyatakan tujuan.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pertanyaan \"why\" pada teks <i>recount</i>: cari penanda tujuan atau sebab seperti <b>so that</b> (agar), <i>because, in order to</i>.</p><h4>Bukti di teks</h4><p>\"We left our homestay in Dieng at 1 a.m. <b>so that</b> we could reach the summit <b>before sunrise</b>.\" → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Jalur licin adalah keadaan saat mendaki, bukan alasan berangkat pukul 1.</li><li><b>C</b> Hujan sudah terjadi \"the night before\", jadi tidak dihindari.</li><li><b>D</b> Raka terkilir saat turun, setelah berangkat.</li><li><b>E</b> Tidak disebut di teks.</li></ul><p class=\"tips\"><b>Tips:</b> <i>so that</i> = tujuan (agar); <i>so</i> saja = akibat (jadi/sehingga). Keduanya sering keluar di soal sebab-akibat.</p>"
     },
     {
       id: "ing-11", bab: IN, level: 2, tipe: "pg", stimulus: T4,
@@ -244,7 +244,7 @@
       ],
       kunci: 1,
       hint: "Teks recount biasanya urut waktu. Perhatikan penanda waktu: \"After about three hours\", \"when the sun rose\", \"On the way down\", \"at noon\".",
-      pembahasan: "<p>Paragraf 1: jalur licin saat naik → paragraf 2: tiba di puncak dan melihat matahari terbit → paragraf 3: <i>on the way down</i> Raka terkilir → <i>at noon</i> tiba di homestay.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Urutan peristiwa pada teks <i>recount</i> mengikuti alur paragraf. Gunakan penanda waktu: <i>after about three hours, when the sun rose, on the way down, at noon</i>.</p><h4>Bukti di teks</h4><ol><li>P1: jalur licin saat mendaki (\"The trail was steep and slippery\").</li><li>P2: tiba di puncak, matahari terbit (\"when the sun rose\").</li><li>P3: \"<b>On the way down</b>, Raka twisted his ankle\".</li><li>P3: \"We reached the homestay <b>at noon</b>\". Urutan ini sama dengan <b>B</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Matahari terbit tidak terjadi sebelum mendaki jalur licin.</li><li><b>C</b> Raka terkilir saat <i>turun</i>, jadi setelah matahari terbit.</li><li><b>D</b> Raka terkilir bukan peristiwa pertama.</li><li><b>E</b> Tiba di homestay adalah peristiwa terakhir.</li></ul><p class=\"tips\"><b>Tips:</b> cari dulu peristiwa yang pasti pertama atau pasti terakhir. Biasanya itu sudah cukup untuk mencoret sebagian besar opsi.</p>"
     },
     {
       id: "ing-12", bab: IN, level: 2, tipe: "pg", stimulus: T4,
@@ -258,7 +258,7 @@
       ],
       kunci: 2,
       hint: "Lihat kalimat tepat sebelum frasa \"walk even more slowly\".",
-      pembahasan: "<p>\"Raka twisted his ankle … <b>We had to carry his backpack and walk even more slowly</b>.\" → sebab: Raka cedera.</p><p>Hujan terjadi malam sebelumnya, dan foto diambil di puncak, bukan saat turun.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pertanyaan yang mengutip frasa dari teks (\"even more slowly\") → temukan frasa itu, lalu baca kalimat <b>sebelumnya</b> untuk mencari sebabnya.</p><h4>Bukti di teks</h4><p>\"Raka <b>twisted his ankle</b> because he was running. We had to <b>carry his backpack</b> and walk even more slowly.\" → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Hujan terjadi malam sebelumnya, bukan saat turun.</li><li><b>B</b> Foto diambil di puncak.</li><li><b>D</b> Suhu dingin dibahas saat di puncak, bukan alasan berjalan lambat.</li><li><b>E</b> Tidak ada cerita tersesat.</li></ul><p class=\"tips\"><b>Tips:</b> <i>twist an ankle</i> = keseleo atau terkilir pergelangan kaki. Kosakata cedera ringan seperti ini sering muncul.</p>"
     },
     {
       id: "ing-13", bab: IN, level: 3, tipe: "mcma", stimulus: T4,
@@ -272,7 +272,7 @@
       ],
       kunci: [0, 1],
       hint: "Pilih yang didukung bukti di teks. Hati-hati dengan opsi yang mungkin saja benar di dunia nyata tetapi tidak disebutkan atau tersirat di teks.",
-      pembahasan: "<p>• \"when the sun rose … all our tiredness disappeared\" → lelah berubah menjadi takjub ✔<br>• Raka terkilir \"<b>because he was running</b>\" saat turun → ceroboh ✔<br>• Jalur \"steep and slippery\" → bukan kering dan mudah ✘<br>• \"exhausted but happy\", \"most unforgettable trip\" → tidak menyesal ✘<br>• Tidak ada informasi tentang pengalaman mendaki sebelumnya ✘</p>"
+      pembahasan: "<h4>Strategi</h4><p>Inferensi pada recount: perhatikan <b>perubahan perasaan</b> tokoh dan <b>alasan</b> di balik tindakannya. Opsi yang tidak ada buktinya dianggap tidak didukung, walau mungkin benar di dunia nyata.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ \"my fingers felt numb. However, when the sun rose … <b>all our tiredness disappeared</b>\" → lelah berubah menjadi takjub.</li><li><b>B</b> ✔ Raka terkilir \"<b>because he was running</b>\" saat turun gunung → ceroboh.</li><li><b>C</b> ✘ Jalurnya \"<b>steep and slippery</b>\" (curam dan licin).</li><li><b>D</b> ✘ \"exhausted <b>but happy</b>\", \"the most unforgettable trip\" → tidak menyesal.</li><li><b>E</b> ✘ Tidak ada informasi tentang pengalaman mendaki sebelumnya.</li></ul><p class=\"tips\"><b>Tips:</b> kata <i>however</i> menandakan perubahan arah. Di sini dari menderita (dingin, mati rasa) menjadi bahagia (matahari terbit).</p>"
     },
 
     // ---------- Text 5: Procedure ----------
@@ -288,7 +288,7 @@
       ],
       kunci: 1,
       hint: "Perhatikan judul dan struktur teks: ada \"Materials\" dan \"Steps\". Jenis teks apa ini?",
-      pembahasan: "<p>Teks berjudul \"How to Make …\", berisi bahan dan langkah-langkah → teks <b>procedure</b>. Tujuannya menjelaskan cara membuat <i>rain gauge</i> (alat pengukur curah hujan).</p>"
+      pembahasan: "<h4>Strategi</h4><p>Tujuan teks dikenali dari <b>jenis teksnya</b>. Judul \"How to Make…\" + daftar <i>Materials</i> + <i>Steps</i> bernomor = teks <b>procedure</b>, yang tujuannya menjelaskan cara membuat atau melakukan sesuatu.</p><h4>Bukti di teks</h4><p>\"How to Make a Simple <b>Rain Gauge</b>\". <i>Rain gauge</i> = alat pengukur curah hujan → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Mendeskripsikan cuaca = teks deskripsi atau laporan.</li><li><b>C</b> Bercerita tentang hari hujan = narrative atau recount.</li><li><b>D</b> Membujuk = exposition; teks tidak mengajak mendaur ulang.</li><li><b>E</b> Melaporkan data hujan bulan lalu = report.</li></ul><p class=\"tips\"><b>Tips:</b> procedure → <i>to explain how to…</i>; recount → <i>to retell past events</i>; narrative → <i>to entertain</i>; report → <i>to describe things in general</i>; exposition → <i>to persuade</i>.</p>"
     },
     {
       id: "ing-15", bab: TU, level: 2, tipe: "pg", stimulus: T5,
@@ -302,7 +302,7 @@
       ],
       kunci: 2,
       hint: "Baca langkah 2 sampai habis, terutama frasa setelah \"so that\".",
-      pembahasan: "<p>Langkah 2: \"Put some small stones … <b>so that it does not fall over in the wind</b>.\" → agar botol tidak terguling.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Detail yang dikaitkan dengan langkah tertentu → temukan langkah yang menyebut kata kunci (<i>small stones</i>), lalu cari penanda tujuannya (<i>so that</i>).</p><h4>Bukti di teks</h4><p>Langkah 2: \"Put some small stones at the bottom of the bottle <b>so that it does not fall over in the wind</b>.\" <i>Fall over</i> = terguling atau jatuh → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Batu tidak dipakai untuk menyaring air.</li><li><b>B</b> Garis nol ditandai pada langkah 3 dengan air, bukan oleh batu.</li><li><b>D</b> Corong diperkuat dengan selotip (langkah 5).</li><li><b>E</b> Akurasi pengukuran tidak disebut sebagai fungsi batu.</li></ul><p class=\"tips\"><b>Tips:</b> batu juga disebut di langkah 3 (\"until it just covers the stones\"). Bedakan fungsi batu (pemberat) dari fungsi air di langkah 3 (penentu garis nol).</p>"
     },
     {
       id: "ing-16", bab: EV, level: 3, tipe: "kategori", stimulus: T5,
@@ -315,7 +315,7 @@
       ],
       kunci: [false, true, false, true],
       hint: "Cocokkan setiap tindakan dengan langkah 5, 6, dan 7.",
-      pembahasan: "<p>1. Langkah 6: letakkan di area terbuka, <b>jauh dari pohon</b> → Rani salah.</p><p>2. Langkah 7: cek pada <b>waktu yang sama setiap hari</b> → Budi benar ✔.</p><p>3. Langkah 7: buang air hanya <b>sampai garis nol</b>, bukan semuanya → Sinta salah.</p><p>4. Langkah 5: bagian atas botol dibalik dan dipakai sebagai corong → Doni benar ✔.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Soal penerapan: bandingkan tindakan setiap siswa dengan <b>langkah yang relevan</b>. Cari langkah yang membahas lokasi, waktu, membuang air, dan corong.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Salah.</i> Langkah 6: \"in an open area, <b>away from trees</b> and buildings\". Di bawah pohon, air hujan terhalang daun.</li><li><b>2</b> <i>Benar.</i> Langkah 7: \"at <b>the same time every day</b>\". Jam 7 pagi setiap hari memenuhinya.</li><li><b>3</b> <i>Salah.</i> Langkah 7: \"pour out the water <b>down to the zero line</b>\". Air yang menutupi batu harus disisakan.</li><li><b>4</b> <i>Benar.</i> Langkah 5: bagian atas botol yang dipotong dibalik dan dipakai seperti corong.</li></ul><p class=\"tips\"><b>Tips:</b> soal seperti ini menguji apakah kamu paham <i>alasan</i> tiap langkah. Pohon menghalangi hujan; garis nol adalah titik awal ukur.</p>"
     },
 
     // ---------- Text 6: Narrative ----------
@@ -331,7 +331,7 @@
       ],
       kunci: 1,
       hint: "Masalah (komplikasi) dalam cerita biasanya muncul di paragraf pertama, ditandai kata \"but\".",
-      pembahasan: "<p>\"he saw ripe fruits on the trees across the river, <b>but</b> the river was full of hungry crocodiles\" → Kancil ingin buah di seberang, tetapi sungai penuh buaya.</p><p>Perintah raja hanyalah tipuan Kancil.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Dalam struktur narrative, <b>complication</b> (masalah) biasanya muncul tepat setelah orientation. Cari kata penanda kontras seperti <i>but, however, unfortunately</i>.</p><h4>Bukti di teks</h4><p>\"he saw ripe fruits on the trees across the river, <b>but</b> the river was full of hungry crocodiles.\" → ingin buah di seberang, tetapi terhalang buaya → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Perintah raja hanyalah tipuan Kancil; tidak ada raja yang mengejarnya.</li><li><b>C</b> Minum baru disebut di akhir sebagai rencana buaya.</li><li><b>D</b> Menghitung adalah tipuan Kancil, bukan tugas yang sebenarnya.</li><li><b>E</b> Tidak ada rasa takut terhadap hutan.</li></ul><p class=\"tips\"><b>Tips:</b> masalah tokoh = keinginan + halangan. Rumuskan dengan pola \"ingin …, tetapi …\".</p>"
     },
     {
       id: "ing-18", bab: IN, level: 2, tipe: "pg", stimulus: T6,
@@ -339,7 +339,7 @@
       opsi: ["honest and generous", "clever but deceitful", "brave and kind", "lazy and careless", "foolish and greedy"],
       kunci: 1,
       hint: "Lihat cara Kancil menyelesaikan masalahnya: apakah ia jujur kepada para buaya?",
-      pembahasan: "<p>Kancil berhasil menyeberang dengan akal → <b>clever</b>. Namun ia berbohong soal daging dari raja → <b>deceitful</b> (suka menipu).</p><p>\"Foolish and greedy\" lebih cocok untuk para buaya.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Watak tokoh disimpulkan dari <b>tindakan dan ucapannya</b>. Kalau opsi memuat dua sifat, <b>keduanya</b> harus terbukti.</p><h4>Bukti di teks</h4><p>Kancil berhasil menyeberang dengan akal → <b>clever</b> (cerdik). Ia berbohong soal daging dari raja (\"There is no meat\") → <b>deceitful</b> (suka menipu) → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> honest (jujur) bertentangan dengan kebohongannya.</li><li><b>C</b> brave mungkin, tetapi kind tidak; ia menipu dan menertawakan buaya.</li><li><b>D</b> lazy dan careless tidak sesuai; ia berpikir keras (\"thought hard\").</li><li><b>E</b> foolish and greedy lebih cocok untuk para buaya.</li></ul><p class=\"tips\"><b>Tips:</b> kata <i>but</i> di opsi B menunjukkan sifat yang bercampur (positif dan negatif). Itu sering paling akurat untuk tokoh <i>trickster</i> seperti Kancil.</p>"
     },
     {
       id: "ing-19", bab: IN, level: 3, tipe: "pg", stimulus: T6,
@@ -353,7 +353,7 @@
       ],
       kunci: 2,
       hint: "Baca ucapan pemimpin buaya di akhir cerita: \"We will be waiting.\"",
-      pembahasan: "<p>Pemimpin buaya berbisik: \"Kancil will come back to drink at this river someday. <b>We will be waiting.</b>\" Para buaya marah, sehingga kemungkinan besar mereka akan <b>mencoba menangkap Kancil</b> saat ia kembali minum.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Prediksi kejadian berikutnya → baca <b>bagian paling akhir</b> teks. Penulis biasanya menanam petunjuk (<i>foreshadowing</i>) di sana.</p><h4>Bukti di teks</h4><p>\"The crocodiles were <b>furious</b> … the leader whispered, 'Kancil will come back to drink at this river someday. <b>We will be waiting</b>.'\" → buaya akan mencoba menangkap Kancil saat ia kembali → <b>C</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Raja dan daging hanyalah karangan Kancil.</li><li><b>B</b> Buaya marah; tidak ada tanda akan berteman.</li><li><b>D</b> Mereka justru menunggu di sungai.</li><li><b>E</b> Kancil sudah mendapat yang ia mau; tidak ada alasan mengulang.</li></ul><p class=\"tips\"><b>Tips:</b> jawaban prediksi harus <i>berlanjut logis</i> dari perasaan dan rencana tokoh di akhir teks, bukan sekadar mungkin terjadi.</p>"
     },
     {
       id: "ing-20", bab: EV, level: 3, tipe: "kategori", stimulus: T6,
@@ -366,7 +366,7 @@
       ],
       kunci: [true, true, false, false],
       hint: "Untuk nomor 3, perhatikan akhir cerita: apakah kebohongan Kancil benar-benar tanpa akibat?",
-      pembahasan: "<p>1. Hewan berbicara adalah unsur <b>fantasi</b> ✔.</p><p>2. Para buaya langsung antre karena tergiur janji daging ✔.</p><p>3. Akhir cerita menunjukkan buaya akan menunggu untuk membalas → kebohongan <b>bisa berakibat</b> → Salah.</p><p>4. Tidak ada daging; Kancil tidak menepati janjinya → Salah.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Evaluasi cerita: bedakan unsur <b>fantasi</b>, <b>sebab-akibat</b> tindakan tokoh, dan <b>pesan moral</b>. Cek apakah setiap klaim cocok dengan isi dan akhir cerita.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Hewan berbicara adalah unsur fantasi khas fabel.</li><li><b>2</b> <i>Benar.</i> Buaya langsung antre karena tergiur \"a piece of meat\".</li><li><b>3</b> <i>Salah.</i> Akhir cerita menunjukkan buaya akan membalas (\"We will be waiting\"). Kebohongan tetap punya akibat.</li><li><b>4</b> <i>Salah.</i> \"There is no meat.\" Kancil tidak menepati janjinya.</li></ul><p class=\"tips\"><b>Tips:</b> kata <i>never</i> di pernyataan 3 adalah sinyal kuat. Cukup satu bukti adanya akibat untuk membuatnya salah.</p>"
     },
 
     // ---------- Text 7: Explanation ----------
@@ -382,7 +382,7 @@
       ],
       kunci: 1,
       hint: "Cari hubungan sebab-akibat di kalimat terakhir paragraf 2 (penanda: \"so\").",
-      pembahasan: "<p>\"As the waves approach shallow water … they <b>slow down</b>, and the water <b>piles up</b>, <i>so</i> their height increases dramatically.\"</p><p>Opsi C terbalik: di perairan dangkal gelombang justru melambat.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Soal sebab-akibat pada teks eksplanasi → cari penanda akibat <b>so</b>, <i>therefore, as a result</i>, lalu ambil sebab di depannya.</p><h4>Bukti di teks</h4><p>\"As the waves approach shallow water near the coast, they <b>slow down</b>, and the water <b>piles up</b>, <b>so</b> their height increases dramatically.\" → <b>B</b>. (<i>Pile up</i> = menumpuk.)</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Angin tidak disebut.</li><li><b>C</b> Terbalik: di perairan dangkal gelombang justru <i>melambat</i>.</li><li><b>D</b> Kapal tidak mendorong air.</li><li><b>E</b> Laut surut adalah tanda peringatan (paragraf 3), bukan penyebab gelombang tinggi.</li></ul><p class=\"tips\"><b>Tips:</b> opsi yang membalik fakta (cepat ↔ lambat, naik ↔ turun) adalah pengecoh favorit di teks sains. Baca kata kerjanya dengan teliti.</p>"
     },
     {
       id: "ing-22", bab: IN, level: 2, tipe: "pg", stimulus: T7,
@@ -396,7 +396,7 @@
       ],
       kunci: 1,
       hint: "Bandingkan dua hal: tinggi gelombang dan kecepatannya, di laut dalam vs di dekat pantai.",
-      pembahasan: "<p>Laut dalam: tinggi &lt; 1 m (<b>rendah</b>), kecepatan hingga 800 km/jam (<b>sangat cepat</b>).</p><p>Dekat pantai: <b>melambat</b>, tetapi tinggi bisa &gt; 30 m.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Soal perbandingan → buat tabel kecil: <b>tinggi</b> dan <b>kecepatan</b> di laut dalam vs dekat pantai.</p><h4>Bukti di teks</h4><table><tr><th></th><th>Laut dalam</th><th>Dekat pantai</th></tr><tr><th>Tinggi</th><td>&lt; 1 m (rendah)</td><td>bisa &gt; 30 m</td></tr><tr><th>Kecepatan</th><td>hingga 800 km/jam</td><td>melambat</td></tr></table><p>Di laut dalam: lebih rendah tetapi jauh lebih cepat → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b>, <b>C</b>, <b>D</b>: salah satu atau kedua sifatnya terbalik.</li><li><b>E</b> Teks jelas menunjukkan perbedaan besar.</li></ul><p class=\"tips\"><b>Tips:</b> kata <i>but</i> di opsi B menandakan kontras (rendah <i>tetapi</i> cepat). Itu cocok dengan kata <i>However</i> di teks.</p>"
     },
     {
       id: "ing-23", bab: TU, level: 3, tipe: "mcma", stimulus: T7,
@@ -410,7 +410,7 @@
       ],
       kunci: [1, 2, 4],
       hint: "Hati-hati dengan kata mutlak seperti \"always\". Cek juga paragraf 3 tentang penyebab lain tsunami.",
-      pembahasan: "<p>• Paragraf 3 menyebut penyebab lain (gunung api, longsor bawah laut, meteorit) → \"always\" salah ✘<br>• \"up to 800 kilometres per hour, about as fast as a jet plane\" ✔<br>• \"the sea suddenly pulls back from the shore\" adalah tanda alami ✔<br>• \"ships hardly notice them\" → kapal tidak hancur ✘<br>• Paragraf 1: pergeseran lempeng mendorong air ke atas ✔</p>"
+      pembahasan: "<h4>Strategi</h4><p>\"Supported by the text\" → setiap opsi harus punya bukti langsung. Waspadai kata mutlak (<i>always</i>) dan klaim berlebihan (<i>destroyed</i>).</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✘ Paragraf 3: \"<b>Besides earthquakes</b>, tsunamis can also be triggered by volcanic eruptions, underwater landslides…\" → tidak <i>always</i> gempa.</li><li><b>B</b> ✔ \"up to 800 kilometres per hour, <b>about as fast as a jet plane</b>\".</li><li><b>C</b> ✔ \"One natural warning sign … is when the sea suddenly <b>pulls back</b> from the shore\".</li><li><b>D</b> ✘ \"ships <b>hardly notice</b> them\" → kapal hampir tidak merasakannya, apalagi hancur.</li><li><b>E</b> ✔ Paragraf 1: \"When the plates suddenly shift, the sea floor rises or drops, <b>pushing a large amount of water upward</b>.\"</li></ul><p class=\"tips\"><b>Tips:</b> <i>hardly</i> berarti \"hampir tidak\", bukan \"dengan keras\". Ini salah paham yang sangat sering terjadi.</p>"
     },
 
     // ---------- Text 8: Exposition ----------
@@ -426,7 +426,7 @@
       ],
       kunci: 1,
       hint: "Pada teks eksposisi, pendapat utama (tesis) biasanya ada di paragraf pertama dan ditegaskan kembali di paragraf terakhir. Cari \"In my opinion\".",
-      pembahasan: "<p>Tesis: \"In my opinion, schools should <b>not ban smartphones completely</b>, but they should <b>control how phones are used</b>.\" Ditegaskan lagi di kesimpulan: \"With the right rules, they can help students learn better.\"</p>"
+      pembahasan: "<h4>Strategi</h4><p>Pada teks argumentasi (<i>exposition</i>), <b>main point</b> = tesis penulis. Biasanya muncul di paragraf pertama dengan penanda <i>In my opinion / I believe</i>, lalu diulang di kesimpulan.</p><h4>Bukti di teks</h4><p>\"<b>In my opinion</b>, schools should not ban smartphones completely, but they should control how phones are used.\" Diulang di P5: \"With the right rules, they can help students learn better.\" → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Itu pendapat pendukung larangan, yang justru ditolak penulis.</li><li><b>C</b> Bertentangan dengan data: HP juga dipakai untuk tugas sekolah (68%).</li><li><b>D</b> Penulis justru menganggap kontak orang tua penting (P3).</li><li><b>E</b> Belanda dan Prancis hanya disebut sebagai latar.</li></ul><p class=\"tips\"><b>Tips:</b> pada teks argumentasi, informasi di awal paragraf 1 sering hanya latar atau pendapat pihak lain. Tesis penulis muncul setelah kata <i>In my opinion</i>.</p>"
     },
     {
       id: "ing-25", bab: EV, level: 3, tipe: "kategori", stimulus: T8,
@@ -439,7 +439,7 @@
       ],
       kunci: [true, false, true, false],
       hint: "Fakta dapat dibuktikan atau dicek kebenarannya (data, kejadian). Opini berisi penilaian pribadi, sering memakai kata seperti \"best\", \"should\", atau \"in my opinion\".",
-      pembahasan: "<p>1. Kebijakan negara dapat dicek → <b>fakta</b> ✔.</p><p>2. \"not the enemy\" adalah penilaian penulis → <b>opini</b>.</p><p>3. Hasil survei berupa angka yang dapat diverifikasi → <b>fakta</b> ✔.</p><p>4. \"the best solution\" adalah penilaian → <b>opini</b>.</p>"
+      pembahasan: "<h4>Strategi</h4><p><b>Fakta</b> = dapat dibuktikan atau diverifikasi (data, angka, peristiwa). <b>Opini</b> = penilaian atau sikap, sering memakai kata evaluatif seperti <i>best, should, enemy, good, important</i>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar (fakta).</i> Kebijakan Belanda dan Prancis bisa dicek kebenarannya.</li><li><b>2</b> <i>Salah (opini).</i> \"not the enemy\" adalah penilaian penulis.</li><li><b>3</b> <i>Benar (fakta).</i> Hasil survei dengan angka 68% bisa diverifikasi.</li><li><b>4</b> <i>Salah (opini).</i> \"<b>the best</b> solution\" adalah penilaian; orang lain bisa punya solusi berbeda.</li></ul><p class=\"tips\"><b>Tips:</b> uji dengan pertanyaan \"Bisakah ini dibuktikan benar atau salah?\" Kalau jawabannya \"tergantung pendapat\", itu opini.</p>"
     },
     {
       id: "ing-26", bab: EV, level: 3, tipe: "pg", stimulus: T8,
@@ -453,7 +453,7 @@
       ],
       kunci: 1,
       hint: "Argumen penulis: HP sebaiknya diatur, bukan dilarang total. Data mana yang paling langsung membuktikan bahwa pengaturan lebih baik daripada larangan total?",
-      pembahasan: "<p>Opsi B langsung membandingkan <b>penggunaan terkontrol</b> dan <b>larangan total</b>, lalu menunjukkan hasil belajar lebih baik → paling memperkuat argumen.</p><p>A justru melemahkan; C dan D tidak relevan; E mendukung pihak yang setuju larangan.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Bukti yang <b>memperkuat argumen</b> harus mendukung <i>tesis spesifik</i> penulis (kontrol, bukan larangan total), idealnya dengan bukti kuat seperti studi atau data perbandingan.</p><h4>Bukti di teks</h4><p>Tesis: HP sebaiknya diatur, bukan dilarang total. Opsi B membandingkan langsung \"HP dengan panduan guru\" vs \"larangan total\" dan hasilnya nilai lebih baik → paling memperkuat.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Justru melemahkan: siswa lebih suka main game.</li><li><b>C</b> Harga HP tidak relevan dengan aturan di sekolah.</li><li><b>D</b> Pemakaian HP oleh guru di rumah tidak relevan.</li><li><b>E</b> Mendukung pihak yang setuju larangan, bukan penulis.</li></ul><p class=\"tips\"><b>Tips:</b> bukti terkuat biasanya berupa <b>perbandingan</b> dua kondisi yang menunjukkan hasil lebih baik untuk posisi penulis.</p>"
     },
     {
       id: "ing-27", bab: EV, level: 2, tipe: "pg", stimulus: T8,
@@ -467,7 +467,7 @@
       ],
       kunci: 1,
       hint: "Penulis berada di \"tengah\": tidak setuju larangan total, tetapi juga tidak setuju bebas sepenuhnya.",
-      pembahasan: "<p>Penulis mendukung aturan yang jelas: HP disimpan saat pelajaran dan hanya dipakai jika guru mengizinkan, karena HP bisa membantu belajar → sesuai opsi <b>B</b>.</p><p>A = larangan total (ditolak penulis); D = bebas tanpa aturan (juga ditolak penulis).</p>"
+      pembahasan: "<h4>Strategi</h4><p>Cari respons yang cocok dengan <b>posisi tengah</b> penulis: tidak dilarang total dan tidak dibebaskan, tetapi <b>diatur</b>. Alasannya juga harus sejalan (HP membantu belajar).</p><h4>Bukti di teks</h4><p>P4: \"phones are kept in a box during lessons and <b>can only be used when the teacher allows it</b>.\" P2: HP adalah \"powerful learning tools\" → <b>B</b>.</p><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> Larangan sepanjang hari = larangan total, ditolak penulis.</li><li><b>C</b> Bertentangan dengan P2: HP juga berguna untuk belajar.</li><li><b>D</b> Bebas tanpa aturan, juga ditolak penulis (\"phones can be distracting\").</li><li><b>E</b> Penulis tidak berpendapat harus meniru negara lain.</li></ul><p class=\"tips\"><b>Tips:</b> jika penulis mengambil posisi tengah, opsi ekstrem di kedua sisi (A dan D) pasti salah.</p>"
     },
 
     // ---------- Text 9: Data & claim ----------
@@ -477,7 +477,7 @@
       opsi: ["12.4%", "43%", "58%", "62%", "124%"],
       kunci: 3,
       hint: "Persentase = (jumlah siswa dengan kebiasaan itu / total siswa yang disurvei) × 100%.",
-      pembahasan: "<p>124 / 200 × 100% = <b>62%</b>.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Membaca tabel: ambil angka yang relevan, lalu ubah ke persen dengan <b>(bagian ÷ total) × 100%</b>. Total responden disebut di kalimat pembuka: <i>200 students</i>.</p><h4>Langkah</h4><ol><li>Bawa botol minum setiap hari: 124 siswa.</li><li>124/200 × 100% = <b>62%</b>.</li></ol><h4>Kenapa bukan yang lain</h4><ul class=\"pengecoh\"><li><b>A</b> 12.4%: dibagi 1.000, bukan 200.</li><li><b>B</b> 43% = 86/200, itu persentase pembawa tas belanja.</li><li><b>C</b> 58%: angka 58 siswa (tolak sedotan) dibaca sebagai persen.</li><li><b>E</b> 124%: angka siswa langsung dianggap persen. Persen dari bagian tidak mungkin melebihi 100%.</li></ul><p class=\"tips\"><b>Tips:</b> karena total 200, persen = angka ÷ 2. Cepat: 124 ÷ 2 = 62.</p>"
     },
     {
       id: "ing-29", bab: TU, level: 3, tipe: "mcma", stimulus: T9,
@@ -491,7 +491,7 @@
       ],
       kunci: [0, 1, 2],
       hint: "Total siswa = 200, jadi setengahnya = 100. Bandingkan setiap angka dengan 100, dan waspadai kata \"all\" serta \"every\".",
-      pembahasan: "<p>• 124 &gt; 100 → lebih dari setengah ✔<br>• 40 adalah angka terkecil di tabel ✔<br>• 86 &lt; 100 → kurang dari setengah ✔<br>• Hanya 58 dari 200 yang menolak sedotan ✘<br>• Penjualan turun 35%, bukan berhenti total ✘</p>"
+      pembahasan: "<h4>Strategi</h4><p>Kesimpulan dari data: bandingkan setiap angka dengan <b>setengah total (100)</b> dan dengan angka lain. Coret kesimpulan yang memakai kata mutlak (<i>all, every</i>) tanpa bukti.</p><h4>Tiap pilihan</h4><ul class=\"pengecoh\"><li><b>A</b> ✔ 124 &gt; 100 → lebih dari setengah.</li><li><b>B</b> ✔ 40 adalah angka terkecil di tabel → kebiasaan paling jarang.</li><li><b>C</b> ✔ 86 &lt; 100 → kurang dari setengah.</li><li><b>D</b> ✘ Hanya 58 dari 200 yang menolak sedotan.</li><li><b>E</b> ✘ Penjualan turun 35%, tidak berhenti 100%. Lagi pula ini data kantin, bukan per siswa.</li></ul><p class=\"tips\"><b>Tips:</b> <i>more than half</i> → bandingkan dengan 100; <i>least common</i> → angka terkecil; <i>all/every</i> → harus 200 dari 200.</p>"
     },
     {
       id: "ing-30", bab: EV, level: 3, tipe: "kategori", stimulus: T9,
@@ -504,7 +504,7 @@
       ],
       kunci: [true, false, true, false],
       hint: "Bedakan bukti yang MENDUKUNG klaim dan bukti yang CUKUP untuk MEMBUKTIKAN klaim. Perhatikan juga kapan survei dilakukan, sebelum atau sesudah kampanye.",
-      pembahasan: "<p>1. Botol plastik yang terjual berkurang → mendukung klaim ✔.</p><p>2. Data hanya tentang penjualan minuman botol satu bulan; sampah plastik lain (bungkus makanan, kantong) tidak diukur → <b>belum cukup</b> membuktikan → Salah.</p><p>3. Mengukur jumlah sampah plastik sebelum dan sesudah kampanye adalah bukti langsung → memperkuat klaim ✔.</p><p>4. Survei dilakukan <b>sebelum</b> kampanye dan tentang kebiasaan di rumah, jadi tidak bisa menunjukkan dampak kampanye → Salah.</p>"
+      pembahasan: "<h4>Strategi</h4><p>Mengevaluasi klaim: tanyakan \"Apakah bukti yang ada <b>benar-benar mengukur</b> apa yang diklaim?\" Klaimnya tentang <i>sampah plastik di sekolah</i>, sedangkan buktinya hanya <i>penjualan minuman botol di kantin</i>.</p><h4>Tiap pernyataan</h4><ul class=\"pengecoh\"><li><b>1</b> <i>Benar.</i> Botol plastik yang terjual berkurang 35%, sehingga mendukung klaim (walau belum membuktikan sepenuhnya).</li><li><b>2</b> <i>Salah.</i> Sampah plastik lain (bungkus makanan, kantong, sedotan) tidak diukur, dan datanya hanya satu bulan. Belum cukup <i>membuktikan</i> total sampah turun.</li><li><b>3</b> <i>Benar.</i> Mengukur jumlah sampah plastik sebelum dan sesudah kampanye adalah bukti langsung untuk klaim itu.</li><li><b>4</b> <i>Salah.</i> Survei dilakukan <b>sebelum</b> kampanye dan tentang kebiasaan di rumah, jadi tidak bisa menunjukkan dampak kampanye.</li></ul><p class=\"tips\"><b>Tips:</b> bedakan \"mendukung\" (<i>supports</i>) dan \"membuktikan\" (<i>proves</i>). Satu data bisa mendukung tanpa cukup untuk membuktikan.</p>"
     }
   ]};
 })();
