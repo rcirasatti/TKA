@@ -54,7 +54,9 @@ self.addEventListener("fetch", function (e) {
 
   // File sendiri: utamakan jaringan, simpan salinannya, jatuh ke salinan bila offline/lambat.
   var kunci = url.pathname; // abaikan ?mapel=… dan ?v=…
-  var dariJaringan = fetch(url.href, { cache: "no-cache", credentials: "same-origin" }).then(function (r) {
+  // Minta ke alamat tanpa ?v=… agar server bisa membalas 304 bila file tidak berubah.
+  var alamat = req.mode === "navigate" ? url.href : url.origin + url.pathname;
+  var dariJaringan = fetch(alamat, { cache: "no-cache", credentials: "same-origin" }).then(function (r) {
     // Respons hasil redirect tidak boleh dipakai untuk navigasi; salin jadi respons biasa.
     if (r.redirected) r = new Response(r.body, { status: r.status, statusText: r.statusText, headers: r.headers });
     if (r.ok) {

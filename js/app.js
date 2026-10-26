@@ -88,7 +88,8 @@
     ids.forEach(function (id) {
       if ((window.BANK_SOAL || {})[id]) { if (!--sisa) selesai(); return; }
       var s = document.createElement("script");
-      s.src = "data/" + id + ".js";
+      // ?v= mem-bypass cache browser (GitHub Pages: max-age 10 menit) saat service worker belum aktif.
+      s.src = "data/" + id + ".js?v=" + Date.now();
       s.onload = s.onerror = function () { if (!--sisa) selesai(); };
       document.body.appendChild(s);
     });
