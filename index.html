@@ -2,27 +2,34 @@
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Latihan TKA SMA</title>
   <meta name="description" content="Latihan soal TKA SMA dengan petunjuk dan pembahasan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
   <!-- Tambah penanda waktu agar HP selalu memuat versi terbaru (tanpa hard refresh) -->
   <script>document.write('<link rel="stylesheet" href="css/style.css?v=' + Date.now() + '">');</script>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
-      <h1>Latihan TKA SMA</h1>
-      <p>Soal disusun dari materi dasar ke yang rumit, mengacu pada kerangka asesmen TKA Pusmendik.</p>
+      <span class="eyebrow">Tes Kemampuan Akademik · SMA</span>
+      <h1>Latihan soal, <em>dari dasar</em> sampai penalaran.</h1>
+      <p>Disusun mengikuti kerangka asesmen TKA Pusmendik. Kerjakan, cek, lalu pelajari pembahasannya.</p>
+      <div class="ringkas-total" id="total"></div>
+      <div id="lanjut"></div>
     </section>
 
-    <div class="grid-mapel" id="grid"></div>
+    <ol class="daftar-mapel" id="grid"></ol>
 
     <section class="info">
-      <strong>Cara pakai</strong>
+      <h3>Cara pakai</h3>
       <ul>
-        <li>Pilih jawaban, lalu tekan <b>Cek Jawaban</b> untuk melihat benar/salah dan pembahasannya.</li>
-        <li>Setiap soal punya <b>1 petunjuk</b> (💡). Coba kerjakan dulu sebelum membukanya.</li>
-        <li>Bentuk soal mengikuti TKA: pilihan ganda, pilihan ganda kompleks (pilih lebih dari satu), dan Benar/Salah per pernyataan.</li>
+        <li>Pilih jawaban, lalu tekan <b>Cek Jawaban</b> untuk melihat benar/salah beserta pembahasannya.</li>
+        <li>Setiap soal punya satu <b>petunjuk</b>. Coba kerjakan dulu sebelum membukanya.</li>
+        <li>Bentuk soal mengikuti TKA: pilihan ganda, pilihan ganda kompleks, dan Benar/Salah per pernyataan.</li>
+        <li>Di laptop: <kbd>A</kbd>–<kbd>E</kbd> memilih opsi, <kbd>Enter</kbd> cek/lanjut, <kbd>←</kbd> <kbd>→</kbd> pindah soal.</li>
         <li>Progres tersimpan otomatis di browser ini.</li>
       </ul>
     </section>
@@ -37,30 +44,73 @@
       document.body.appendChild(s);
     })();
 
+    var PANAH = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+
+    function bacaProgres(id) {
+      var r = { n: 0, b: 0, total: 0, idx: null };
+      try {
+        var s = JSON.parse(localStorage.getItem("tka-" + id) || "null");
+        if (s && s.jawab) {
+          Object.keys(s.jawab).forEach(function (k) {
+            if (s.jawab[k].cek) { r.n++; if (s.jawab[k].benar) r.b++; }
+          });
+          r.total = s.total || 0;
+          r.idx = s.idx;
+        }
+      } catch (e) {}
+      return r;
+    }
+
     function tampilkan() {
-      var grid = document.getElementById("grid");
+      // Kelompokkan paket reguler & HOTS di bawah satu mapel.
+      var grup = {}, urut = [], semuaN = 0, semuaB = 0;
       window.DAFTAR_MAPEL.forEach(function (m) {
-        var prog = "";
-        try {
-          var s = JSON.parse(localStorage.getItem("tka-" + m.id) || "null");
-          if (s && s.jawab) {
-            var n = 0, b = 0;
-            Object.keys(s.jawab).forEach(function (k) {
-              if (s.jawab[k].cek) { n++; if (s.jawab[k].benar) b++; }
-            });
-            if (n) prog = " · " + b + "/" + n + " benar";
-          }
-        } catch (e) {}
-        var a = document.createElement("a");
-        a.className = "mapel-card" + (m.siap ? "" : " off");
-        a.href = m.siap ? "quiz.html?mapel=" + m.id : "#";
-        a.innerHTML =
-          '<div class="ico">' + m.ico + '</div>' +
-          '<h2>' + m.nama + '</h2>' +
-          '<p>' + m.ket + '</p>' +
-          '<span class="tag' + (m.siap ? ' on' : '') + '">' + (m.siap ? "Mulai latihan" + prog : "Segera hadir") + '</span>';
-        grid.appendChild(a);
+        var dasar = m.id.replace(/-hots$/, "");
+        if (!grup[dasar]) { grup[dasar] = { nama: m.nama.split(" · ")[0], set: [] }; urut.push(dasar); }
+        grup[dasar].set.push(m);
       });
+
+      var grid = document.getElementById("grid");
+      urut.forEach(function (k, i) {
+        var g = grup[k], h = "";
+        g.set.forEach(function (m) {
+          var p = bacaProgres(m.id), hots = /-hots$/.test(m.id);
+          semuaN += p.n; semuaB += p.b;
+          var kanan = "";
+          if (p.n) {
+            kanan = '<div class="prog-mini"><span class="stat">' + p.b + ' benar · ' + p.n + (p.total ? '/' + p.total : '') + '</span>' +
+              (p.total ? '<div class="garis"><span style="width:' + Math.round(p.n / p.total * 100) + '%"></span></div>' : '') + '</div>';
+          }
+          h += '<a class="set" href="' + (m.siap ? "quiz.html?mapel=" + m.id : "#") + '"' + (m.siap ? "" : ' aria-disabled="true" style="opacity:.5;pointer-events:none"') + '>' +
+            '<span class="nama">' + (hots ? 'Paket <span class="label-hots">HOTS</span>' : 'Reguler') + '</span>' +
+            '<span class="ket">' + (m.siap ? m.ket : "Segera hadir") + '</span>' +
+            '<span class="kanan">' + kanan + PANAH + '</span></a>';
+        });
+        var li = document.createElement("li");
+        li.className = "mapel";
+        li.innerHTML = '<span class="no">' + String(i + 1).padStart(2, "0") + '</span><div><h2>' + g.nama + '</h2><div class="paket">' + h + '</div></div>';
+        grid.appendChild(li);
+      });
+
+      if (semuaN) {
+        document.getElementById("total").innerHTML =
+          '<div><b>' + semuaN + '</b><span>soal dikerjakan</span></div>' +
+          '<div><b>' + semuaB + '</b><span>dijawab benar</span></div>' +
+          '<div><b>' + Math.round(semuaB / semuaN * 100) + '%</b><span>ketepatan</span></div>';
+      }
+
+      // Tombol lanjutkan ke paket yang terakhir dibuka.
+      try {
+        var akhir = localStorage.getItem("tka-terakhir");
+        var m = window.DAFTAR_MAPEL.filter(function (x) { return x.id === akhir && x.siap; })[0];
+        if (m) {
+          var p = bacaProgres(m.id);
+          var posisi = p.idx === "ringkasan" ? "Ringkasan" : "Soal " + ((p.idx || 0) + 1);
+          document.getElementById("lanjut").innerHTML =
+            '<a class="lanjut" href="quiz.html?mapel=' + m.id + '"><div><span class="eyebrow">Lanjutkan</span>' +
+            '<strong>' + m.nama + ' — ' + posisi + '</strong></div>' + PANAH + '</a>';
+        }
+      } catch (e) {}
     }
   </script>
 </body>
